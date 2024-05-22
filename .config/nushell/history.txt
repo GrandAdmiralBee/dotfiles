@@ -7334,3 +7334,11 @@ cargo run
 cd dotfiles/.config/hypr
 vim .
 cd ../..
+git add .
+git commit -m "Aseprite window rule"
+git push
+cargo add bevy_inspector_egui
+cargo add egui_dock
+cd dotfiles/.config/nvim
+vim .
+cd ../..
