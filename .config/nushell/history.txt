@@ -7264,3 +7264,37 @@ ls
 rm theme.conf
 ls
 cd ../../
+git add .
+git commit -m "kitty theme"
+git push
+vim .
+exit
+exit
+tmux
+cd ~/Dev/rust
+ls
+cd parser
+tmx
+vim 
+cd ~/dotfiles/.config/nvim
+vim 
+vim .
+vim .
+:q
+exot
+exit
+exit
+tmux
+kitty +kitten themes
+cd ~/dotfiles/.config/kitty
+vim .
+ls -a
+rm kitty.conf.bak
+rm current-theme.conf
+ls
+cd Dev/rust/parser
+vim .
+:q
+exit
+tmux
+cd ~/dotfiles
