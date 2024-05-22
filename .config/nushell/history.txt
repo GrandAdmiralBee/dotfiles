@@ -7250,3 +7250,17 @@ rm ~/.tmux.conf
 stow .
 exit
 tmux
+git add .
+git commit -m "tmux.conf"
+git push
+kitty +kitten themes gruvbox_dark
+kitty +kitten themes
+cd .config/kitty
+l
+ls
+vim .
+rm kitty.conf.bak
+ls
+rm theme.conf
+ls
+cd ../../
