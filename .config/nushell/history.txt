@@ -7298,3 +7298,39 @@ vim .
 exit
 tmux
 cd ~/dotfiles
+git add .
+git commit -m "theme switched"
+git push
+exit
+yay -Sy libreoffice-impress-templates 
+cd Dev/rust
+ls
+cd ../
+ls
+mkdir go
+cd go
+sudo pacman -Sy go
+cd ..
+ls
+mv skia skia-back
+rm skia-back/ -r
+ls anyrun
+anyrun
+rofi
+anyrun
+rm anyrun -r
+ls
+mv swww rust/swww
+mv swwws rust/swwws
+ls
+mv HT rust/HT
+ls
+cd Dev/rust
+ls
+cd HT/top-down
+ls
+cd test_level
+cargo run
+cd dotfiles/.config/hypr
+vim .
+cd ../..
