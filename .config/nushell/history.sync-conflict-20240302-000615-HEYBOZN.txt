@@ -1,0 +1,1684 @@
+$env.config
+$config.path
+cd /home/karim/.config/nushell/env.nu
+cd /home/karim/.config/nushell/
+hx
+cd ..
+broot
+br
+hx
+sudo apt install neofetch
+neofetch
+cd Dev
+git clone https://github.com/GrandAdmiralBee/kurs_jum.git
+cd kurs_jum
+git log
+git revert eeb9d3c15db30c5cabe527217e2ed344197a7fa2
+git config --global user.email "karim.abdulkin@gmail.com"
+git config --global user.name "GrandAdmiralBee"
+git revert eeb9d3c15db30c5cabe527217e2ed344197a7fa2
+cd key_auth_shell
+br
+cd key_auth_shell
+git push -f
+ls
+git log
+git reset --hard HEAD~1.
+git reset --hard HEAD
+ls
+git reset --hard HEAD~1
+ls
+git push -f
+cargo new ka_shell
+cd ka_shell
+cargo add keyauth
+hx
+rustup add component rust-analyzer
+rustup component add rust-analyzer<\n>
+cd ~/.config/helix
+touch languages.toml
+hx languages.toml
+cd ~/Dev/kurs_jum
+br
+hx
+cargo run
+code
+telegram
+sudo apt install libsoup-2.4
+sudo apt install glib-networking-2.78.0 libpsl-0.21.2 libxml2-2.12.0 SQLite-3.44.0
+cd ~/Downloads
+br
+sed -i '/tree/a #include <libxml/parser.h>' libsoup/soup-xmlrpc*.c
+mkdir build &&<\n>cd    build &&<\n><\n>meson setup --prefix=/usr       \<\n>            --buildtype=release \<\n>            -Dvapi=enabled      \<\n>            -Dgssapi=disabled   \<\n>            -Dsysprof=disabled  \<\n>            ..                  &&<\n>ninja
+sudo apt install libsoup2.4-dev
+cd ~/Dev/kurs_jum
+cd app
+cargo tauri dev
+sudo apt install javascriptcoregtk-4.0
+sudo apt install javascriptcoregtk-4.0-dev
+sudo apt-get update -y
+sudo apt-get install -y gir1.2-javascriptcoregtk-4.0
+cargo tauri dev
+sudo apt install libwebkit2gtk-4.0-dev build-essential curl wget libssl-dev libgtk-3-dev libappindicator3-dev librsvg2-dev
+sudo apt-get install javascriptcoregtk-4.1 libsoup-3.0 webkit2gtk-4.1 -y
+$nu.env-path
+cd /home/karim/.config/nushell/env.nu
+cd /home/karim/.config/nushell
+hx
+cd ~/Downloads/jb
+sudo cp . ~/.local/share/fonts
+sudo cp . ~/.local/share/fonts -r
+cd ~/.config/alactirry
+cd ~/.config/alactitty
+cd ~/.config/allacrity
+cd ~/.config/alacritty
+cd ~/Downloads/jb
+sudo cp . ~/.local/share/fonts -r
+hx
+starship preset bracketed-segments -o ~/.config/starship.toml<\n>
+zellij
+quit
+close
+exit
+cd ~/Dev/kurs_jum/app
+cargo tauri build
+cd ~/Dev/kurs_jum
+hx 
+hx .gitignore
+git add .
+gitui
+git status
+git commit -m "Added ka_shell"
+git push
+cd ~/Dev/kurs_jum/ka_shell
+hx
+git add .
+git commit -m "windows support for ka_shell"
+git push
+cd ~/Dev/kurs_jum/
+cargo new custom_shell
+cd custom_shell
+zellij
+neo
+neofetch
+cd ~/Dev/kurs_jum/app
+cargo tauri dev
+zellij
+cd ..
+zellij
+cd ~/Dev/kurs_jum
+git add .
+git commit -m "Added secret args for app"
+git clean
+git clean -f
+git status
+git pull
+hx
+git add .
+git commit -m "Added secret args for app"
+git push
+git pull
+cd ..
+sudo rm kurs_jum -r
+git clone https://github.com/GrandAdmiralBee/kurs_jum.git
+cd Dev/kurs_jum/app
+hx
+cargo tauri build
+cd ../ka_she;;
+cd ../ka_shell
+hx
+cargo run
+hx
+cargo run
+cd dev/kurs_jum/app
+cd Dev/kurs_jum/app
+cargo add sysinfo
+cd src-tauri
+cargo add sysinfo
+cargo add systemstat
+cargo add sys-info-rs
+cd ..
+cargo tauri build
+рч
+cd src-tauri
+cd Dev/kurs_jum/app
+cd Dev/kurs_jum
+git add .
+git commit -m "Added PC configuration"
+git push
+cargo new custom_server
+cargo new custom_shell
+hx .gitignore
+cd custom_server
+git add surrealdb
+cargo add surrealdb
+cargo add surrealdb --features kv-mem
+cargo add serde --features derive<\n>cargo add tokio --features macros,rt-multi-thread
+zellij
+timedatectl
+cargo add serde --features derive<\n>cargo add tokio --features macros,rt-multi-threa
+timedatectl set-local-rtc 1 --adjust-system-clock
+timedatectl
+cd Dev/kurs_jum/custom_server
+cmake
+ninja
+sudo apt-get install -y g++ clang libc++-dev libc++abi-dev cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev
+cd dev/aseprite
+cd dev
+cd DEv
+cd Dev
+git clone --recursive https://github.com/aseprite/aseprite.git
+cd aseprite
+git pull
+git submodule update --recursive
+mkdir build
+cd build
+cd ~/Dev/aseprite
+rm build -r
+mkdir build
+cd build
+$env.CC = "clang"
+$env.CXX = "clang++"
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+ninja aseprite
+sudo apt-get install -y clang-10 libc++-10-dev libc++abi-10-dev
+clang
+clang++
+ninja aseprite
+cd ..
+rm build -r
+mkdir build
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+cd build
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+ninja aseprite
+cd ..
+cargo create-tauri-app
+cargo install trunk
+rustup target add wasm32-unknown-unknown
+cd Aseprite
+hx
+cargo tauri build
+hx
+cargo tauri build
+cargo tauri dev
+hx
+cargo tauri dev
+cd ..
+cd kurs_jum
+cd app
+hx
+cd ..
+cd aseprite
+cd ..
+cd Aseprite
+hx
+cargo tauri dev
+hx
+cargo tauri dev
+hxhx
+hx
+cargo tauri build
+hx
+cargo tauri build
+hx
+zellij
+cd Dev/kurs_jum/custom_server
+h
+cd Dev/kurs_jum/custom_server
+cd ..
+ls
+cd custom_shell
+hx
+sudo apt install easyeffects
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo alacritty
+sudo files
+terminal
+sudo apt remove proton-vpn
+which protonvpn
+sudo apt-get remove proton-vpn-gnome-desktop
+easyeffects
+ssh-keygen
+ssh-keygen -t rsa
+ssh-copy-id -i ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
+neofetch
+ssh-copy-id -i ~/.ssh/id_rsa.pub /home/karim/.ssh/authorized_keys
+ls
+ssh-copy-id -i ~/.ssh/id_rsa.pub karim@karim-ThinkPad-T14s-Gen-1/home/karim/.ssh/authorized_keys
+cd ~
+ssh-copy-id -i ~/.ssh/id_rsa.pub karim@karim-ThinkPad-T14s-Gen-1/home/karim/.ssh/authorized_keys
+cd .ssh
+hx id_rsa.pub
+cd Dev
+git clone git@github.com:GrandAdmiralBee/Hamming_kurs.git
+hx
+gitui
+git add .
+br
+gitui
+cd Dev/kurs_jum
+hit status
+git status
+git add .
+git commit -m "Move to ssh"
+git push
+cd ..
+rm kurs_jum -r
+git clone git@github.com:GrandAdmiralBee/kurs_jum.git
+cd kurs)jum
+cd kurs_jum
+code
+docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:23.0.1 start-dev
+cd Dev/kurs_jum
+hx .gitignore
+ls
+gitui
+cd Dev/
+mkdir Bars
+cd Bars
+git clone git@github.com:Kazan-GameDev-Team/top-down.git
+cargo run
+cd top-down
+cargo run
+sudo apt-get install g++ pkg-config libx11-dev libasound2-dev libudev-dev
+cargo run
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+sudo wireshark
+sudo apt -y install apache2
+sudo systemctl enable --now apache2
+sudo ufw allow Apache
+sudo apt -y install php libapache2-mod-php php-{gd,common,mail,mail-mime,mysql,pear,db,mbstring,xml,curl}
+sudo apt -y install php libapache2-mod-php php
+php -v
+sudo apt -y install mysql-server
+sudo mysql_secure_installation
+sudo apt -y install freeradius freeradius-mysql freeradius-utils -y
+sudo systemctl stop freeradius
+sudo freeradius -x
+sudo freeradius -X
+ping -h
+ping 192.168.63.219 -s 3500 -l 1
+ping 192.168.63.219 -s 3500 -c 1
+sudo apt remove wireshark
+sudo apt purge freeradius
+dpkg -l | grep -i radius
+dpk -p freeradius-build-deps
+sudo apt purge wireshark
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+ping 192.168.63.219 -s 3500 -c 1
+brave
+firefox
+hx .bashrc
+hx .ssl-key.log
+sudo apt install chromium
+sudo apt install chromium-browser
+chromium --ssl-key-log-file=~/.ssl-key.log
+hx .bashrc
+touch .ssl-key.log
+chromium --ssl-key-log-file=~/.ssl-key.log
+hx .ssl-key.log
+chromium --ssl-key-log-file=~/.ssl-key.log
+hx .bashrc
+sh
+sudo apt purge chromium-browser
+udo apt-get update<\n>sudo apt-get install virtualbox-6.1
+sudo apt-get update<\n>sudo apt-get install virtualbox-6.1
+neofetch
+cd LabView
+ls
+sudo apt install ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt install 2204.deb
+ls
+ды
+ls
+sudo apt update
+ls
+sudu apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb 
+sudo apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb 
+sudo apt autoremove
+sudo apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb 
+sudo apt upgrade
+ды
+ls
+sudo apt install ni-labview-2023-community
+sudo apt install ni-labview
+sudo apt upgrafe
+sudo apt upgrade
+sudo apt --list
+sudo apt list
+sudo apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb 
+sudo apt install ./ni-labview-2023-community
+sudo apt install ni-labview-2023-community
+sudo apt autoremove
+sudo apt
+sudo apt search ni
+sudo apt search ni-labview
+sudo apt search ni-labview-2023-jammy-comunity
+sudo apt search ni-labview-2023-jammy-comumnity
+sudo apt search ni-labview-2023-jammy-commuity
+sudo apt search ni-labview-2023-jammy-community
+sudo apt install ni-labview-2023-jammy-community
+sudo apt search
+sudo apt 
+sudo apt upgrade
+sudo apt full-upgrade
+cd LabView
+ls
+sudo apt install ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+cd Downloads
+ls
+cd Telegram Desktop
+cd Telegram-Desktop
+br
+ls
+cd ~/LabView
+ls
+sudo dpkg -i ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt search ni-labview
+sudo apt purge ni-labview-2023-jammy-community
+ls
+sudo dpkg -i ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt search ni-labview
+sudo apt purge ni-labview-2023-jammy-community
+sudo apt search ni-labview
+sudo dpkg -i ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2004_all.deb
+sudo apt 
+sudo apt autoremove
+sudo apt980
+sudo apt(8)
+sudo apt --help
+cd ~/LabView
+ls
+sudo apt install ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo dpkg -i ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt install virtualbox
+sudo apt search ni-labview
+sudo apt purge ni-labview-2023-jammy-community
+sudo apt purge ni-labview-2023-focal-community
+sudo apt --help
+sudo apt autoremove
+sudo apt install virtualbox-dkms
+sudo modprobe vboxdrv
+sudo search easy
+sudo apt search easy
+sudo apt search easy-effects
+sudo apt purge chromium-browser
+sudo apt purge chromium
+poweroff
+sudo apt update
+sudo apt install nmap
+sudo nmap -sU -sV scanme.nmap.org
+sudo nmap -sU scanme.nmap.org
+sudo nmap -sU -sC scanme.nmap.org
+sudo nmap -h
+sudo nmap -sT -sV scanme.nmap.org
+sudo nmap -h
+sudo nmap -sT -sV -i scanme.nmap.org
+sudo nmap -sT -sV -P scanme.nmap.org
+sudo nmap --script reverse-index scanme.nmap.org
+sudo nmap -sF -sV -P scanme.nmap.org
+sudo nmap -PE -sV -P scanme.nmap.org
+sudo nmap -sA -sV -P scanme.nmap.org
+sudo nmap -sN -sV -P scanme.nmap.org
+sudo nmap -sX -sV -P scanme.nmap.org
+sudo nmap -sN -sV scanme.nmap.org
+sudo nmap -sX -sV scanme.nmap.org
+sudo nmap -sA -sV scanme.nmap.org
+sudo nmap -h
+sudo nmap -sA -sV scanme.nmap.org
+sudo nmap -sS -sV scanme.nmap.org
+sudo nmap -sS -sV testphp.vulnweb.com
+sudo nmap -h
+neofetch
+sudo nmap --script reverse-index -sV testphp.vulnweb.com
+sudo nmap -PE -sV testphp.vulnweb.com
+sudo nmap -sT -sV scanme.nmap.org
+sudo nmap -sU -sV testphp.vulnweb.com
+sudo nmap -sF -sV testphp.vulnweb.com
+sudo nmap -sX -sV testphp.vulnweb.com
+sudo nmap -sN -sV testphp.vulnweb.com
+sudo nmap -sA -sV scanme.nmap.org
+sudo apt purge nmap
+sudo apt install winbind
+sudo apt install playonlinux
+sudo apt purge playonlinux
+sudo apt purge winbind
+sudo apt search wireshark
+sudo apt purge wireshark
+sudo apt autoremove
+cd Dev/kurs_jum
+hx
+touch readme.txt
+hx
+cd ~/.config/
+ls
+cd helix
+hx
+cd Dev/kurs_jum
+cd ~/Dev/kurs_jum
+zellij
+zellij attach
+clear
+gitui
+clear
+zellij attach
+zellij
+cd ~/Dev/kurs_jum
+zellij
+clear
+zellij attach
+cd ~
+mkdir ~/.config/zellij
+zellij setup --dump-config > ~/.config/zellij/config.kdl
+zellij setup --dump-config  ~/.config/zellij/config.kdl
+cd .config/zellij
+hx
+zellij
+ytop
+cargo binstall ytop
+ytop
+cd .~
+cd ~/Downloads
+ls
+cd ~/.config/zellij
+hx
+zellij
+cd ~/.config/zellij/themes
+zellij
+hx
+cd ..
+hx
+zellij
+hx
+touch layouts/my.kdl
+zellij -h
+zellij -l my
+zellij
+quit
+exit
+sh
+$env
+cd .config/alacritty
+exit
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt install gnome-software-plugin-flatpak gnome-software
+sudo apt search gnome-software-plugin-flatpak gnome-software
+sudo apt search gnome-software
+flatpak
+flatpak install discord
+cargo binstall dust
+cargo binstall du-dust
+dust
+exit
+rm -rf ~/.local/share/Trash/*<\n>
+sudo rm -rf ~/.local/share/Trash/*<\n>
+exit
+dust
+sudo rm -rf ~/Downloads/*
+dust
+sudo rm -rf ~/Dev/kurs_jum
+sudo rm -rf ~/Dev/*
+dust
+exit
+cd .config/alacritty
+exit
+eit
+exit
+hx
+neofetch
+apt list | grep "jammy"
+sudo apt -h
+exit
+which chromium
+sudo snap -h
+sudo snap remove chromium
+which easyeffects
+which easy-effects
+sudo apt upgrade
+sudo snap -h
+dust
+ytop
+exit
+zellij
+neofetch
+zellij
+exit
+exit
+dust
+poweroff
+sudo apt-get update<\n>sudo apt-get upgrade<\n>sudo apt install gnome-shell-extension-manager
+sudo apt purge gnome-shell-extension-manager
+sudo flatpack install extension-manager
+sudo flatpak install extension-manager
+sudo flatpak install extensionmanager
+sudo flatpak install loginmanager
+sudo flatpak install login-manager
+sudo apt install gnome-software-plugin-flatpak gnome-software
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+sudo apt purge flatpak
+sudo apt purge gnome-software-plugin-flatpak
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+cd Downloads
+sudo apt install geary
+exit
+sudo discord
+ps
+sudo /app/discord/Discord
+which discord
+ps | grep xorg
+ps | grep wayland
+dust
+sudo hx /etc/gdm3/custom.conf
+exit
+sudo hx /etc/gdm3/custom.conf
+restart
+poweroff
+dust
+sudo snap -h
+sudo snap find steam
+dust
+sudo apt install gparted
+sudo apt purge gparted
+poweroff
+exi
+exit
+cargo binstall helix
+cd .config/nu
+exit
+sh
+exit
+cd .config
+ls
+cd nushell
+ls
+nano env.nu
+cargo
+exit
+cargo
+cargo binstall helix
+sudo dnf copr enable varlad/helix<\n>sudo dnf install helix<\n>
+cargo install binstall
+cargo binstall
+sudo dnf copr enable varlad/helix<\n>sudo dnf install helix<\n>
+cd ~/.config/nushell
+hx
+cargo install starship
+curl -sS https://starship.rs/install.sh | sh<\n>
+exit
+sh
+exit
+sudo dnf install cmake
+cargo install starship zellij
+exit
+cargo install broot
+broot
+exit
+zellij
+cargo install zellij
+sudo dnf install perl
+cd ~/.config/nushell
+hx
+cd ..
+cd helix
+ls
+cd ../nushell
+$env.PATH
+$env.HELIX_RUNTIME
+hx
+exit
+exit
+cd ~/.config/alacritty
+mkdir -p "~/.local/share/fonts/"
+mkdir ~/.local/share/fonts/
+cd Downloads/FiraCode
+sudo cp . ~/.local/share/fonts -r
+cd ~/.config/alacritty
+cargo install zellij
+hx
+exit
+zellij
+sudo dnf install gcc-c++ libX11-devel alsa-lib-devel systemd-devel
+sudo dnf install wayland-devel libxkbcommon-devel
+ssh-keygen
+cd /home/karim/.ssh/
+ls
+hx
+nautilus
+hx
+nano id_rsa.pub
+sudo dnf install xclip
+xclip -sel c < id_rsa.pub
+sh
+exit
+ytop
+gitui
+sh <(curl https://create.tauri.app/sh)
+argo install create-tauri-app --locked
+cargo install create-tauri-app --locked
+hx
+exit
+cargo install tauri-cli
+exit
+sh
+exit
+$env
+which firefox
+sudo dnf search firefox
+sudo dnf -h
+sudo dnf remove
+sudo dnf purge
+sudo dnf remove firefox.x86_64
+sudo dnf -h
+exit
+neofetch
+sudo dnf install neofetch
+neofetch
+$env.SHELL
+$env.SHELL = '/bin/nu'
+neofetch
+exit
+neofetch
+cd .config./nushell
+cd .config/nushell
+hx
+exit
+neofetch
+sudo dnf autoremove
+sudo dnf upgrade
+g
+go
+sudo dnf install go
+sudo dnf install dotnet
+sudo dnf install jdk
+sudo dnf install jdt
+sudo dnf install openjdk
+dnf search openjdk
+sudo dnf install java-latest-openjdk.x86_64
+dnf install zig
+sudo dnf install zig
+mkdir Dev
+cd Dev
+flatpak install steam-devices
+sudo dnf install steam-devices
+git clone --recursive https://github.com/aseprite/aseprite.git
+sudo dnf install vscode
+sudo dnf install code
+exit
+cd aseprite<\n>git pull<\n>git submodule update --init --recursive
+sudo dnf install ninja
+sudo dnf install ninja-build
+sudo dnf install -y gcc-c++ clang libcxx-devel cmake ninja-build libX11-devel libXcursor-devel libXi-devel mesa-libGL-devel fontconfig-devel
+cd aseprite<\n>mkdir build<\n>cd build<\n>export CC=clang<\n>export CXX=clang++
+$env.CC = "clang"
+$env.CXX = "clang++"
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+ls
+mkdir build
+cd build
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+cd Dev
+cargo crate-tauri-app
+cargo create-tauri-app
+cargo dnf install webkit2gtk
+sudo dnf install webkit2gtk
+sudo dnf install libwebkit2gtk-4.0-dev
+sudo dnf install libwebkit2gtk-6.0-dev
+sudo dnf install libwebkit2gtk-8.0-dev
+dnf install gtk3-devel webkit2gtk4.0-devel
+sudo dnf install gtk3-devel webkit2gtk4.0-devel
+cd Aseprite
+ninja aseprite
+hx
+cargo toolchain
+cargo component
+cargo add
+cargo add component
+sudo dnf install rust-analyzer
+рч
+hx
+cd ~/.config/helix
+hx --health rust
+sudo dnf install lldb-vscode
+hx
+cd ~/Dev/Aseprote
+cd ~/Dev/Aseprite
+cd ..
+ls
+cd aseprite
+cd build
+ls
+cd bin
+aseprite
+ls
+aseprite
+cd ..
+bin/aseprite
+exit
+exit
+sudo dnf install ffmpeg
+flatpak install ffmpeg
+ffmpeg
+exit
+flatpak install io.github.realmazharhussain.GdmSettings
+sudo dnf install ffmpeg
+exit
+$env.TERMINAL
+$env.TERM
+exit
+ytop
+exit
+sudo dnf install grub-cstomizer
+sudo dnf install grub-cutomizer
+sudo dnf install grub-customizer
+sudo dnf install gparted
+exit
+sudo dnf install steam
+exit
+neofetch
+exit
+exot
+exotexit
+exit
+dust
+du
+exit
+neofetch
+exit
+sudo dnf install steam
+sudo dnf upgrade
+exit
+cd deps
+git clone https://github.com/rafaelmardojai/thunderbird-gnome-theme && cd thunderbird-gnome-theme
+git clone https://github.com/rafaelmardojai/thunderbird-gnome-theme and cd thunderbird-gnome-theme
+git clone https://github.com/rafaelmardojai/thunderbird-gnome-theme and 
+br
+ls
+git clone https://github.com/rafaelmardojai/thunderbird-gnome-theme
+rm and -r
+ls
+br
+./scripts/auto-install.sh
+ls
+./scripts/auto-install.sh
+./scripts/install.sh -f ~/.var/app/org.mozilla.Thunderbird/.thunderbird # Flatpak
+exit
+cargo install cargo-binstall
+cargo binstall ripgrep
+cargo binstall zoxide
+z deps
+cd .config/nushell
+hx
+exit
+z deps
+zoxide init
+zoxide init nu
+zoxide init nushell
+z deps
+sudo dnf install neovim
+cd .config
+mkdir neovim
+cd neovim
+cd ..
+rm neovim
+mkdir nvim
+cd nvim
+vim
+sudo dnf install vim
+vimm
+cd .config/nvim
+hx
+rm init
+vim
+vim .
+clear
+clear
+vim .
+hx
+vi .
+vim .
+neovim .
+nvim .
+which vim
+which nvim
+sudo dnf search vim
+sudo dnf remove vim
+nvim
+nvim .
+ls
+rm lua -r
+ls
+nvim .
+cd ..
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\<\n> ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+br
+nvim .
+exit
+hx .
+exit
+zellij
+exit
+clear
+cd .config/nvim
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+sudo sh -c 'grep title /boot/loader/entries/* | cut -d " " -f2-'
+sudo grubby --info=ALL
+exit
+grubby
+grubby --info=ALL
+sudo grubby --info=ALL
+cd Downloads
+br
+sudo uninstall.sh
+sudo ./uninstall.sh
+cd ~
+cd .config/nvim
+cd ..
+hx
+hx .zoxide.nu
+cd ..
+hx .zoxide.nu
+exit
+nu
+zellij
+exit
+cd .config/
+hx
+hx 
+exit
+zellij
+cd .config/nvim
+nvim .
+hx
+zellij
+which nu
+cd .config/alacritty
+cd ..
+ls
+cd alacritty
+hx
+exit
+cd .config/alacritty
+hx
+nvim .
+hx
+cd ..
+ls
+cd zellij
+nvim
+nvim .
+cd ..
+cd nvim
+nvim .
+nivm  .
+nvim .
+git clone --depth 1 https://github.com/wbthomason/packer.nvim  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim .
+hx
+nvim .
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim .
+cd ~/Dev
+ls
+cd Aseprite
+nvim .
+zellij
+exit
+cd Downloads
+ls
+br
+sudo ./install.sh
+cd Downloads
+br
+sudo ./uninstall.sh
+cd ..
+br
+cd ..
+ls
+cd deps
+ls
+br
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+poweroff
+fzf
+sudo dnf install fzf
+fzf
+cd .config/nvim
+nvim --v
+nvim -v
+exit
+nvim .
+cd Dev/Aseprite
+cd src-tauri
+nvim .
+cargo tauri dev
+cargo tauri build
+ls
+fzf 
+cd Dev/Aseprite/src-tauri/target/release/bundle/appimage
+./build_appimage.sh
+ls
+rm target/release/bundle -r
+cd ~/.cargo
+ls
+cd bin
+la
+ls
+ccd ../binstall
+cd ../binstall
+ls
+cargo binstall gitui du-dust
+cargo install tauri-cli --git https://github.com/tauri-apps/tauri
+cargo tauri build
+cd ..
+cargo tauri build
+cd src-tauri
+ls
+cargo tauri build
+cargo tauri dev
+cargo install create-tauri-app --locked
+cargo tauri dev
+nvim .
+cd ..
+cd ..
+create-tauri-app
+cargo create-tauri-app
+ah
+sh
+fzf
+cd Aseprite1
+cargo tauri build
+cd ..
+cd Dev/Aseprite
+cd Dev
+cargo create-tauri-app
+cd Aseprite
+cargo install tauri-cli
+nvim .
+cp Aseprite1/src-tauri/src/main.rs Aseprite/src-tauri/src/main.rs
+cd ..
+cp Aseprite1/src-tauri/icons Aseprite/src-tauri/icons -r
+cd Aseprite
+cargo tauri dev
+cargo tauri build
+cd ~/Dev
+rm Aseprite1 -r
+zelloj
+cd .config/nvim
+nvim .
+dotnet -v
+sudo dnf install dotnet
+sudo dnf install dotnet-sdk
+npm -v
+sudo dnf install pnm
+sudo dnf install npm
+sudo dnf install nodejs
+sudo dnf install jdk
+java --v
+npm
+ls
+rm Aseprite1 -r
+rm Aseprite -r
+nvim .
+zellij
+exit
+cd .config/nvim
+nvim .
+mkdir srcipts
+rm srcipts
+rm scripts
+mkdir scripts
+cd scripts
+touch zellij.sh
+nvim .
+sudo chmod +x zellij.sh
+./zellij.sh
+nvim .
+./home/karim/scripts/zellij.sh
+./zellij.sh
+nvim .
+./zellij.sh
+exit
+grubby --info=ALL
+sudo grubby --info=ALL
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+grub2-mkconfig -o /boot/grub2/grub.cfg
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+sudo grub2-mkconfig -o /etc/grub2-efi.cfg
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+grubby --info=ALL
+sudo grubby --info=ALL
+alacritty -h
+alacritty --command zellij
+cd scripts
+nvim .
+./zellij.sh
+cd ..
+br
+cd .config/zellij
+ls
+zellij -h
+zellij -l my
+zellij -l compact
+zellij -l my
+ls
+ls
+zellij -l my
+nvim .
+zellij -l my
+nvim .
+cd ~/scripts
+alacritty -h
+cd ~/scripts
+./zellij.sh
+nvim .
+:q
+sudo grub2-mkconfig -o /etc/grub2.cfg
+sudo grub2-mkconfig -o /etc/grub2-efi.cfg
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+cd Downloads
+br
+sudo python3 darkmatter-theme.py -i
+sudo grub2-mkconfig -o /etc/grub2.cfg
+sudo grub2-mkconfig -o /etc/grub2-efi.cfg
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+./install.sh
+cd ..
+br
+sudo ./install.sh
+cd .config/nushell
+nvim .
+exit
+nu
+zellij -l my
+z -h
+vim
+z -h
+cd Dev/Aseprite
+nvim .
+cd ~/.config/nvim
+nivm .
+ps
+cd scripts
+nvim .
+zellij
+z
+zellij -l my
+cd .
+cd ~?.config/nushell
+cd ~/.config/nushell
+nvim ,
+nvim .
+exi
+exit
+zellij
+./scripts/zellij.sh
+nvim scripts/zellij.sh
+./scripts/zellij.sh
+cd ~/.config/nvim
+nvim .
+cd ~
+cd Dev
+cargo new nvim_tests
+cd nvim_tests
+nvim ,
+cd ~/.config/nvim
+alias z = zellij
+zellij -l my
+clear
+zellij -l my
+nvim .
+cd Dev/nvim_test
+br
+cd ~/.config/nvim
+nvim .
+nvim .
+cd ~/.config/nvim
+cd Dev/nvim_tests
+nvim .
+cd ..
+cd Alacritty
+br
+git remote add origin git@github.com:GrandAdmiralBee/Aseprite.git
+git init
+git remote add origin git@github.com:GrandAdmiralBee/Aseprite.git
+git branch -M main
+gitui
+nvim .
+git add .
+git commit -m "Commit"
+git config --global user.name "GrandAdmiralBee"
+git config --global user.email "karim.abdulkin@gmail.com"
+ls
+cd .ssh
+ls
+git commit -m "Commit"
+git add .git push -u origin main
+git push -u origin main
+nvim .
+cd ..
+cd nushell
+vim
+vim .
+v
+z -h
+exit
+nu
+z -h
+:q
+scope aliases
+exit
+which zoxide
+rm /home/karim/.cargo/bin/zoxide
+sudo dnf install zoxide
+nu -v
+rm .zoxide.nu
+sudo dnf remove zoxide
+sudo dnf install zoxide
+nvim .zoxide.nu
+exut
+exit
+nu
+nvim .zoxide.nu
+exit
+nvim .zoxide.nu
+exit
+nu
+z Dev
+dnf install exa
+sudo dnf install exa
+cargo binstall exa
+exa
+exa -L
+exa -l
+zellij -l my
+exit
+exit
+vim .
+ze -l my
+z .co
+sudo dnf install go
+go --v
+go -v
+go version
+ps
+ps | grep telegram
+telegram-desktop
+cd ..
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+cd Downloads
+ls
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+cd .co/nv
+z .co/nv
+z .co
+z nv
+zig -v
+jdk -v
+jtk -v
+sudo dnf update jdk
+sudo dnf update jtk
+sudo dnf update jdk-20.0
+sudo dnf install jdk-20.0
+sudo dnf install jdk-20
+sudo dnf install jdk-21
+curl -s "https://get.sdkman.io" | bash
+sdk install java 21.0.1-tem
+sudo dnf install java 21.0.1-tem
+sdk install java 21.0.1-tem
+sdk -h
+z .co
+z nu
+z nush
+z nushell
+nvim .
+sdk install java 21.0.1-tem
+sdk
+sudo dnf install default-jre
+z .config/nushell
+cd .config/nushell
+nvim .
+cd .sdkman
+ls
+cd bin
+ls
+cd ~
+cd .config/nushell
+nvim .
+clear
+cd ~
+clear
+cd Downloads
+modprobe loop
+ls
+mount -o loop nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso inst
+ls
+mount -o loop nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso inst
+mount -o loop nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso /home/karim/Downloads/inst
+cd inst
+mount -o loop nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso
+mount -o loop /home/karim/Downloads/inst/nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso
+cd ..
+sudo dnf install squashfs-tools
+unsquashfs -h
+wget https://channels.nixos.org/nixos-21.11/latest-nixos-minimal-x86_64-linux.iso
+ls
+sudo update-grub
+sudo dnf install update-grub
+grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+cd DEv
+cd Dev
+git clone https://github.com/jeaye/nixos-in-place.git
+br
+sudo ./install.sh
+ls
+sudo ./install
+exit
+zellij 
+zellij
+$env.TEM
+$env.TER
+$env.TERM
+$env.SHELL
+which nu
+ls /usr/bin/ 
+ls /usr/bin/ | grep nu
+which nu
+sudo rm /home/karim/.cargo/bin/nu
+exit
+zoxide init nushell | save -f ~/.zoxide.nu
+exit
+nu
+exit
+z
+zi
+z Dev/slint_test
+z .config/nushell
+cargo build
+vim .
+exit
+cd Dev
+cargo run
+vim .
+cargo build
+cd ..
+cd slint_test
+exit
+ze -l my
+exit
+cd Dev/slint_test
+cargo build
+cargo кгт
+cargo run
+cd ~/.config/nvim
+cargo binstall slint-lsp
+vim .
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+z /etc/gdm
+sudo vim .
+zi
+sudo nvim .
+nivm .
+nvim .
+vim .
+sudo dnf autoremove
+sudo dnf update
+flatpak -h
+flatpak update
+flatpak install geaury
+flatpak install geary
+alacritty migrate
+exit
+neofetch
+sudo dnf install neofetch
+neofetch
+exit
+sudo dnf install freshfetch
+uname -sr
+# 
+rpm -q kernel
+ps | grep xdg-desktop-portal-gnome
+sudo dnf remove $(dnf repoquery --installonly --latest-limit 2 -q) 
+sudo dnf install ttf-mscorefonts
+sudo dnf install ttf-mscorefonts-installer
+sudo dnf upgrade --refresh
+sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
+sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+exit
+telegram-desktop
+ps | grep telegram
+$env.BIN
+$env.PATH
+/app/bin/telegram-desktop
+flatpak seatch telegram
+flatpak search telegram
+flatpak --help
+flatpak list
+sudo dnf install openssl
+sudo vim /etc/dnf/dnf.conf
+sudo nvim /etc/dnf/dnf.conf
+sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel<\n><\n>sudo dnf install lame\* --exclude=lame-devel<\n><\n>sudo dnf group upgrade --with-optional Multimedia
+neofetch
+sudo hostnamectl set-hostname "BMO Fedora"
+neofetch
+ffmpeg -v
+sudo dnf install ffmpeg-free
+sudo dnf install ffmpeg --allowerasing
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm<\n><\n>sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install ffmpeg --allowerasing
+sudo dnf install ffmpeg-free
+ffmpeg --version
+ffmpeg -version
+cd Downloads
+ls
+ffmpeg -i кого_ты_хотел_удивить.mp4 кого_ты_хотел_удивить.mp3
+ls
+sudo cp Downloads/Аня/* Pictures/Аня/
+grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
+sudo grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
+sudo grub2-mkconfig 
+sudo dnf reinstall grub2-efi grub2-pc grub2-pc-modules grub2-tools-efi grub2-tools-extra shim
+dnf install grub2-efi<\n>grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+sudo dnf install grub2-efi<\n>sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+sudo efibootmgr -c -L Fedora -d /dev/nvme0n1 -p 4 -l \\EFI\\fedora\\shim.efi
+sudo efibootmgr
+sudo efibootmgr -b 0003 -B
+sudo efibootmgr -b 0005 -B
+sudo dnf update
+sudo efibootmgr
+sudo dnf autoremove
+sudo dnf update
+sudo dnf upgrade
+flatpak update
+rpm -q kernel-core
+uname -sr
+sudo dnf remove kernel-core-6.5.6* kernel-core-6.6.9*
+yacc
+dnf install flex-devel bison-devel
+sudo dnf install flex-devel bison-devel
+yacc
+exit
+yacc
+flex
+yacc
+which yyac
+dnf install byacc
+sudo dnf install byacc
+yacc
+yacc BooDesReadYY.y
+yacc -v BooDesReadYY.y
+bat BooDesReadYY.y
+cargo binstall bat
+bat BooDesReadYY.y
+yacc -v FcpFontReaderYY.y
+yacc 
+flex FcpFontReaderLL.l && gcc FcpFontReaderYY.y.c -o lexer -lfl
+flex FcpFontReaderLL.l and gcc FcpFontReaderYY.y.c -o lexer -lfl
+flex FcpFontReaderLL.l
+gcc FcpFontReaderYY.y.c -o lexer -lfl
+gcc FcpFontReaderYY.y -o lexer -lfl
+ls
+rm lex.fvg.c y.output y.tab.c
+ls
+cd amf_reader
+git remote add origin git@github.com:GrandAdmiralBee/RegEx.git
+git branch -M main
+git push -u origin main
+git add .
+git commit -m "Commit"
+git config --global user.email "karim.abdulkin@gmail.com"
+git commit -m "Commit"
+git push -u origin main
+sudo vim /etc/default/rcS<\n>
+sudo nvim /etc/default/rcS<\n>
+timedatectl set-local-rtc 1 --adjust-system-clock
+exit
+sudo dnf install chrome
+cd Dev
+ls
+which ch
+which cd
+cd HT
+ls
+rm slint_test -r
+vim .
+br
+cargo update
+cargo build
+cargo build --release
+git add .
+gitui
+cargo run--release
+cargo run --release
+cargo rustup update
+rustup update
+rpm -q kernel-core
+sudo dnf remove kernel-core-6.5.11*
+sudo dnf remove kernel-core-6.6.11*
+flatpak update
+sudo dnf install woeusb
+sudo dnf install WoeUSB
+sudo dnf install tmux
+exit
+tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+cd ls
+ls
+cd .config
+ls
+mkdir tmux
+cd rmux
+cd tmux
+touch tmux.conf
+vim .
+# type this in terminal if tmux is already running<\n>tmux source ~/.config/tmux/tmux.conf
+tmux source ~/.config/tmux/tmux.conf
+exit
+tmux
+clean
+clear
+exit
+exit
+tmux
+cd ..
+cd nu
+exit
+nu
+ls
+exit
+nu
+ls
+exit
+ls
+exit
+nu
+exit
+ls
+vim .
+exig
+cd .config/nvim
+ze -l my
+cd Dev
+ze -l my
+clear
+rm -t
+rm --help
+rm -t
+vim ,
+exit
+neofetch\
+neofetch
+clear
+neofetch
+sudu dnf install -y cups hplip hplip-gui
+sudo dnf install -y cups hplip hplip-gui
+sudo hp-setup
+wget http://gdlp01.c-wss.com/gds/6/0100004596
+sudo dnf install aclocal automake libcups libbuftool
+sudo dnf --h
+sudo dnf -h
+sudo dnf search syncthing
+syncthing
+sudo dnf install syncthing
+sudo dnf remove hplip hplip-gui
+connect-proxy
+flatpak update
+sudo dnf autoremove
+sudo dnf update
+ls
+vim .
+cd Dev
+git clone https://github.com/m0hithreddy/Proxifier-For-Linux.git and cd Proxifier-For-Linux
+git clone https://github.com/m0hithreddy/Proxifier-For-Linux.git 
+br
+sudo dnf install autoconf automake txt2man
+autoreconf -vfi
+./configure
+make all
+sudo make uninstall
+sudo make install
+man proxifier
+exit
+vim /usr/local/etc
+sudo vim /usr/local/etc
+sudo nvim /usr/local/etc
+154.196.32.211
+sudo systemctl daemon-reload # Reload the service units
+sudo systemctl start proxifier
+sudo dnf --list | grep linux-image
+sudo dnf list --installed | grep kernel
+uname -sr
+sudo dnf remove kernel-core-6.6.*
+exit
+ls
+nvim .
+exit
+cwd
+br
+broot
+nvim .config
+nvim .
+exit
+nu
+exit
+alacritty
+nvim .
+cd .config/nvim
+cd .config/alacrutty
+cd .config/alacritty
+cd ~/.config/alacritty
+vim .
+sudo dnf install kvantum
+ze -l my
+cd Dev
+ls
+cd HT
+ls
+cd top-down
+cargo build --release
+cargo run --release
+cargo check
+cd ~/.config/nvim
+vim .
+ze -l my
+cd Dev/HP/top-down
+cd Dev/HT/top-down
+code .
+flatpak remove vscode
+sudo dnf remove vscode
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+dnf check-update<\n>sudo dnf install code
+code .
+sudo dnf install code
+sudo dnf autoremove
+code .
+cd ..
+code top-down
+cd ~/.config/nvim
+vim ,
+vim .
+cd ~/Dev
+cargo new rust_test
+cd rest_test
+cd rust_test
+nvim .
+nvim .
+vim .
+cd ..
+cd HT/top-down
+zz
+zi
+vim .
+V
+sudo dnf install qemu bash coreutils edk2-tools grep jq lsb procps python3 genisoimage usbutils util-linux sed spice-gtk-tools swtpm wget xdg-user-dirs xrandr unzip
+cd Dev
+git clone --filter=blob:none https://github.com/wimpysworld/quickemu<\n>cd quickemu
+sudo dnf install flutter
+sudo dnf install bash curl file git unzip which xz zip mesa-libGLU clang cmake ninja-build pkg-config libgtk-3-dev
+sudo dnf install bash curl file git unzip which xz zip mesa-libGLU clang cmake ninja-build pkg-config libgtk-3-devel
+flatpak install flutter
+syncthing
+cd .config/nvim
+vim .
+cd ~/Dev
+ls
+rm latte-dock -r
+mkdir HT
+cd HT
+ssh-keygen
+cd ~/.ssh
+ls
+cd ~/Dev/HT
+git clone git@github.com:Kazan-GameDev-Team/top-down.git
+cd top-down
+cargo build --release
+cargo run --release
+sudo dnf install wayland-devel libxkbcommon-devel
+cargo run --release
+/sbin/lspci | grep -e VGA
+/sbin/lspci | grep -e 3D<\n>
+sudo dnf update -y # and reboot if you are not on the latest kernel<\n>sudo dnf install akmod-nvidia # rhel/centos users can use kmod-nvidia instead<\n>sudo dnf install xorg-x11-drv-nvidia-cuda #optional for cuda/nvdec/nvenc support
+modinfo -F version nvidia
+cd Dev
+cd HT
+mkdir TD
+cd TD
+cargo new interaction_registration
+cargo new hit-registration
+cargo new player-controller
+cargo new world-controller
+cargo new --lib weapons
+cargo new --help
+cargo new --lib assets_loader
+cargo new --bin test_level
+sudo dnf install code
+cd ..
+cd top-down
+cargo run --release
+cd ..
+ls
+rm TD -r
+sudo dnf update 
+poweroff
+sudo poweroff
