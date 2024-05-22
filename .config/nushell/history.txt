@@ -7188,3 +7188,65 @@ git submodule add https://github.com/dexpota/kitty-themes.git .config/kitty/kitt
 git submodule add https://github.com/GrandAdmiralBee/nvim-config.git .config/nvim
 ls .config/nvim
 ls .config/nvim -a
+git add .
+git commit -m "nvim kitty nushell hypr tmux"
+git branch -M main<\n>git remote add origin git@github.com:GrandAdmiralBee/dotfiles.git<\n>git push -u origin main
+stow .
+cd .config/kitty
+vim .
+cd ../nvim
+vim .
+cd ../kitty
+cd dotfiles
+ln -s kitty/kitty-themes/themes/gruvbox_dark.conf .config/kitty/theme.conf
+rm .config/kitty/theme.conf
+ln -s kitty/kitty-themes/themes/gruvbox_dark.conf .config/kitty/theme.conf
+cd awdawd
+rm .config/kitty/theme.conf
+ln -s kitty/kitty-themes/themes/Dracula.conf .config/kitty/theme.conf
+vim .
+vim .
+cd ../nvim
+cd nvim
+ls
+ls -a
+ln -s .config/kitty/kitty-themes/themes/Dracula.conf .config/kitty/theme.conf
+rm .config/kitty/theme.conf
+ln -s .config/kitty/kitty-themes/themes/Dracula.conf .config/kitty/theme.conf
+cd .config/nvim
+vim .
+:q
+vim .
+cd ../tmux
+vim .
+:q
+exit
+tmux
+cd ~/.tmux
+ls
+cd plugins
+ls
+cd tpm 
+ls
+cd ~
+git clone https://github.com/egel/tmux-gruvbox.git
+cd tmux-gruvbox/
+cat tmux-gruvbox-dark.conf >> ~/.tmux.conf
+touch ~/.tmux.conf
+cat tmux-gruvbox-dark.conf >> ~/.tmux.conf
+sh
+exit
+exit
+exit
+exit
+tmux
+cd ~
+rm tmux-gruvbox/ -r
+cd dotfiles
+cp ~/.tmux.conf .
+ls
+ls -a
+rm ~/.tmux.conf
+stow .
+exit
+tmux
