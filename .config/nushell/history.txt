@@ -7699,3 +7699,16 @@ git push
 git push
 cd ../../
 git add 
+git add .
+git commit -m "Rust debugger"
+git push
+exit
+exit
+tmux
+exit
+cd dotfiles/.config/nvim
+vim .
+cd ..
+cd..
+cd ..
+git add ,
