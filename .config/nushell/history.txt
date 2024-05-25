@@ -1,1 +1,7800 @@
-rm history.txt
+$env.config
+$config.path
+cd /home/karim/.config/nushell/env.nu
+cd /home/karim/.config/nushell/
+hx
+cd ..
+broot
+br
+hx
+sudo apt install neofetch
+neofetch
+cd Dev
+git clone https://github.com/GrandAdmiralBee/kurs_jum.git
+cd kurs_jum
+git log
+git revert eeb9d3c15db30c5cabe527217e2ed344197a7fa2
+git config --global user.email "karim.abdulkin@gmail.com"
+git config --global user.name "GrandAdmiralBee"
+git revert eeb9d3c15db30c5cabe527217e2ed344197a7fa2
+cd key_auth_shell
+br
+cd key_auth_shell
+git push -f
+ls
+git log
+git reset --hard HEAD~1.
+git reset --hard HEAD
+ls
+git reset --hard HEAD~1
+ls
+git push -f
+cargo new ka_shell
+cd ka_shell
+cargo add keyauth
+hx
+rustup add component rust-analyzer
+rustup component add rust-analyzer<\n>
+cd ~/.config/helix
+touch languages.toml
+hx languages.toml
+cd ~/Dev/kurs_jum
+br
+hx
+cargo run
+code
+telegram
+sudo apt install libsoup-2.4
+sudo apt install glib-networking-2.78.0 libpsl-0.21.2 libxml2-2.12.0 SQLite-3.44.0
+cd ~/Downloads
+br
+sed -i '/tree/a #include <libxml/parser.h>' libsoup/soup-xmlrpc*.c
+mkdir build &&<\n>cd    build &&<\n><\n>meson setup --prefix=/usr       \<\n>            --buildtype=release \<\n>            -Dvapi=enabled      \<\n>            -Dgssapi=disabled   \<\n>            -Dsysprof=disabled  \<\n>            ..                  &&<\n>ninja
+sudo apt install libsoup2.4-dev
+cd ~/Dev/kurs_jum
+cd app
+cargo tauri dev
+sudo apt install javascriptcoregtk-4.0
+sudo apt install javascriptcoregtk-4.0-dev
+sudo apt-get update -y
+sudo apt-get install -y gir1.2-javascriptcoregtk-4.0
+cargo tauri dev
+sudo apt install libwebkit2gtk-4.0-dev build-essential curl wget libssl-dev libgtk-3-dev libappindicator3-dev librsvg2-dev
+sudo apt-get install javascriptcoregtk-4.1 libsoup-3.0 webkit2gtk-4.1 -y
+$nu.env-path
+cd /home/karim/.config/nushell/env.nu
+cd /home/karim/.config/nushell
+hx
+cd ~/Downloads/jb
+sudo cp . ~/.local/share/fonts
+sudo cp . ~/.local/share/fonts -r
+cd ~/.config/alactirry
+cd ~/.config/alactitty
+cd ~/.config/allacrity
+cd ~/.config/alacritty
+cd ~/Downloads/jb
+sudo cp . ~/.local/share/fonts -r
+hx
+starship preset bracketed-segments -o ~/.config/starship.toml<\n>
+zellij
+quit
+close
+exit
+cd ~/Dev/kurs_jum/app
+cargo tauri build
+cd ~/Dev/kurs_jum
+hx 
+hx .gitignore
+git add .
+gitui
+git status
+git commit -m "Added ka_shell"
+git push
+cd ~/Dev/kurs_jum/ka_shell
+hx
+git add .
+git commit -m "windows support for ka_shell"
+git push
+cd ~/Dev/kurs_jum/
+cargo new custom_shell
+cd custom_shell
+zellij
+neo
+neofetch
+cd ~/Dev/kurs_jum/app
+cargo tauri dev
+zellij
+cd ..
+zellij
+cd ~/Dev/kurs_jum
+git add .
+git commit -m "Added secret args for app"
+git clean
+git clean -f
+git status
+git pull
+hx
+git add .
+git commit -m "Added secret args for app"
+git push
+git pull
+cd ..
+sudo rm kurs_jum -r
+git clone https://github.com/GrandAdmiralBee/kurs_jum.git
+cd Dev/kurs_jum/app
+hx
+cargo tauri build
+cd ../ka_she;;
+cd ../ka_shell
+hx
+cargo run
+hx
+cargo run
+cd dev/kurs_jum/app
+cd Dev/kurs_jum/app
+cargo add sysinfo
+cd src-tauri
+cargo add sysinfo
+cargo add systemstat
+cargo add sys-info-rs
+cd ..
+cargo tauri build
+рч
+cd src-tauri
+cd Dev/kurs_jum/app
+cd Dev/kurs_jum
+git add .
+git commit -m "Added PC configuration"
+git push
+cargo new custom_server
+cargo new custom_shell
+hx .gitignore
+cd custom_server
+git add surrealdb
+cargo add surrealdb
+cargo add surrealdb --features kv-mem
+cargo add serde --features derive<\n>cargo add tokio --features macros,rt-multi-thread
+zellij
+timedatectl
+cargo add serde --features derive<\n>cargo add tokio --features macros,rt-multi-threa
+timedatectl set-local-rtc 1 --adjust-system-clock
+timedatectl
+cd Dev/kurs_jum/custom_server
+cmake
+ninja
+sudo apt-get install -y g++ clang libc++-dev libc++abi-dev cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev
+cd dev/aseprite
+cd dev
+cd DEv
+cd Dev
+git clone --recursive https://github.com/aseprite/aseprite.git
+cd aseprite
+git pull
+git submodule update --recursive
+mkdir build
+cd build
+cd ~/Dev/aseprite
+rm build -r
+mkdir build
+cd build
+$env.CC = "clang"
+$env.CXX = "clang++"
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+ninja aseprite
+sudo apt-get install -y clang-10 libc++-10-dev libc++abi-10-dev
+clang
+clang++
+ninja aseprite
+cd ..
+rm build -r
+mkdir build
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+cd build
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+ninja aseprite
+cd ..
+cargo create-tauri-app
+cargo install trunk
+rustup target add wasm32-unknown-unknown
+cd Aseprite
+hx
+cargo tauri build
+hx
+cargo tauri build
+cargo tauri dev
+hx
+cargo tauri dev
+cd ..
+cd kurs_jum
+cd app
+hx
+cd ..
+cd aseprite
+cd ..
+cd Aseprite
+hx
+cargo tauri dev
+hx
+cargo tauri dev
+hxhx
+hx
+cargo tauri build
+hx
+cargo tauri build
+hx
+zellij
+cd Dev/kurs_jum/custom_server
+h
+cd Dev/kurs_jum/custom_server
+cd ..
+ls
+cd custom_shell
+hx
+sudo apt install easyeffects
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo alacritty
+sudo files
+terminal
+sudo apt remove proton-vpn
+which protonvpn
+sudo apt-get remove proton-vpn-gnome-desktop
+easyeffects
+ssh-keygen
+ssh-keygen -t rsa
+ssh-copy-id -i ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
+neofetch
+ssh-copy-id -i ~/.ssh/id_rsa.pub /home/karim/.ssh/authorized_keys
+ls
+ssh-copy-id -i ~/.ssh/id_rsa.pub karim@karim-ThinkPad-T14s-Gen-1/home/karim/.ssh/authorized_keys
+cd ~
+ssh-copy-id -i ~/.ssh/id_rsa.pub karim@karim-ThinkPad-T14s-Gen-1/home/karim/.ssh/authorized_keys
+cd .ssh
+hx id_rsa.pub
+cd Dev
+git clone git@github.com:GrandAdmiralBee/Hamming_kurs.git
+hx
+gitui
+git add .
+br
+gitui
+cd Dev/kurs_jum
+hit status
+git status
+git add .
+git commit -m "Move to ssh"
+git push
+cd ..
+rm kurs_jum -r
+git clone git@github.com:GrandAdmiralBee/kurs_jum.git
+cd kurs)jum
+cd kurs_jum
+code
+docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:23.0.1 start-dev
+cd Dev/kurs_jum
+hx .gitignore
+ls
+gitui
+cd Dev/
+mkdir Bars
+cd Bars
+git clone git@github.com:Kazan-GameDev-Team/top-down.git
+cargo run
+cd top-down
+cargo run
+sudo apt-get install g++ pkg-config libx11-dev libasound2-dev libudev-dev
+cargo run
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+sudo wireshark
+sudo apt -y install apache2
+sudo systemctl enable --now apache2
+sudo ufw allow Apache
+sudo apt -y install php libapache2-mod-php php-{gd,common,mail,mail-mime,mysql,pear,db,mbstring,xml,curl}
+sudo apt -y install php libapache2-mod-php php
+php -v
+sudo apt -y install mysql-server
+sudo mysql_secure_installation
+sudo apt -y install freeradius freeradius-mysql freeradius-utils -y
+sudo systemctl stop freeradius
+sudo freeradius -x
+sudo freeradius -X
+ping -h
+ping 192.168.63.219 -s 3500 -l 1
+ping 192.168.63.219 -s 3500 -c 1
+sudo apt remove wireshark
+sudo apt purge freeradius
+dpkg -l | grep -i radius
+dpk -p freeradius-build-deps
+sudo apt purge wireshark
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+ping 192.168.63.219 -s 3500 -c 1
+brave
+firefox
+hx .bashrc
+hx .ssl-key.log
+sudo apt install chromium
+sudo apt install chromium-browser
+chromium --ssl-key-log-file=~/.ssl-key.log
+hx .bashrc
+touch .ssl-key.log
+chromium --ssl-key-log-file=~/.ssl-key.log
+hx .ssl-key.log
+chromium --ssl-key-log-file=~/.ssl-key.log
+hx .bashrc
+sh
+sudo apt purge chromium-browser
+udo apt-get update<\n>sudo apt-get install virtualbox-6.1
+sudo apt-get update<\n>sudo apt-get install virtualbox-6.1
+neofetch
+cd LabView
+ls
+sudo apt install ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt install 2204.deb
+ls
+ды
+ls
+sudo apt update
+ls
+sudu apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb 
+sudo apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb 
+sudo apt autoremove
+sudo apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb 
+sudo apt upgrade
+ды
+ls
+sudo apt install ni-labview-2023-community
+sudo apt install ni-labview
+sudo apt upgrafe
+sudo apt upgrade
+sudo apt --list
+sudo apt list
+sudo apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb 
+sudo apt install ./ni-labview-2023-community
+sudo apt install ni-labview-2023-community
+sudo apt autoremove
+sudo apt
+sudo apt search ni
+sudo apt search ni-labview
+sudo apt search ni-labview-2023-jammy-comunity
+sudo apt search ni-labview-2023-jammy-comumnity
+sudo apt search ni-labview-2023-jammy-commuity
+sudo apt search ni-labview-2023-jammy-community
+sudo apt install ni-labview-2023-jammy-community
+sudo apt search
+sudo apt 
+sudo apt upgrade
+sudo apt full-upgrade
+cd LabView
+ls
+sudo apt install ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt install ./ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+cd Downloads
+ls
+cd Telegram Desktop
+cd Telegram-Desktop
+br
+ls
+cd ~/LabView
+ls
+sudo dpkg -i ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt search ni-labview
+sudo apt purge ni-labview-2023-jammy-community
+ls
+sudo dpkg -i ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt search ni-labview
+sudo apt purge ni-labview-2023-jammy-community
+sudo apt search ni-labview
+sudo dpkg -i ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2004_all.deb
+sudo apt 
+sudo apt autoremove
+sudo apt980
+sudo apt(8)
+sudo apt --help
+cd ~/LabView
+ls
+sudo apt install ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo dpkg -i ni-labview-2023-community_23.3.1.49157-0+f5-ubuntu2204_all.deb
+sudo apt install virtualbox
+sudo apt search ni-labview
+sudo apt purge ni-labview-2023-jammy-community
+sudo apt purge ni-labview-2023-focal-community
+sudo apt --help
+sudo apt autoremove
+sudo apt install virtualbox-dkms
+sudo modprobe vboxdrv
+sudo search easy
+sudo apt search easy
+sudo apt search easy-effects
+sudo apt purge chromium-browser
+sudo apt purge chromium
+poweroff
+sudo apt update
+sudo apt install nmap
+sudo nmap -sU -sV scanme.nmap.org
+sudo nmap -sU scanme.nmap.org
+sudo nmap -sU -sC scanme.nmap.org
+sudo nmap -h
+sudo nmap -sT -sV scanme.nmap.org
+sudo nmap -h
+sudo nmap -sT -sV -i scanme.nmap.org
+sudo nmap -sT -sV -P scanme.nmap.org
+sudo nmap --script reverse-index scanme.nmap.org
+sudo nmap -sF -sV -P scanme.nmap.org
+sudo nmap -PE -sV -P scanme.nmap.org
+sudo nmap -sA -sV -P scanme.nmap.org
+sudo nmap -sN -sV -P scanme.nmap.org
+sudo nmap -sX -sV -P scanme.nmap.org
+sudo nmap -sN -sV scanme.nmap.org
+sudo nmap -sX -sV scanme.nmap.org
+sudo nmap -sA -sV scanme.nmap.org
+sudo nmap -h
+sudo nmap -sA -sV scanme.nmap.org
+sudo nmap -sS -sV scanme.nmap.org
+sudo nmap -sS -sV testphp.vulnweb.com
+sudo nmap -h
+neofetch
+sudo nmap --script reverse-index -sV testphp.vulnweb.com
+sudo nmap -PE -sV testphp.vulnweb.com
+sudo nmap -sT -sV scanme.nmap.org
+sudo nmap -sU -sV testphp.vulnweb.com
+sudo nmap -sF -sV testphp.vulnweb.com
+sudo nmap -sX -sV testphp.vulnweb.com
+sudo nmap -sN -sV testphp.vulnweb.com
+sudo nmap -sA -sV scanme.nmap.org
+sudo apt purge nmap
+sudo apt install winbind
+sudo apt install playonlinux
+sudo apt purge playonlinux
+sudo apt purge winbind
+sudo apt search wireshark
+sudo apt purge wireshark
+sudo apt autoremove
+cd Dev/kurs_jum
+hx
+touch readme.txt
+hx
+cd ~/.config/
+ls
+cd helix
+hx
+cd Dev/kurs_jum
+cd ~/Dev/kurs_jum
+zellij
+zellij attach
+clear
+gitui
+clear
+zellij attach
+zellij
+cd ~/Dev/kurs_jum
+zellij
+clear
+zellij attach
+cd ~
+mkdir ~/.config/zellij
+zellij setup --dump-config > ~/.config/zellij/config.kdl
+zellij setup --dump-config  ~/.config/zellij/config.kdl
+cd .config/zellij
+hx
+zellij
+ytop
+cargo binstall ytop
+ytop
+cd .~
+cd ~/Downloads
+ls
+cd ~/.config/zellij
+hx
+zellij
+cd ~/.config/zellij/themes
+zellij
+hx
+cd ..
+hx
+zellij
+hx
+touch layouts/my.kdl
+zellij -h
+zellij -l my
+zellij
+quit
+exit
+sh
+$env
+cd .config/alacritty
+exit
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt install gnome-software-plugin-flatpak gnome-software
+sudo apt search gnome-software-plugin-flatpak gnome-software
+sudo apt search gnome-software
+flatpak
+flatpak install discord
+cargo binstall dust
+cargo binstall du-dust
+dust
+exit
+rm -rf ~/.local/share/Trash/*<\n>
+sudo rm -rf ~/.local/share/Trash/*<\n>
+exit
+dust
+sudo rm -rf ~/Downloads/*
+dust
+sudo rm -rf ~/Dev/kurs_jum
+sudo rm -rf ~/Dev/*
+dust
+exit
+cd .config/alacritty
+exit
+eit
+exit
+hx
+neofetch
+apt list | grep "jammy"
+sudo apt -h
+exit
+which chromium
+sudo snap -h
+sudo snap remove chromium
+which easyeffects
+which easy-effects
+sudo apt upgrade
+sudo snap -h
+dust
+ytop
+exit
+zellij
+neofetch
+zellij
+exit
+exit
+dust
+poweroff
+sudo apt-get update<\n>sudo apt-get upgrade<\n>sudo apt install gnome-shell-extension-manager
+sudo apt purge gnome-shell-extension-manager
+sudo flatpack install extension-manager
+sudo flatpak install extension-manager
+sudo flatpak install extensionmanager
+sudo flatpak install loginmanager
+sudo flatpak install login-manager
+sudo apt install gnome-software-plugin-flatpak gnome-software
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+sudo apt purge flatpak
+sudo apt purge gnome-software-plugin-flatpak
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+cd Downloads
+sudo apt install geary
+exit
+sudo discord
+ps
+sudo /app/discord/Discord
+which discord
+ps | grep xorg
+ps | grep wayland
+dust
+sudo hx /etc/gdm3/custom.conf
+exit
+sudo hx /etc/gdm3/custom.conf
+restart
+poweroff
+dust
+sudo snap -h
+sudo snap find steam
+dust
+sudo apt install gparted
+sudo apt purge gparted
+poweroff
+exi
+exit
+cargo binstall helix
+cd .config/nu
+exit
+sh
+exit
+cd .config
+ls
+cd nushell
+ls
+nano env.nu
+cargo
+exit
+cargo
+cargo binstall helix
+sudo dnf copr enable varlad/helix<\n>sudo dnf install helix<\n>
+cargo install binstall
+cargo binstall
+sudo dnf copr enable varlad/helix<\n>sudo dnf install helix<\n>
+cd ~/.config/nushell
+hx
+cargo install starship
+curl -sS https://starship.rs/install.sh | sh<\n>
+exit
+sh
+exit
+sudo dnf install cmake
+cargo install starship zellij
+exit
+cargo install broot
+broot
+exit
+zellij
+cargo install zellij
+sudo dnf install perl
+cd ~/.config/nushell
+hx
+cd ..
+cd helix
+ls
+cd ../nushell
+$env.PATH
+$env.HELIX_RUNTIME
+hx
+exit
+exit
+cd ~/.config/alacritty
+mkdir -p "~/.local/share/fonts/"
+mkdir ~/.local/share/fonts/
+cd Downloads/FiraCode
+sudo cp . ~/.local/share/fonts -r
+cd ~/.config/alacritty
+cargo install zellij
+hx
+exit
+zellij
+sudo dnf install gcc-c++ libX11-devel alsa-lib-devel systemd-devel
+sudo dnf install wayland-devel libxkbcommon-devel
+ssh-keygen
+cd /home/karim/.ssh/
+ls
+hx
+nautilus
+hx
+nano id_rsa.pub
+sudo dnf install xclip
+xclip -sel c < id_rsa.pub
+sh
+exit
+ytop
+gitui
+sh <(curl https://create.tauri.app/sh)
+argo install create-tauri-app --locked
+cargo install create-tauri-app --locked
+hx
+exit
+cargo install tauri-cli
+exit
+sh
+exit
+$env
+which firefox
+sudo dnf search firefox
+sudo dnf -h
+sudo dnf remove
+sudo dnf purge
+sudo dnf remove firefox.x86_64
+sudo dnf -h
+exit
+neofetch
+sudo dnf install neofetch
+neofetch
+$env.SHELL
+$env.SHELL = '/bin/nu'
+neofetch
+exit
+neofetch
+cd .config./nushell
+cd .config/nushell
+hx
+exit
+neofetch
+sudo dnf autoremove
+sudo dnf upgrade
+g
+go
+sudo dnf install go
+sudo dnf install dotnet
+sudo dnf install jdk
+sudo dnf install jdt
+sudo dnf install openjdk
+dnf search openjdk
+sudo dnf install java-latest-openjdk.x86_64
+dnf install zig
+sudo dnf install zig
+mkdir Dev
+cd Dev
+flatpak install steam-devices
+sudo dnf install steam-devices
+git clone --recursive https://github.com/aseprite/aseprite.git
+sudo dnf install vscode
+sudo dnf install code
+exit
+cd aseprite<\n>git pull<\n>git submodule update --init --recursive
+sudo dnf install ninja
+sudo dnf install ninja-build
+sudo dnf install -y gcc-c++ clang libcxx-devel cmake ninja-build libX11-devel libXcursor-devel libXi-devel mesa-libGL-devel fontconfig-devel
+cd aseprite<\n>mkdir build<\n>cd build<\n>export CC=clang<\n>export CXX=clang++
+$env.CC = "clang"
+$env.CXX = "clang++"
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+ls
+mkdir build
+cd build
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libstdc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libstdc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+cmake \ -DCMAKE_BUILD_TYPE=RelWithDebInfo \ -DCMAKE_CXX_FLAGS:STRING=-stdlib=libc++ \ -DCMAKE_EXE_LINKER_FLAGS:STRING=-stdlib=libc++ \ -DLAF_BACKEND=skia \ -DSKIA_DIR=/home/karim/deps/skia \ -DSKIA_LIBRARY_DIR=/home/karim/deps/skia/out/Release-x64 \ -DSKIA_LIBRARY=/home/karim/deps/skia/out/Release-x64/libskia.a \ -G Ninja \ ..
+cd Dev
+cargo crate-tauri-app
+cargo create-tauri-app
+cargo dnf install webkit2gtk
+sudo dnf install webkit2gtk
+sudo dnf install libwebkit2gtk-4.0-dev
+sudo dnf install libwebkit2gtk-6.0-dev
+sudo dnf install libwebkit2gtk-8.0-dev
+dnf install gtk3-devel webkit2gtk4.0-devel
+sudo dnf install gtk3-devel webkit2gtk4.0-devel
+cd Aseprite
+ninja aseprite
+hx
+cargo toolchain
+cargo component
+cargo add
+cargo add component
+sudo dnf install rust-analyzer
+рч
+hx
+cd ~/.config/helix
+hx --health rust
+sudo dnf install lldb-vscode
+hx
+cd ~/Dev/Aseprote
+cd ~/Dev/Aseprite
+cd ..
+ls
+cd aseprite
+cd build
+ls
+cd bin
+aseprite
+ls
+aseprite
+cd ..
+bin/aseprite
+exit
+exit
+sudo dnf install ffmpeg
+flatpak install ffmpeg
+ffmpeg
+exit
+flatpak install io.github.realmazharhussain.GdmSettings
+sudo dnf install ffmpeg
+exit
+$env.TERMINAL
+$env.TERM
+exit
+ytop
+exit
+sudo dnf install grub-cstomizer
+sudo dnf install grub-cutomizer
+sudo dnf install grub-customizer
+sudo dnf install gparted
+exit
+sudo dnf install steam
+exit
+neofetch
+exit
+exot
+exotexit
+exit
+dust
+du
+exit
+neofetch
+exit
+sudo dnf install steam
+sudo dnf upgrade
+exit
+cd deps
+git clone https://github.com/rafaelmardojai/thunderbird-gnome-theme && cd thunderbird-gnome-theme
+git clone https://github.com/rafaelmardojai/thunderbird-gnome-theme and cd thunderbird-gnome-theme
+git clone https://github.com/rafaelmardojai/thunderbird-gnome-theme and 
+br
+ls
+git clone https://github.com/rafaelmardojai/thunderbird-gnome-theme
+rm and -r
+ls
+br
+./scripts/auto-install.sh
+ls
+./scripts/auto-install.sh
+./scripts/install.sh -f ~/.var/app/org.mozilla.Thunderbird/.thunderbird # Flatpak
+exit
+cargo install cargo-binstall
+cargo binstall ripgrep
+cargo binstall zoxide
+z deps
+cd .config/nushell
+hx
+exit
+z deps
+zoxide init
+zoxide init nu
+zoxide init nushell
+z deps
+sudo dnf install neovim
+cd .config
+mkdir neovim
+cd neovim
+cd ..
+rm neovim
+mkdir nvim
+cd nvim
+vim
+sudo dnf install vim
+vimm
+cd .config/nvim
+hx
+rm init
+vim
+vim .
+clear
+clear
+vim .
+hx
+vi .
+vim .
+neovim .
+nvim .
+which vim
+which nvim
+sudo dnf search vim
+sudo dnf remove vim
+nvim
+nvim .
+ls
+rm lua -r
+ls
+nvim .
+cd ..
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\<\n> ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+br
+nvim .
+exit
+hx .
+exit
+zellij
+exit
+clear
+cd .config/nvim
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+sudo sh -c 'grep title /boot/loader/entries/* | cut -d " " -f2-'
+sudo grubby --info=ALL
+exit
+grubby
+grubby --info=ALL
+sudo grubby --info=ALL
+cd Downloads
+br
+sudo uninstall.sh
+sudo ./uninstall.sh
+cd ~
+cd .config/nvim
+cd ..
+hx
+hx .zoxide.nu
+cd ..
+hx .zoxide.nu
+exit
+nu
+zellij
+exit
+cd .config/
+hx
+hx 
+exit
+zellij
+cd .config/nvim
+nvim .
+hx
+zellij
+which nu
+cd .config/alacritty
+cd ..
+ls
+cd alacritty
+hx
+exit
+cd .config/alacritty
+hx
+nvim .
+hx
+cd ..
+ls
+cd zellij
+nvim
+nvim .
+cd ..
+cd nvim
+nvim .
+nivm  .
+nvim .
+git clone --depth 1 https://github.com/wbthomason/packer.nvim  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim .
+hx
+nvim .
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim .
+cd ~/Dev
+ls
+cd Aseprite
+nvim .
+zellij
+exit
+cd Downloads
+ls
+br
+sudo ./install.sh
+cd Downloads
+br
+sudo ./uninstall.sh
+cd ..
+br
+cd ..
+ls
+cd deps
+ls
+br
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+poweroff
+fzf
+sudo dnf install fzf
+fzf
+cd .config/nvim
+nvim --v
+nvim -v
+exit
+nvim .
+cd Dev/Aseprite
+cd src-tauri
+nvim .
+cargo tauri dev
+cargo tauri build
+ls
+fzf 
+cd Dev/Aseprite/src-tauri/target/release/bundle/appimage
+./build_appimage.sh
+ls
+rm target/release/bundle -r
+cd ~/.cargo
+ls
+cd bin
+la
+ls
+ccd ../binstall
+cd ../binstall
+ls
+cargo binstall gitui du-dust
+cargo install tauri-cli --git https://github.com/tauri-apps/tauri
+cargo tauri build
+cd ..
+cargo tauri build
+cd src-tauri
+ls
+cargo tauri build
+cargo tauri dev
+cargo install create-tauri-app --locked
+cargo tauri dev
+nvim .
+cd ..
+cd ..
+create-tauri-app
+cargo create-tauri-app
+ah
+sh
+fzf
+cd Aseprite1
+cargo tauri build
+cd ..
+cd Dev/Aseprite
+cd Dev
+cargo create-tauri-app
+cd Aseprite
+cargo install tauri-cli
+nvim .
+cp Aseprite1/src-tauri/src/main.rs Aseprite/src-tauri/src/main.rs
+cd ..
+cp Aseprite1/src-tauri/icons Aseprite/src-tauri/icons -r
+cd Aseprite
+cargo tauri dev
+cargo tauri build
+cd ~/Dev
+rm Aseprite1 -r
+zelloj
+cd .config/nvim
+nvim .
+dotnet -v
+sudo dnf install dotnet
+sudo dnf install dotnet-sdk
+npm -v
+sudo dnf install pnm
+sudo dnf install npm
+sudo dnf install nodejs
+sudo dnf install jdk
+java --v
+npm
+ls
+rm Aseprite1 -r
+rm Aseprite -r
+nvim .
+zellij
+exit
+cd .config/nvim
+nvim .
+mkdir srcipts
+rm srcipts
+rm scripts
+mkdir scripts
+cd scripts
+touch zellij.sh
+nvim .
+sudo chmod +x zellij.sh
+./zellij.sh
+nvim .
+./home/karim/scripts/zellij.sh
+./zellij.sh
+nvim .
+./zellij.sh
+exit
+grubby --info=ALL
+sudo grubby --info=ALL
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+grub2-mkconfig -o /boot/grub2/grub.cfg
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+sudo grub2-mkconfig -o /etc/grub2-efi.cfg
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+grubby --info=ALL
+sudo grubby --info=ALL
+alacritty -h
+alacritty --command zellij
+cd scripts
+nvim .
+./zellij.sh
+cd ..
+br
+cd .config/zellij
+ls
+zellij -h
+zellij -l my
+zellij -l compact
+zellij -l my
+ls
+ls
+zellij -l my
+nvim .
+zellij -l my
+nvim .
+cd ~/scripts
+alacritty -h
+cd ~/scripts
+./zellij.sh
+nvim .
+:q
+sudo grub2-mkconfig -o /etc/grub2.cfg
+sudo grub2-mkconfig -o /etc/grub2-efi.cfg
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+cd Downloads
+br
+sudo python3 darkmatter-theme.py -i
+sudo grub2-mkconfig -o /etc/grub2.cfg
+sudo grub2-mkconfig -o /etc/grub2-efi.cfg
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+./install.sh
+cd ..
+br
+sudo ./install.sh
+cd .config/nushell
+nvim .
+exit
+nu
+zellij -l my
+z -h
+vim
+z -h
+cd Dev/Aseprite
+nvim .
+cd ~/.config/nvim
+nivm .
+ps
+cd scripts
+nvim .
+zellij
+z
+zellij -l my
+cd .
+cd ~?.config/nushell
+cd ~/.config/nushell
+nvim ,
+nvim .
+exi
+exit
+zellij
+./scripts/zellij.sh
+nvim scripts/zellij.sh
+./scripts/zellij.sh
+cd ~/.config/nvim
+nvim .
+cd ~
+cd Dev
+cargo new nvim_tests
+cd nvim_tests
+nvim ,
+cd ~/.config/nvim
+alias z = zellij
+zellij -l my
+clear
+zellij -l my
+nvim .
+cd Dev/nvim_test
+br
+cd ~/.config/nvim
+nvim .
+nvim .
+cd ~/.config/nvim
+cd Dev/nvim_tests
+nvim .
+cd ..
+cd Alacritty
+br
+git remote add origin git@github.com:GrandAdmiralBee/Aseprite.git
+git init
+git remote add origin git@github.com:GrandAdmiralBee/Aseprite.git
+git branch -M main
+gitui
+nvim .
+git add .
+git commit -m "Commit"
+git config --global user.name "GrandAdmiralBee"
+git config --global user.email "karim.abdulkin@gmail.com"
+ls
+cd .ssh
+ls
+git commit -m "Commit"
+git add .git push -u origin main
+git push -u origin main
+nvim .
+cd ..
+cd nushell
+vim
+vim .
+v
+z -h
+exit
+nu
+z -h
+:q
+scope aliases
+exit
+which zoxide
+rm /home/karim/.cargo/bin/zoxide
+sudo dnf install zoxide
+nu -v
+rm .zoxide.nu
+sudo dnf remove zoxide
+sudo dnf install zoxide
+nvim .zoxide.nu
+exut
+exit
+nu
+nvim .zoxide.nu
+exit
+nvim .zoxide.nu
+exit
+nu
+z Dev
+dnf install exa
+sudo dnf install exa
+cargo binstall exa
+exa
+exa -L
+exa -l
+zellij -l my
+exit
+exit
+vim .
+ze -l my
+z .co
+sudo dnf install go
+go --v
+go -v
+go version
+ps
+ps | grep telegram
+telegram-desktop
+cd ..
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+cd Downloads
+ls
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+cd .co/nv
+z .co/nv
+z .co
+z nv
+zig -v
+jdk -v
+jtk -v
+sudo dnf update jdk
+sudo dnf update jtk
+sudo dnf update jdk-20.0
+sudo dnf install jdk-20.0
+sudo dnf install jdk-20
+sudo dnf install jdk-21
+curl -s "https://get.sdkman.io" | bash
+sdk install java 21.0.1-tem
+sudo dnf install java 21.0.1-tem
+sdk install java 21.0.1-tem
+sdk -h
+z .co
+z nu
+z nush
+z nushell
+nvim .
+sdk install java 21.0.1-tem
+sdk
+sudo dnf install default-jre
+z .config/nushell
+cd .config/nushell
+nvim .
+cd .sdkman
+ls
+cd bin
+ls
+cd ~
+cd .config/nushell
+nvim .
+clear
+cd ~
+clear
+cd Downloads
+modprobe loop
+ls
+mount -o loop nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso inst
+ls
+mount -o loop nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso inst
+mount -o loop nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso /home/karim/Downloads/inst
+cd inst
+mount -o loop nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso
+mount -o loop /home/karim/Downloads/inst/nixos-gnome-23.11.2561.b0b2c5445c64-x86_64-linux.iso
+cd ..
+sudo dnf install squashfs-tools
+unsquashfs -h
+wget https://channels.nixos.org/nixos-21.11/latest-nixos-minimal-x86_64-linux.iso
+ls
+sudo update-grub
+sudo dnf install update-grub
+grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+cd DEv
+cd Dev
+git clone https://github.com/jeaye/nixos-in-place.git
+br
+sudo ./install.sh
+ls
+sudo ./install
+exit
+zellij 
+zellij
+$env.TEM
+$env.TER
+$env.TERM
+$env.SHELL
+which nu
+ls /usr/bin/ 
+ls /usr/bin/ | grep nu
+which nu
+sudo rm /home/karim/.cargo/bin/nu
+exit
+zoxide init nushell | save -f ~/.zoxide.nu
+exit
+nu
+exit
+z
+zi
+z Dev/slint_test
+z .config/nushell
+cargo build
+vim .
+exit
+cd Dev
+cargo run
+vim .
+cargo build
+cd ..
+cd slint_test
+exit
+ze -l my
+exit
+cd Dev/slint_test
+cargo build
+cargo кгт
+cargo run
+cd ~/.config/nvim
+cargo binstall slint-lsp
+vim .
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+z /etc/gdm
+sudo vim .
+zi
+sudo nvim .
+nivm .
+nvim .
+vim .
+sudo dnf autoremove
+sudo dnf update
+flatpak -h
+flatpak update
+flatpak install geaury
+flatpak install geary
+alacritty migrate
+exit
+neofetch
+sudo dnf install neofetch
+neofetch
+exit
+sudo dnf install freshfetch
+uname -sr
+# 
+rpm -q kernel
+ps | grep xdg-desktop-portal-gnome
+sudo dnf remove $(dnf repoquery --installonly --latest-limit 2 -q) 
+sudo dnf install ttf-mscorefonts
+sudo dnf install ttf-mscorefonts-installer
+sudo dnf upgrade --refresh
+sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
+sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+exit
+telegram-desktop
+ps | grep telegram
+$env.BIN
+$env.PATH
+/app/bin/telegram-desktop
+flatpak seatch telegram
+flatpak search telegram
+flatpak --help
+flatpak list
+sudo dnf install openssl
+sudo vim /etc/dnf/dnf.conf
+sudo nvim /etc/dnf/dnf.conf
+sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel<\n><\n>sudo dnf install lame\* --exclude=lame-devel<\n><\n>sudo dnf group upgrade --with-optional Multimedia
+neofetch
+sudo hostnamectl set-hostname "BMO Fedora"
+neofetch
+ffmpeg -v
+sudo dnf install ffmpeg-free
+sudo dnf install ffmpeg --allowerasing
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm<\n><\n>sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install ffmpeg --allowerasing
+sudo dnf install ffmpeg-free
+ffmpeg --version
+ffmpeg -version
+cd Downloads
+ls
+ffmpeg -i кого_ты_хотел_удивить.mp4 кого_ты_хотел_удивить.mp3
+ls
+sudo cp Downloads/Аня/* Pictures/Аня/
+grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
+sudo grub2-mkconfig -o "$(readlink -e /etc/grub2.conf)"
+sudo grub2-mkconfig 
+sudo dnf reinstall grub2-efi grub2-pc grub2-pc-modules grub2-tools-efi grub2-tools-extra shim
+dnf install grub2-efi<\n>grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+sudo dnf install grub2-efi<\n>sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+sudo efibootmgr -c -L Fedora -d /dev/nvme0n1 -p 4 -l \\EFI\\fedora\\shim.efi
+sudo efibootmgr
+sudo efibootmgr -b 0003 -B
+sudo efibootmgr -b 0005 -B
+sudo dnf update
+sudo efibootmgr
+sudo dnf autoremove
+sudo dnf update
+sudo dnf upgrade
+flatpak update
+rpm -q kernel-core
+uname -sr
+sudo dnf remove kernel-core-6.5.6* kernel-core-6.6.9*
+yacc
+dnf install flex-devel bison-devel
+sudo dnf install flex-devel bison-devel
+yacc
+exit
+yacc
+flex
+yacc
+which yyac
+dnf install byacc
+sudo dnf install byacc
+yacc
+yacc BooDesReadYY.y
+yacc -v BooDesReadYY.y
+bat BooDesReadYY.y
+cargo binstall bat
+bat BooDesReadYY.y
+yacc -v FcpFontReaderYY.y
+yacc 
+flex FcpFontReaderLL.l && gcc FcpFontReaderYY.y.c -o lexer -lfl
+flex FcpFontReaderLL.l and gcc FcpFontReaderYY.y.c -o lexer -lfl
+flex FcpFontReaderLL.l
+gcc FcpFontReaderYY.y.c -o lexer -lfl
+gcc FcpFontReaderYY.y -o lexer -lfl
+ls
+rm lex.fvg.c y.output y.tab.c
+ls
+cd amf_reader
+git remote add origin git@github.com:GrandAdmiralBee/RegEx.git
+git branch -M main
+git push -u origin main
+git add .
+git commit -m "Commit"
+git config --global user.email "karim.abdulkin@gmail.com"
+git commit -m "Commit"
+git push -u origin main
+sudo vim /etc/default/rcS<\n>
+sudo nvim /etc/default/rcS<\n>
+timedatectl set-local-rtc 1 --adjust-system-clock
+exit
+sudo dnf install chrome
+cd Dev
+ls
+which ch
+which cd
+cd HT
+ls
+rm slint_test -r
+vim .
+br
+cargo update
+cargo build
+cargo build --release
+git add .
+gitui
+cargo run--release
+cargo run --release
+cargo rustup update
+rustup update
+rpm -q kernel-core
+sudo dnf remove kernel-core-6.5.11*
+sudo dnf remove kernel-core-6.6.11*
+flatpak update
+sudo dnf install woeusb
+sudo dnf install WoeUSB
+sudo dnf install tmux
+exit
+tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+cd ls
+ls
+cd .config
+ls
+mkdir tmux
+cd rmux
+cd tmux
+touch tmux.conf
+vim .
+# type this in terminal if tmux is already running<\n>tmux source ~/.config/tmux/tmux.conf
+tmux source ~/.config/tmux/tmux.conf
+exit
+tmux
+clean
+clear
+exit
+exit
+tmux
+cd ..
+cd nu
+exit
+nu
+ls
+exit
+nu
+ls
+exit
+ls
+exit
+nu
+exit
+ls
+vim .
+exig
+cd .config/nvim
+ze -l my
+cd Dev
+ze -l my
+clear
+rm -t
+rm --help
+rm -t
+vim ,
+exit
+neofetch\
+neofetch
+clear
+neofetch
+sudu dnf install -y cups hplip hplip-gui
+sudo dnf install -y cups hplip hplip-gui
+sudo hp-setup
+wget http://gdlp01.c-wss.com/gds/6/0100004596
+sudo dnf install aclocal automake libcups libbuftool
+sudo dnf --h
+sudo dnf -h
+sudo dnf search syncthing
+syncthing
+sudo dnf install syncthing
+sudo dnf remove hplip hplip-gui
+connect-proxy
+flatpak update
+sudo dnf autoremove
+sudo dnf update
+ls
+vim .
+cd Dev
+git clone https://github.com/m0hithreddy/Proxifier-For-Linux.git and cd Proxifier-For-Linux
+git clone https://github.com/m0hithreddy/Proxifier-For-Linux.git 
+br
+sudo dnf install autoconf automake txt2man
+autoreconf -vfi
+./configure
+make all
+sudo make uninstall
+sudo make install
+man proxifier
+exit
+vim /usr/local/etc
+sudo vim /usr/local/etc
+sudo nvim /usr/local/etc
+154.196.32.211
+sudo systemctl daemon-reload # Reload the service units
+sudo systemctl start proxifier
+sudo dnf --list | grep linux-image
+sudo dnf list --installed | grep kernel
+uname -sr
+sudo dnf remove kernel-core-6.6.*
+exit
+ls
+nvim .
+exit
+cwd
+br
+broot
+nvim .config
+nvim .
+exit
+nu
+exit
+alacritty
+nvim .
+cd .config/nvim
+cd .config/alacrutty
+cd .config/alacritty
+cd ~/.config/alacritty
+vim .
+sudo dnf install kvantum
+ze -l my
+cd Dev
+ls
+cd HT
+ls
+cd top-down
+cargo build --release
+cargo run --release
+cargo check
+cd ~/.config/nvim
+vim .
+ze -l my
+cd Dev/HP/top-down
+cd Dev/HT/top-down
+code .
+flatpak remove vscode
+sudo dnf remove vscode
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+dnf check-update<\n>sudo dnf install code
+code .
+sudo dnf install code
+sudo dnf autoremove
+code .
+cd ..
+code top-down
+cd ~/.config/nvim
+vim ,
+vim .
+cd ~/Dev
+cargo new rust_test
+cd rest_test
+cd rust_test
+nvim .
+nvim .
+vim .
+cd ..
+cd HT/top-down
+zz
+zi
+vim .
+V
+sudo dnf install qemu bash coreutils edk2-tools grep jq lsb procps python3 genisoimage usbutils util-linux sed spice-gtk-tools swtpm wget xdg-user-dirs xrandr unzip
+cd Dev
+git clone --filter=blob:none https://github.com/wimpysworld/quickemu<\n>cd quickemu
+sudo dnf install flutter
+sudo dnf install bash curl file git unzip which xz zip mesa-libGLU clang cmake ninja-build pkg-config libgtk-3-dev
+sudo dnf install bash curl file git unzip which xz zip mesa-libGLU clang cmake ninja-build pkg-config libgtk-3-devel
+flatpak install flutter
+cd Dev
+cd HT
+rm top-down -r
+mkdir top-down
+cargo new --lib asset_manager
+cargo new --bin test_level
+cargo new --lib player_manager
+ze -l my
+cd Dev/HT/top-down
+ls
+cargo new --lib player_manager
+cargo new --lib world_manager
+cargo new --lib hit_registration
+cargo new --lib interaction_registration
+touch Cargo.toml
+nvim .
+cargo new --lib test_level
+rm test_level -r
+cargo new --bin test_level
+cargo new --lib asset_manager
+cd ..
+ls
+rm asset_manager -r
+rm player_manager -r
+rm test_level -r
+cd top-down
+clear
+cd player_manager
+touch src/controller
+touch src/visual
+rm src/controller
+rm src/visual
+mkdir src/visual
+mkdir src/controller
+touch src/controller/components.rs
+touch src/controller/mod.rs
+touch src/controller/systems.rs
+touch src/controller/input.rs
+touch src/controller/events.rs
+touch src/controller/bundles.rs
+go version
+rustup update
+cargo add bevy
+cd ../world_manager
+cargo add bevy serde
+cargo add toml
+touch src/units.rs
+sudo dnf autoremove
+sudo dnf update
+flatpak update
+uname -sr
+sudo dnf remove Linux 6.7.4*
+sudo dnf remove Linux-6.7.4*
+sudo dnf remove kernel-6.7.4*
+sudo dnf autoremove
+code
+ze -l my
+cd Dev/HT
+ls
+cd top-down
+ze -l my
+cd ~/.config/
+ls
+cd nvim
+nvim .
+code
+gcc 
+gcc version
+gcc --version
+sudo dnf install dotnet-sdk
+cd Videos
+cd Wwbcam
+cd Webcam
+ls
+ffmpeg -i 1.webm 1.mp4
+ffmpeg -i 2.webm 2.mp4
+ffmpeg -i 3.webm 3.mp4
+sudo dnf install tlp
+sudo tlp start
+sudo systemctl enable tlp
+systemctl mask power-profiles-daemon.service
+systemctl mask systemd-rfkill.service
+systemctl mask systemd-rfkill.socket
+systemctl mask systemd-rfkill.service
+sudo tlp start
+sudo tlp stat
+sudo tlp-stat
+sudo dnf install tlp-rdw
+sudo dnf install smartmontools
+vainfo
+sudo tlp-pdw start
+sudo tlp-rdw start
+sudo dnf remove kernel-core-6.7.4*
+exit
+ze -l my
+cd Dev/HT/top-down
+touch world_manager/src/world.rs
+rust-analyzer
+rustup component add rust-analyzer<\n>
+ze -l my
+cd ~/.config/nvim
+vim .
+ze -l my
+vim .
+cd ~/.config/nvim
+vim .
+cd ~/Dev/HT/top-down
+cd player_manager
+cargo add bevy_rapier2d
+cd Dev/HT/top-down/player_manager
+nvim .
+exit
+tmux
+cd ~
+cd ~/.config/tmux
+vim .
+echo "Pane 3"
+cd ~/.config/tmux
+source ~/.config/tmux/tmux.conf
+tmux source ~/.config/tmux/tmux.conf
+cd ~/.config/nvim
+vim .
+tmux source ~/.config/tmux/tmux.conf
+tmux
+cd ~/.config/tmux
+exit
+man date
+vim .
+exit
+exit
+tmux 
+exit
+tmux
+cd ~/.config/tmux
+ls
+bat tmux.conf
+alacritty
+alacritty -h
+cd ..
+cd alacritty
+vim .
+sudo dnf install chntpw
+sudo mkdir /mnt/c
+sudo mount --read-only /dev/nvme0n1p3 /mnt/c
+cd /[WindowsSystemDrive]/Windows/System32/config
+cd /mt/c/Windows/System32/config
+cd /mnt/c/Windows/System32/config
+chntpw -e SYSTEM
+sudo systemctl restart bluetoorh
+sudo systemctl restart bluetooth
+exit
+tmux 
+exit
+vim .
+cd Dev/
+ls
+cd rust_test
+ls
+vim .
+exit
+tmux
+exit
+flatpak update
+sudo dnf update
+cd .config/nvim
+vim .
+cd ~/DEv
+cd ~/Dev
+mkdir org_test
+cd org_test
+cd ~/Dev/org-tets
+cd ~/Dev/org-test
+cd ~/Dev/org_test
+touch test.org
+cd ~/.config/nvim
+vim .
+cd ~/Dev/org_test
+nvim .
+vim .
+cd ~/.config/nvim
+rm :q
+:q
+exit
+rm after/plugins/org.lua
+rm ~/.config/nvim/after/plugins/org.lua
+exit
+rm /after/plugin/org.lua
+rm after/plugin/org.lua
+exit
+rm after/plugin/norg.lua
+:q
+exit
+vim .
+vim .
+nvim --c
+nvim --v
+nvim --version
+ls
+rm test.org
+touch test.norg
+vim .
+cd ../alacritty
+vim .
+exit
+exit
+tmux
+exit
+ls
+cd notes
+nvim .
+exit
+sudo dnf install zig
+cd Dev/
+mkdir zig_test
+cd zig_test
+cd ..
+rm zig_test
+mkdir zig_test
+cd zig
+zig init
+zig init-exe
+zig build
+exit
+vim .
+cd ..
+ls
+cd rust_test
+ls
+cd src
+ls
+touch test.rs
+cd ..
+cd .config/nvim
+vim .
+cd ~/Dev/zig_Test
+cd ~/Dev/zig_test
+cd ~/.config/nvim
+vim .
+zig --version
+zig version
+zig update
+sudo dnf update
+zig build run
+exit
+zig build 
+exit
+cd ../HT/top-down
+vim .
+cd ~/
+exit
+ls
+cd notes
+cd ..
+ls
+cd rust_test
+cargo add colored
+exit
+cargo run
+exit
+cargo run
+cd ~
+ls
+ls --hidden
+cd .config/alacritty
+exit
+cargo run
+vim .
+cd ~
+vim .
+cd notes
+uname -sr
+sudo dnf remove kernel-core-6.7.5*
+cd Dev/
+cd zig_test
+vim .
+cd ..
+mkdir go_test
+cd ~/.config/nvim
+vim 
+cd ~/.config/alacritty
+vim .
+go
+/home/karim/Downloads/VictorMono/LICENSE.txt<\n>/home/karim/Downloads/VictorMono/README.md<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-Bold.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-BoldItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-BoldOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-ExtraLight.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-ExtraLightItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-ExtraLightOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-Italic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-Light.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-LightItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-LightOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-Medium.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-MediumItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-MediumOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-Bold.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-BoldItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-BoldOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-ExtraLight.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-ExtraLightItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-ExtraLightOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-Italic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-Light.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-LightItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-LightOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-Medium.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-MediumItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-MediumOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-Oblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-Regular.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-SemiBold.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-SemiBoldItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-SemiBoldOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-Thin.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-ThinItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontMono-ThinOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-Oblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-Bold.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-BoldItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-BoldOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-ExtraLight.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-ExtraLightItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-ExtraLightOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-Italic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-Light.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-LightItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-LightOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-Medium.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-MediumItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-MediumOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-Oblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-Regular.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-SemiBold.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-SemiBoldItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-SemiBoldOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-Thin.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-ThinItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFontPropo-ThinOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-Regular.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-SemiBold.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-SemiBoldItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-SemiBoldOblique.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-Thin.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-ThinItalic.ttf<\n>/home/karim/Downloads/VictorMono/VictorMonoNerdFont-
+vim .
+go mod init example/hello
+ls
+rm go.mod go_test org_test
+rm go.mod go_test org_test -r
+ls
+mkdir go_test
+cd go_test
+go mod init example/hello
+go run
+ls
+go run .
+alacritty-themes
+# We use Alacritty's default Linux config directory as our storage location here.<\n>mkdir -p ~/.config/alacritty/themes<\n>git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+mkdir -p ~/.config/alacritty/themes<\n>git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+mkdir ~/.config/alacritty/themes<\n>git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+cd .config/alacritty
+ls
+cd themes
+ls
+./print_colors
+./print_colors.sh
+ls
+cd themes
+ls
+cd ..
+./print_colors.sh
+vim .
+cd ~/Dev/go_test
+mkdir greetings
+go mod init example/greetings
+cd greetings
+go mod init example/greetings
+touch greetings.gp
+touch greetings.go
+rm greetings.gp
+vim .
+cd ~/
+cd notes
+cd .config/nvim
+vim .
+tmu
+exit
+tmux
+sudo dnf remove kernel-core-6.7.4*
+cd notes
+vim .
+cd ..
+cd .config/nvim
+vim .
+cd .config/nvim
+sudo dnf install npm
+sudo dnf install pip
+sudo dnf install luarocks
+sudo dnf install composer
+sudo dnf install php
+sudo dnf install node
+sudo dnf install nodejs
+sudo dnf install java
+sudo dnf install ruby julia
+sudo dnf install rubyjem
+sudo dnf install rubygems
+ruby
+exit
+vim 
+exit
+vim .
+exit
+tmux 
+exit
+cd .config/nvim
+nvim .
+sudo dnf install javac
+sudo dnf autoremove
+flatpak update
+javac
+sudo dnf install openjdk
+sudo dnf search openjdk
+sudo dnf install java-latest-openjdk.x86_64
+sudo dnf install java-latest-openjdk-devel.x86_64
+nvim .
+javac
+nvim 
+cd .config/nvim
+cp . ~/.config/nvim_old
+cp . ~/.config/nvim_old --r
+cp . ~/.config/nvim_old --recursive
+ls
+cd ..
+ls
+cd nvim_old
+ls
+cd ..
+rm nvim --recursive
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+nvim 
+ls
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+ls
+sh 
+ls | nvim
+cd nvim
+cd Dev/HT/top-down
+vim .
+exi
+exit
+cd .config/alacritty
+cd Dev/HT/top-down
+vim .
+cd ..
+cd ~/Dev/HT/top-down
+vim .
+sudo dnf install dotnet-sdk-8.0
+dotnet
+rg player
+cargo binstall ripgrep
+rg Player
+cd ~
+cd ~/.config/nvim
+vim .
+nvim test.norg
+vim .
+cd ~/
+vim
+cd ~/.config/nvim
+vim 
+vim
+vim 
+vim
+vim .
+vim 
+vim .
+sudo dnf install kitty
+cd .config/alacritty
+vim .
+kitty +list-fonts
+vim .
+git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+cd ~/.config/kitty<\n>ln -s ./kitty-themes/themes/Dracula.conf ~/.config/kitty/theme.conf
+exit
+cd .config/nvim
+vim .
+luarocks --local install magick
+luarocks --check-lua-versions
+luarocks --local --lua-version=5.1 install magick
+lua --version
+lua =v
+lua -v
+luarocks --local --lua-version=5.4 install magick
+vim .
+luarocks install magic
+sudo luarocks install magic
+sudo luarocks-fetch-gitrec
+sudo luarocks install luarocks-fetch-gitrec
+sudo luarocks install magic
+exit
+sudo luarocks install magic
+luarocks --local --lua-version=5.4 install magick
+luarocks --local --check-lua-version install magick
+luarocks --local install magick
+luarocks --local --lua-version=5.1 install magick
+./configure --lua-version=5.1 --versioned-rocks-dir
+config --lua-version=5.1 --versioned-rocks-dir
+cd ~/.luarocks/share/lua/5.2/
+cd ~/.luarocks/share/lua/
+cd ~/.luarocks
+luarocks -v
+luarocks --v
+luarocks --vers
+luarocks --version
+cd Downloads
+br
+broot
+broot --install
+br
+exit
+cd Downloads
+br
+./configure --lua-version=5.1 --versioned-rocks-dir<\n>make build<\n>sudo make install
+./configure --lua-version=5.1 --with-lua-include=/usr/local/include
+exit
+sudo dnf search luarocks
+sudo dnf search lua
+sudo dnf remove lua
+sudo dnf remove luarocks
+sudo dnf install lua5.1
+sudo dnf search lua
+sudo dnf search lua5
+sudo dnf install lua
+sudo dnf search lua
+sudo dnf install lua
+sudo dnf install luarocks
+cd Downloads
+br
+./configure --help
+./configure --help --lua-version=5.1
+./configure --lua-version=5.1
+sudo dnf search liblua
+sudo dnf search luadev
+sudo dnf install epel-release
+sudo dnf install lua-devel.x86_64 luajit-devel.x86_64 compat-lua-devel.x86_64 lua-socket-devel.x86_64
+dnf install lua-devel.x86_64 luajit-devel.x86_64 compat-lua-devel.x86_64 lua-socket-devel.x86_64
+sudo dnf install lua-devel.x86_64 luajit-devel.x86_64 compat-lua-devel.x86_64 lua-socket-devel.x86_64
+exit
+cd Downloads
+br
+./configure --lua-version=5.1
+cd /usr/include/lua/
+cd Dev
+curl -L -R -O https://www.lua.org/ftp/lua-5.1.0.tar.gz
+ls
+tar zxf lua-5.1.0.tar.gz
+curl -L -R -O https://www.lua.org/ftp/lua-5.4.6.tar.gz
+tar zxf lua-5.4.6.tar.gz
+ls
+br
+make all test
+make linux
+sudo dnf install readline-devel
+make linux
+make install
+sudo make install
+cd ..
+cd ~/Downloads
+ls
+br
+./configure --lua-version=5.1
+./configure --lua-version=5.1 --with-lua-include=/usr/local/include
+sudo dnf remove luarocks
+./configure --lua-version=5.1 --with-lua-include=/usr/local/include
+make
+make install
+sudo make install
+luarocks --versiob
+luarocks --version
+luarocks --local --lua-version=5.1 install magick
+cd .config/nvim
+vim .
+exit
+cd .config/nvim
+vim .
+which magick
+ls
+cd lua
+ls
+cd kickstart
+ls
+cd ..
+touch magick.lua
+vim .
+rm magick.lua 
+vim .
+cd .config/nvim
+exit
+vim .
+sudo dnf remove kitty
+cd .config/nvim
+vim .
+exit
+sh
+exit
+kitty --versiob
+kitty --version
+kitty
+kitty-term
+sudo dnf instal kitty
+sudo dnf install kitty
+exit
+cd .config/nvim
+vim .
+cd Dev
+git clone https://github.com/3rd/image.nvim.git
+ls
+cd image.nvim
+nvim --clean -c ":luafile minimal-setup.lua"
+:q
+exit
+vim .
+exit
+kittu
+cd .config/nvim
+cd ..
+cd kitty
+vim .
+exit
+kitty
+cd .config/nvim
+vim .
+Lq
+exot
+exit
+sudo dnf autoremove
+neofetch
+eexit
+exit
+cd Dev/HT/top-down
+cd ~/.config/nvim
+cd ..
+cd nvim_old
+vim .
+vim .
+syncthing
+sudo dnf install kitty
+exit
+kitty
+exit
+broot --install
+br
+broot
+eixit
+exit
+cd .config/nvim
+vim .
+sudo dnf install go ruby julia luarocks pip node npm
+sudo dnf install go ruby julia luarocks pip npm
+sudo dnf search java
+sudo dnf install java-latest-openjdk-devel.x86_64 java-latest.x86_64
+sudo dnf install java-latest-openjdk-devel.x86_64 java-21-openjdk.x86_64
+sudo dnf install dotnet-sdk-8.0
+vim ,
+vim .
+sudo dnf install php
+ls
+cd ..
+cd ~
+ls
+cd Dev
+ls
+cd HT
+ls
+rm top-down -r
+git clone git@github.com:Kazan-GameDev-Team/top-down.git
+cd top-down
+vim 
+vim .
+vim 
+cd asset_manager
+cagro add bevy
+cargo add bevy
+cd ..
+cd ~/.config/nvim
+exit
+vim .
+vim .
+vim 
+vim .
+git add .
+git commit -m "Commit"
+git config --global user.email "karim.abdulkin@gmail.com"
+git config --global user.name "GrandAdmiralBee"
+git commit -m "Commit"
+git push
+exit
+sudo dnf install hyprland waybar rofi xwaylandvideobridge 
+syncthing
+sudo dnf install swww
+cargo binstall swww
+cd Dev
+git clone
+git clone https://github.com/LGFae/swww.git
+cd swww
+cargo build --release
+sudo dnf search liblz4
+sudo dnf search lz-devel
+sudo dnf install lz-devel
+sudo dnf install lz4
+cargo build --release
+sudo dnf install lz4
+sudo dnf search lz4
+rm target -r
+cargo build --release
+which lz4
+cd ..
+git clone https://github.com/lz4/lz4.git
+cd lz4
+make
+sudo dnf search lz4
+sudo dnf search lz4-devel
+sudo dnf install lz4-devel
+cd ..
+cd swww
+cd .config/hypr
+cargo build --release
+vim .
+swww init
+sudo cp target/release/swww /usr/bin/
+sudo cp target/release/swww-daemon /usr/bin/
+swww init
+swww img ~/Pictures/wallpaper1.jgp
+swww img ~/Pictures/wallpaper1.jpg
+cd .config/hypr
+vim .
+swww img ~/Pictures/wallpaper1.jpg
+cd .config/hypr
+vim .
+Hyprland
+cd .config/hypr
+vim .
+Hyprland
+bluetoothctl
+exit
+cd .config/hypr
+exit
+neofetch
+exit
+cd .config/kitty
+vim .
+vim .
+vim
+:q
+exit
+hyprctl monitors
+cd .config/hypr
+hyprctl monitors
+vim .
+swww init
+swww img ~/Pictures/wallpaper1.jpg
+exit
+ps | rg telegram
+cd /var/
+ls
+cd lib
+ls
+cd flatpak
+ls
+cd app
+ls
+flatpak run org.telegram.desktop
+cd ~/.config/hypt
+cd ~/.config/hypr
+vim .
+sudo dnf install libreoffice
+exit
+cd ~/.config/hypr
+vim .
+cd ~/.config/nvim
+vim .
+cd ..
+cd kitty
+vim .
+vim
+cd notes
+ls
+cd university
+xwaylandvideobridge
+vim .
+cd .config/hypr
+vim .
+cd .config/hypr
+vim .
+xwaylandvideobridge
+sh
+find ~$USER/ -name "*session*"
+xwaylandvideobridge
+aplay
+aplay -1l
+aplay -lL
+pipewire
+pipewire-pulse
+sudo lspci
+alsamixer
+lsof /dev/snd/*
+alsamixer
+systemctl restart --user pipewire.service<\n>systemctl restart --user wireplumber.service<\n>systemctl status --user pipewire.service<\n>systemctl status --user wireplumber.service<\n>sudo alsa force-reload
+sudo dnf update
+systemctl restart --user pipewire.service<\n>systemctl restart --user wireplumber.service<\n>systemctl status --user pipewire.service<\n>systemctl status --user wireplumber.service<\n>sudo alsa force-reload
+sudo dnf install kmix plasma-pa
+systemctl restart --user pipewire.service<\n>systemctl restart --user wireplumber.service<\n>systemctl status --user pipewire.service<\n>systemctl status --user wireplumber.service<\n>sudo alsa force-reload
+pipewire -h
+sudo dnf remove &kde-desktop
+sudo dnf install &kde-desktop
+sudo dnf install @kde-desktop
+sudo dnf remove @kde-desktop
+systemctl --user restart pipewire.socket pipewire-pulse.socket
+ps aux | grep pipewire
+ps | grep pipewire
+systemctl restart --user pipewire.service<\n>systemctl restart --user wireplumber.service<\n>systemctl status --user pipewire.service<\n>systemctl status --user wireplumber.service<\n>sudo alsa force-reload
+sudo dnf install noise-suppression-for-voice
+flatpak update
+sudo dnf search noise-suppression-for-voice
+sudo dnf install ladspa-realtime-noise-suppression-plugin 
+sudo dnf copr enable -y lkiesow/noise-suppression-for-voice<\n>sudo dnf install -y ladspa-realtime-noise-suppression-plugin
+systemctl restart --user pipewire.service<\n>systemctl restart --user wireplumber.service<\n>systemctl status --user pipewire.service<\n>systemctl status --user wireplumber.service<\n>sudo alsa force-reload
+sudo dnf install libpipewire-module-filter-chain
+sudo dnf search libpipewire-module-filter-chain
+pipewire
+cd /etc/pipewire
+cd /etc/
+ls
+cd /usr/share/pipewire
+sudo nvim .
+flatpak remove discrod
+flatpak remove discord
+pipewire
+cd /lib/ladspa
+sudo dnf install ladspa-caps-plugins
+pipewire
+sudo dnf copr enable -y lkiesow/noise-suppression-for-voice<\n>sudo dnf install -y ladspa-realtime-noise-suppression-plugin
+pulseaudio
+pipewire -v
+pipewire -h
+pipewire --version
+cd /lib/
+ls
+sudo pipewire
+sudo dnf install libpipewire-module-filter-chain
+sudo dnf install pipewire-pulseaudio
+sudo dnf remove pipewire-pulseaudio
+sudo dnf install pipewire-pulseaudio
+reboot
+pipewire
+systemctl restart --user pipewire.service<\n>systemctl restart --user wireplumber.service<\n>systemctl status --user pipewire.service<\n>systemctl status --user wireplumber.service<\n>sudo alsa force-reload
+sudo dnf install alsa
+cd .config/
+ls
+cd pipewire
+ls
+vim .
+cd ..
+rm pipewire -r
+sudo dnf remove pipewire-pulseaudio
+sudo dnf install pipewire-pulseaudio
+reboot
+flatpak install discord
+xwaylandvideobridge
+locate libcolorreload-gtk-module.so
+sudo cp /usr/lib64/gtk-3.0/modules/libcolorreload-gtk-module.so /usr/lib/gtk-3.0/modules/
+sudo dnf remove xwaylandvideobridge
+sudo dnf install xwaylandvideobridge
+xwaylandvideobridge
+locate libcolorreload-gtk-module.so
+sudo vim /usr/lib64/gtk-3.0/modules/libcolorreload-gtk-module.so
+sudo nvim /usr/lib64/gtk-3.0/modules/libcolorreload-gtk-module.so
+cd .config/gtk-3.0
+ls
+vim .
+xwaylandvideobridge
+ls
+vim .
+sudo dnf install xdg-desktop-portal
+xwaylandvideobridge
+sudo flatpak install xwaylandvideobridge
+flatpak install xwaylandvideobridge
+cd Dev
+sudo dnf remove xwaylandvideobridge
+git clone https://github.com/JerrySM64/Xwayland-Video-Bridge-Quick-Setup.git
+br
+ls
+./XWayland-Video-Bridge-Setup.sh
+chmod +x XWayland-Video-Bridge-Setup.sh
+./XWayland-Video-Bridge-Setup.sh
+flatpak run org.kde.xwaylandvideobridge
+sudo dnf install xwayland
+flatpak install xwayland
+sudo dnf install wireplumber
+sudo dnf install wl-screenreec
+sudo dnf install wl-screenrec
+sudo dnf install wf-recorder
+wf-recorder -h
+neofetch
+wf-recorder
+cd Pictures
+neofetch
+wf-recorder
+ls
+ffmpeg recording.mkv -o recording.mp4
+ffmpeg recording.mkv -i recording.mp4
+ffmpeg -i recording.mkv hyprland.mp4
+cd ~/.config/hypr
+cd ~/.config/kitty
+vim .
+cd ~/.config/kitty
+vim .
+cd notes/unive
+vim .
+neofetch
+wf-recorder
+ls
+ffmpeg -i recording.mkv hyprland.mp4
+sudo dnf install blueman-manager
+sudo dnf install blueman
+sudo dnf install pavucontrols
+sudo dnf install pavucontrol
+cd .config/waybar
+pavucontrols
+pavucontrol
+blueman
+blueman-manager
+cd .config/hypr
+pavucontrol
+sudo dnf install pamixer
+pamixer -t
+pamixer
+pamixer -t
+sudo dnf install KNetworkManager 
+sudo dnf install knetworkmanager 
+sudo dnf install networkmanager 
+sudo dnf install NetworkManager 
+NetworkManager
+sudo dnf install @kde-desktop
+sudo dnf install kf5-networkmanager-qt 
+kf5-networkmanager-qt 
+knetworkmanager
+sudo dnf install plasma5-nm
+sudo dnf install plasma-nm
+plasma_nm
+networkmanager-applet-gtk
+ping google.com
+cd DEv
+git clone https://github.com/Faggio-Java/Ash.git
+cd ash
+cd Ash
+cargo build --release
+ls target
+ls target/release
+sudo cp /target/release/ash /usr/bin/
+sudo cp ~/Dev/Ash/target/release/ash /usr/bin/
+ash
+target/release/ash
+sudo dnf install pfetch
+sudo dnf install ufetch
+cd ..
+git clone https://github.com/dylanaraps/pfetch.git
+cd pfetch
+uname -r
+make
+sudo make install
+ls
+cd pfetch
+ls
+sh
+cd ~/.config/waybar
+waybar
+cd ~/.config/waybar
+sudo vim .
+waybar
+cd ~/.config/waybar
+sudo vim .
+sudo nvim .
+cd ~/.config/waybar
+sudo nvim .
+sudo dnf install i3
+sudo dnf install i3status dmenu i3lock xbacklight feh conky
+i3
+sudo dnf remove i3
+sudo dnf autoremove
+cd ~/.config/waybar
+sudo nvim .
+waybar
+sudo nvim .
+ytop
+cd ~/.config/hyprland
+cd ~/.config/hypr
+pfetch
+exit
+cd ~/.config/nvim
+kitty
+vim .
+kitty -h
+ls
+cd ..
+kitty --directory=[~/.config/]
+kitty --directory=[/home/karim/.config/]
+kitty --directory=[/home/karim/.config]
+kitty --directory=[~]
+man kitty
+kitty --directory=~
+kitty --directory=~/.config
+cd .config/hypr
+vim .
+cd nvim 
+vim .
+cd hypr
+vim .
+vim hypr
+sudo dnf install gamescope
+gamescope -e -- steam -tenfoot -steamos
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors <\n>performance powersave<\n>
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors performance powersave<\n>
+powerproficesctl -h
+sudo dnf install powerproficesctl
+sudo dnf install cpumode
+sudo dnf install power-profiles-daemon
+power-profiles-daemon
+sudo dnf install cpupower_gui
+sudo dnf install cpupower-gui
+dnf config-manager --add-repo https://download.opensuse.org/repositories/multimedia:proaudio/Fedora_38/multimedia:proaudio.repo<\n>dnf install cpupower-gui
+sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/multimedia:proaudio/Fedora_38/multimedia:proaudio.repo<\n>sudo dnf install cpupower-gui
+cpupower-gui
+cd waybar
+sudo nvim .
+sudo dnf install awesome
+exit
+exit
+sudo dnf remove awesome
+cd waybar
+wayber
+sudo nvim .
+swww kill
+swww -h
+swww ~/Pictures/Wallpapers/1.jpg
+swww img ~/Pictures/Wallpapers/1.jpg
+swww init
+swww img ~/Pictures/Wallpapers/1.png
+swww img ~/Pictures/Wallpapers/1.jpg
+swww img ~/Pictures/Wallpapers/2.jpg
+swww img -h
+swww -h
+swww restore
+swww img ~/Pictures/Wallpapers/3.jpg
+cd hypr
+swww img ~/Pictures/Wallpapers/4.jpg
+sudo dnf install i3 awesome
+sudo dnf install awesome-fetch
+sudo dnf install procfetch
+$ git clone https://github.com/TanmayPatil105/procfetch.git cd procfetch
+git clone https://github.com/TanmayPatil105/procfetch.git
+cd procfetch
+./configure
+$ sudo make install
+sudo make install
+procfetch
+procfetch -d Arch
+procfetch -d Archlinux
+procfetch -d Majaro
+procfetch -d Kali
+procfetch -d Ubuntu
+procfetch -d Debian
+procfetch -d RedHat
+procfetch -d Centos
+procfetch -d centos
+procfetch -d Deepin
+procfetch -d Endeavouros
+procfetch -d Gentoo
+cd Dev
+ls
+cargo new swwws
+cd swwws
+cargo run
+cargo add serde serde-json
+cargo remove serde_jsom
+cargo remove serde_json
+cargo add toml
+cargo add serde --features derive
+cargo run
+touch wallpapers.toml
+exit
+cargo run
+cargo check
+cargo run
+bat ~/.config/swwws/wallpapers.toml
+cargo run
+bat ~/.config/swwws/wallpapers.toml
+cargo run
+bat ~/.config/swwws/wallpapers.toml
+cargo run
+cd ~/.config/swwws
+cargo run
+cargo build --release
+sudo cp target/swwws /usr/bin
+ls
+sudo cp target/release/swwws /usr/bin
+swwws
+exit
+vim .
+exit
+vim .
+:q
+exit
+tmux
+cd hypr
+vim .
+grimblast -h
+wf-recorder -h
+wf-recorder
+ls
+ffmpeg -i recording.mkv hyprland.mp4
+cd hypr
+vim .
+swwwx
+swwws
+cd swwws
+vim .
+cd swwws
+vim .
+cargo build
+/target/debug/swwws --arg1
+target/debug/swwws --arg1
+cargo build
+target/debug/swwws --arg1
+target/debug/swwws --update
+cargo build
+swww kill
+target/debug/swwws --init
+swww -h
+cargo build
+target/debug/swwws --init
+target/debug/swwws
+swww kill
+target/debug/swwws --init
+cargo build --release
+which swwws
+sudo rm /usr/bin/swwws
+sudo cp target/release/swwws /usr/bin
+exit
+tmux
+cd hypr
+vim .
+cd Videos
+ls
+cd waybar
+sudo nvim .
+sudo dnf install hardcore-tray
+ls /usr/share/icons/
+ffmpeg -i 20240311_154225.mp4 11_03_2024.mp4
+cd hypr
+vim .
+whoami
+cd hypr
+cd notes/unive
+power-profiles-daemon
+cpupower-gui
+vim .
+exit
+cd waybar
+cpupower-gui
+sudo nvim .
+cd waybar
+sudo nvim .
+cd ..
+cd hypr
+nvim .
+cd ..
+cd waybar
+cd hypr
+ps 
+/usr/bin/nm-connection-editor
+vim .
+nm-applet
+ps
+kitty -h
+kitty ps
+exit
+nmtui
+gnome-control-center wifi
+exit
+exit
+cd waybar
+nm-connection-editor
+sudo nvim .
+cd ..
+sudo chown karim: waybar
+cd waybar
+waybar
+vim .
+wdawd
+wada
+ls
+nuhup ffmpeg -i recording.mkv recording.mp4
+nuhup ffmpeg -i recording.mkv recording.mp4 &
+nohup ffmpeg -i recording.mkv recording.mp4 &
+ps
+ps | rg ffmpeg
+ls
+bat nohup.out
+nohup ffmpeg -i recording.mkv recording.mp4
+ls
+bat nohup.out
+rm recording.mp4
+nohup ffmpeg -i recording.mkv recording.mp4
+ls
+rm recording.mp4 recording.mkv hyprland.mp4 amf_reader go init.lua
+rm recording.mp4 recording.mkv hyprland.mp4 amf_reader go init.lua -r
+rm recording.mp4 recording.mkv hyprland.mp4 amf_reader init.lua -r
+rm recording.mp4 recording.mkv hyprland.mp4 init.lua -r
+rm recording.mp4
+cd De
+cd swwws
+cargo build --release
+cd ..
+rm ./target -r
+rm */target -r
+cd swwws
+ls
+cargo build --release
+cd ~
+rm Dev/*/target -r
+rm -rf ~/.local/share/Trash/*
+sudo dnf install nm-tui
+sudo dnf install nmtui
+sudo dnf install NetworkManager-tui
+nm-tui
+nmtui
+ls
+ls | grep tui
+cd waybar
+cd wayber
+vim wayber
+nmtui
+cd hypr
+alacritty nmtui
+alacritty --help
+alacritty -e nmtui
+vim wayber
+cd alacritty
+vim .
+man alacritty
+vim .
+vim
+nmtui
+alacritty
+vim alacritty
+alacritty -h
+vim waybar
+cd swwws
+git add .
+git commit -m "Commit"
+git branch -M main
+git remote add origin git@github.com:GrandAdmiralBee/swww-switcher.git<\n>git push -u origin main
+syncthing
+cd .config/hypr
+vim .
+sudo dnf install thunar
+cd ~/.config/rofi
+ls
+rm . -r
+rm * -r
+exit
+cd ~/.config/hypr
+sudo dnf install yad
+vim .
+cd ~/.config/hypr
+pavucontrol
+cd ~/.config/waybar
+vim .
+cd rofi
+cd ~
+git clone https://gitlab.com/stephan-raabe/dotfiles.git
+cd dotfiles
+ls
+cp rofi/. ~/.config/rofi -r
+cd ~/.config/rofi
+ls
+vim .
+cd ~
+git clone
+git clone https://github.com/ChrisTitusTech/hyprland-titus.git
+rm ~/.config/rofi -r
+cd hyprland-titys
+cd hyprland-titus
+ls
+cd dotconfig
+ls
+cp rofi ~/.config/ -r
+vim .
+ps | grep telegram
+ps | grep rofi
+kill rofi
+killall rofi
+rofi
+rofi -show
+cd .config/rofi
+ls
+killall rofi || rofi -show emoji -emoji-format "{emoji}" -modi emoji -theme ~/.config/rofi/global/emoji<\n>
+rofi -show emoji -emoji-format "{emoji}" -modi emoji -theme ~/.config/rofi/global/emoji<\n>
+swww init
+cd .config/hypr
+ps | grep telegram
+ps
+vim .
+telegram-desktop
+flatpak remove telegram
+flatpak run app.org.telegram-desktop
+flatpak run org.telegram.desktop
+cd .config/hypr
+vim .
+vim .
+cd .config/
+ls
+cd dunst
+vim .
+cd ..
+cd .config/kityy
+cd .config/kitty
+vim .
+cd .config/hypr
+vim .
+cd .config/hypr
+	<\n>nativefier -p linux -a x64 -n Duolingo https://www.duolingo.com/learn
+cd *-linux-64
+ls
+ls -h
+ls -a
+cd Duolingo-linux-x64/
+ls
+chmod +x Duolingo
+./Duolingo
+poweroff
+nmtui
+sudo dnf install virtualbox
+cd Downloads
+ls
+sudo dnf install VirtualBox-7.0-7.0.14_161095_fedora36-1.x86_64.rpm 
+ls /sbin/ | grep config
+sudo /sbin/vboxconfig
+sudo dnf update<\n>sudo dnf install mokutil<\n>
+reboo
+cd Dev
+cd HT/top-down/
+vim .
+cd hypr
+swaylock
+exit
+sudo pacman -Sy firefox
+firefox
+sh
+cargo install cargo-binstall
+cargo binstall swww starship broot gitui bat du-dust zoxide 
+sudo pacman -Sy hyprland waybar wlogout 
+sudo pacman -Sy hyprland waybar
+exit
+sudo pacman -Sy rofi
+exit
+cd hypr
+sudo pacman -Su wlogout
+sudo pacman -Sy wlogout
+sudo pacman -Sy php go 
+flatpak
+flatpak install telegram discord
+sudo pacman -Sy blueman-manager
+sudo pacman -Sy blueman
+blueman-manager
+sudo pacman -Sy bluez
+sudo pacman -Sy bluez-utils
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
+blueman-manager
+cd hypr
+cd swwws
+cargo build --release
+sudo cp target/release/swwws /usr/bin
+swww init
+ls
+git clone https://github.com/LGFae/swww.git
+sudo cp target/release/swww /usr/bin
+cd swww
+cargo build --release
+cd ssdm
+ls
+sudo cp target/release/swww /usr/bin
+vim hypr
+swww init
+sudo pacman -Sy lz4-libs
+sudo pacman -Sy lz4
+swww init
+cd swww
+sudo cp target/release/swww-daemon /usr/bin
+sudo pacman -Sy pulseaudio
+sudo pacman -Sy pulseaudio-alsa
+sudo pacman -Sy pulseaudio-bluetooth
+sudo pacman -Sy pulseaudio-equalizer
+sudo pacman -Sy pamixer
+cd waybar
+vim .
+cd ..
+ls
+sudo pacman -Sy swaylock
+sudo pacman -Sy qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtquickcontrols2
+sudo pacman -Sy steam
+cd waybar
+vim .
+sudo pacman -Sy yay
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+pacman -S --needed git base-devel<\n>git clone https://aur.archlinux.org/yay.git<\n>cd yay<\n>makepkg -si
+sudo pacman -S --needed git base-devel<\n>git clone https://aur.archlinux.org/yay.git<\n>cd yay<\n>makepkg -si
+wlogout
+yay -S wlogout
+git clone https://github.com/JaKooLit/Hyprland-Dots.git
+rm Hyprland-Dots -r
+git clone https://github.com/JaKooLit/Hyprland-Dots.git
+cd Hyprland-Dots/
+ls
+cd config
+ls
+cp wlogout ~/.config/
+cp wlogout ~/.config/ -r
+cp swaylock ~/.config/ -r
+cp qt5ct ~/.config/ -r
+cp qt6ct ~/.config/ -r
+cp swaync ~/.config/ -r
+wlogout
+cd ..
+cd .. 
+git clone https://github.com/JaKooLit/simple-sddm.git ~/simple-sddm
+sudo mv ~/simple-sddm /usr/share/sddm/themes/
+cd /etc/
+ls
+sudo mkdir sddm.conf.d
+cd sddm.conf.d/
+sudo nvim 10-theme.conf
+wlogout
+cd ~/.config/wlgout
+cd ~/.config/wlogout
+vim .
+firefox
+sh
+sudo pacman -Sy pipewire
+git clone https://github.com/JaKooLit/Hyprland-v2
+sudo nvim /etc/pacman.conf
+cd Hyprland-v2
+ls
+chmod +x install-hyprland
+ls
+./install-hyprland
+exit
+sudo pacman -Sy steam discord
+git clone https://github.com/sagars007/starry-fox.git
+cd swwws
+cargo build --release
+sudo cp target/release/swwws /usr/bin
+sudo pacman -Sy php go luarocks npm nodejs
+cd hypr
+flatpak install telegram discord
+swww init
+vim hypr
+killall swww
+swww init
+swwws --init
+cd pacman -Sy grub-customizer
+cd pacman -Su grub-customizer
+cd pacman -S grub-customizer
+sudo pacman -Sy grub-customizer
+grub-customizer
+os-prober
+sudo pacman -Sy os-prober
+os-prober
+sudo os-prober
+cd DEv
+cd Dev
+git clone https://github.com/shvchk/fallout-grub-theme.git
+cd fallout-grub-theme
+ls
+./install.sh
+grub-customizer
+sudo os-prober
+sudo update-grub
+sudo pacman -Sy update-grub
+grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub2-mkconfig -o /boot/grub/grub.cfg
+cd /etc/default/grub
+vim /etc/default/grub
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+grub-customizer
+mkdir -p esp/
+mkdir -h
+mkdir esp/
+sudo pacman -S grub efibootmgr
+mkdir esp/EFI/arch
+mount --bind esp/EFI/arch /boot
+sudp mount --bind esp/EFI/arch /boot
+sudo mount --bind esp/EFI/arch /boot
+ls esp/EFI
+ls esp/EFI/arch
+grub-install --target=x86_64-efi --efi-directory=/boot/efi
+grub-install --target=x86_64-efi --efi-directory=/boot/EFI
+grub-install --target=x86_64-efi
+grub-install --target=x86_64-efi --efi-directory=/boot/EFI
+grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi 
+sudo pacman -S edk2-shell
+sudo cp /usr/share/edk2-shell/x64/Shell.efi ESP/shellx64.efi
+sudo cp /usr/share/edk2-shell/x64/Shell.efi /efi/shellx64.efi
+sudo cp /usr/share/edk2-shell/x64/Shell.efi /boot/EFI/shellx64.efi
+sudo blkid | grep vfat
+cd /boot/loader
+sudo nvim .
+git clone https://github.com/JaKooLit/Hyprland-v2
+cd Hyprland-v2
+ls
+chmod +x install-hyprland
+./install-hyprland
+exit
+cd swwws
+cargo
+cargo build --release
+sudo cp /target/release/swwws /usr/bin/
+ls
+cd target
+ls
+cd release
+ls
+sudo cp swwws /usr/bin/
+cd ..
+swwws --init
+swwws --update
+cd hypr
+vim .
+sudo pacman -S steam discord
+sudo pacman -S steam
+sudo pacman -Sy steam
+flatpak install steam
+sudo pacman -Sl multilib
+nvim /etc/pacman.conf
+sudo nvim /etc/pacman.conf
+sudo pacman -Sl multilib
+sudo pacman -Sy multilib
+sudo pacman -Sy
+flatpak remove steam
+sudo pacman -Sy steam
+sudo pacman -Sy xdg-desktop-portal-hyprland
+sudo pacman -Sy chntpw
+sudo mkdir /mnt/c
+sudo mount --read-only /dev/nvme0n1p3 /mnt/c
+sudo modprobe ntfs
+sudo mount --read-only -t ntfs3 /dev/nvme0n1p3 /mnt/c
+cd /dev/nvme0n1p3/Windows/System32/config
+cd /mnt/c/nvme0n1p3/Windows/System32/config
+cd /mnt/c/Windows/System32/config
+chntpw -e SYSTEM
+sudo su
+chntpw -e SYSTEM
+flatpak install telegram discord
+flatpak install telegram
+flatpak install discord
+sudo pacman -Sy xwaylandvideobridge
+xwaylandvideobridge
+sudo pacman -Sy parabolic
+sudo pacman -Sy gnome
+sudo nvim /etc/sddm.conf
+cd /etc/ssdm.conf.d
+ls /etc/ | grep sddm
+sudo cd /etc/sddm.conf.d  
+cd /etc/sddm.conf.d  
+sudo nvim .
+cd sddm
+ls | grep sddm
+ls
+sudo pacman -Sy utorrentweb
+sudo pacman -Sy webtorrent-desktop
+ccd Dev
+git clone https://aur.archlinux.org/webtorrent-desktop.git
+cd webtorrent-deskto
+cd webtorrent-desktop/
+ls
+./webtorrent-desktop
+sudo pacman -Sy electron
+./webtorrent-desktop
+yay -S webtorrent-desktop
+sudo pacman -Sy qbittorrent
+vim hypr
+swwws --init
+cd hypr
+cd waybar
+vim .
+cd ..
+swwws --init
+sudo pacman -Sy nifetch
+yay -S nifetch
+nifetch
+pfetch
+sudo pacman -Sy neofetch
+neofetch
+sh
+nitch
+cd DEv
+cd Dev
+git clone https://github.com/teleshoes/tpacpi-bat.git
+cd tpacpi-bat/
+l
+ls
+./install.pl
+amixer scontrols
+pamixer -h
+cpupower-gui
+sudo pacman -Sy cpupower-gui
+cd Dev
+git clone amixer scontrols
+git clone https://aur.archlinux.org/cpupower-gui.git
+cd cpupower-gui
+ls
+yay -S cpupower-gui
+cpupower-gui
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+cd hypr
+vim .
+sudo pacman -S libx11 pkgconf alsa-lib
+sudo pacman -S gparted
+exit
+neofetch
+exit
+cd HT/top-down/
+sudo pacman -S easyeffects
+cd DEv
+cd Dev
+git clone https://aur.archlinux.org/webcord.git
+cd webcord
+yay -S webcord
+sudo pacman -S wireplumber
+vim hhypr
+pamixer --get-mute
+pamixer -m
+pamixer -u
+vim hypr
+tmux
+pamixer --default-source --get-mute
+ps | rg pipewire
+pamixer --default-source -m
+pamixer --default-source -u
+pamixer --default-source -m
+ls -lsh /sys/class/leds
+ls /sys/class/leds
+sudo vim /sys/class/leds
+xset
+xset -led named 'mic' led off
+xset -led 1 led off
+xset -led 1 led on
+xset -led 2 led on
+xset -led 3 led on
+vim hypr
+ls /sys/class/leds
+xset -led named 'micmute' led off
+man xset
+sysfs /sys/class/led
+sysfs
+xset -led named 'platform::micmute' led off
+sudo vim /sys/class/leds
+flatpak remove discord
+vim hypr
+sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf
+sudo nvim /etc/sddm.conf.d
+$env.SHELL
+vim /usr/share/sddm/scripts
+sh
+ls
+cd .profile
+ls -a
+vim kitty
+ps | rg sddm
+sudo systemctl enable gdm
+sudo systemctl disable sddm
+sudo systemctl enable gdm
+sudo systemctl starto gdm
+sudo systemctl start gdm
+cd .config
+ls -a
+sudo pacman -S alacritty
+exit
+yay -Y --gendb
+yay -G https://aur.archlinux.org/gdm-settings.git
+cd Dev
+git clone https://aur.archlinux.org/gdm-settings.git
+cd gdm-settings
+yay -S gdm-settings
+yay -Syu --devel
+sudo pacman -S kvantum
+kvantum
+cd /sys/
+ls
+cd /firmware
+cd /firmware/
+cd firmware/
+ls
+cd ..
+cd devices
+ls
+cd power
+ls
+cd ..
+ls
+cd class
+cd led
+ls
+cd leds
+cd /sys/class/leds
+sudo pacman -S pulseaudio-equalizer
+sudo pacman -S pulseaudio
+pulseaudio-equalizer
+pacman -S gstreamer gst-plugins-good
+sudo pacman -S gstreamer gst-plugins-good
+sudo pactl load-module module-equalizer-sink
+qpuaq
+pactl load-module module-equalizer-sink
+qpaeq
+pactl load-module module-dbus-protocol
+sudo pacman -S lsp-plugins
+easyeffects
+easyeffects-daemon
+vim hypr
+sudo pacman -S virtualbox
+cd 
+cd /sys/class/leds
+sudo nvim .
+cd ~
+sudo pacman -S pipewire pulseaudio
+sudo pacman -h
+sudo pacman -R pipewire pulseaudio
+cd /sys/class/leds
+echo 'audio-micmute' > /sys/class/leds/platform::micmute/trigger
+sh
+cd /sys/class/leds
+sudo nvim .
+echo audio-micmute > /sys/class/leds/platform::micmute/trigger
+sudo nvim .
+sh echo audio-micmute > /sys/class/leds/platform::micmute/trigger
+sh
+exit
+ls
+cd swaylock
+vim .
+cd ..
+ls
+cd wlogout
+ls
+vim .
+cd hypr
+vim .
+sudo su
+cd /sys/devices/virtual/sound/ctl-led/
+ls
+cd mic
+ls
+cd card0
+ls
+bat list
+cd ~
+cat /sys/devices/virtual/sound/ctl-led/mic/card1/list
+cat /sys/devices/virtual/sound/ctl-led/mic/card0/list
+cat /sys/devices/virtual/sound/ctl-led/mic/card1/list
+cat /sys/devices/virtual/sound/ctl-led/mic/card2/list
+amixer -c1 controls
+pamixer -c1 controls
+sudo pacman -S amixer
+amixer
+alsamixer
+sudo pacman -S alsa-utils
+amixer
+amixer -c1 controls
+watch -n1 -d 'amixer -c1 cget numid=18; amixer -c1 cget numid=7'
+journalctl /usr/sbin/alsactl
+aplay -l
+amixer -c 1 controls
+alsamixer -h
+alsamixer --card=1 -h
+alsamixer
+alsa restore
+alsa
+pacman -S alsa
+sudo pacman -S alsa
+alsa-restore
+systemctl status alsa-restore
+alsactl restore
+sudo alsactl restore
+alsamixer
+vim hypr
+ps | rg proton
+dust
+cd Dev
+touch reader.cpp
+timedatectl set-local-rtc 1 --adjust-system-clock
+alsamixer
+vim hypr
+cd swwws
+ls
+bat wallpapers.toml
+vim hypr
+amixoer -h
+amixer -h
+cd swwws
+swwws 
+cargo build --release
+sudo cp target/release/swwws /usr/bin
+swwws
+swwws --update
+exit
+vim .
+tmux
+sudo pacman -S tmux
+cargo run
+cargo build --release
+target/debug/swwws --update
+cargo build --release
+target/debug/swwws --update
+target/release/swwws --update
+cargo build --release
+target/release/swwws --update
+sudo cp target/release/swwws /usr/bin
+cd ~/.config/swwws
+bat wallpapers.toml
+target/release/swwws 
+cargo build --release
+target/release/swwws 
+target/release/swwws --update
+target/release/swwws 
+cargo build --release
+target/release/swwws --update
+target/release/swwws
+sudo cp target/release/swwws /usr/bin
+grep -e vmx -e svm /proc/cpuinfo
+sudo pacman -S qemu
+alsamixer
+sudo pacman -S lib32-libpulse lib32-libpipewire
+sudo pacman -S pipewire-alsa
+sudo pacman -S guitarix
+sudo pacman -S gnome-tweaks
+exit
+neofetch
+sudo pacman -S qemu
+pavucontrol
+alsamixer
+exit
+pavucontrol
+ps | rg pavucontrol
+killall pavucontrol
+pavucontrol
+cpupower-gui
+alsamixer
+sudo pacman -S libreoffice
+cd Dec
+cd Dev
+git clone https://aur.archlinux.org/ttf-ms-win10-auto.git
+cd ttf-ms-win10-auto/
+ls
+yay -S ttf-ms-win10-auto
+exit
+yay -S auto-cpufreq
+auto-cpufreq -h
+auto-cpufreq --help
+auto-cpufreq --live
+sudo auto-cpufreq --live
+sudo auto-cpufreq --hep
+sudo auto-cpufreq --hel
+sudo auto-cpufreq --help
+sudo auto-cpufreq --install
+sudo auto-cpufreq -stats
+sudo auto-cpufreq --stats
+sudo pacman -S tlp
+tlp --help
+tlp start
+sudo tlp start
+sudo systemctl start tlp
+sudo systemctl enable tlp
+cd hypr
+rg RainbowBorders.sh
+vim .
+cpupower-gui
+sudo pacman -S qemu
+cd Dev
+wget https://download.qemu.org/qemu-9.0.0-rc0.tar.xz
+tar xvJf qemu-9.0.0-rc0.tar.xz
+cd qemu-9.0.0-rc0
+./configure
+sudo pacman -S librewolf
+yay -S librewolf
+sudo make
+йуьг
+qemu
+sudo pacman -S uml-utilities virt-manager
+sudo pacman -S virt-manager
+yay -S uml_utilities
+sudo pacman -S libguestfs
+sudo pacman -S guestfs-tools
+cd ..
+git clone --depth 1 --recursive https://github.com/kholia/OSX-KVM.git
+cd OSX-KVM/
+sudo modprobe kvm; echo 1 | sudo tee /sys/module/kvm/parameters/ignore_msrs<\n>
+sudo cp kvm_amd.conf /etc/modprobe.d/kvm.conf 
+sudo usermod -aG kvm $(whoami)<\n>sudo usermod -aG libvirt $(whoami)<\n>sudo usermod -aG input $(whoami)
+sh
+./fetch-macOS-v2.py
+qemu-img create -f qcow2 mac_hdd_ng.img 256G
+cd qemu-9.0.0-rc0
+cd ..
+cd qemu-9.0.0-rc0
+ls
+cd build
+ls
+qemu-img create -f qcow2 mac_hdd_ng.img 256G
+cd ..
+sudo make install
+qemu-img create -f qcow2 mac_hdd_ng.img 256G
+cd ..
+cd OSX-KVM/
+./OpenCore-Boot.sh
+qemu-img create -f qcow2 mac_hdd_ng.img 256G
+dmg2img -i BaseSystem.dmg BaseSystem.img
+ls
+dmg2img -i BaseSystem.dmg BaseSystem.img
+sudo pacman -S dmg2img
+nwtuo
+nwtui
+nmtui
+sudo pacman -S dmg2img
+nmtui
+sudo pacman -S dmg2img
+cd ..
+git clone https://github.com/Lekensteyn/dmg2img
+cd dmg1img
+ls
+cd dmg2img/
+ls
+sudo make install
+cd ..
+ls
+cd OS
+cd OSX-KVM/
+dmg2img -i BaseSystem.dmg BaseSystem.img
+./OpenCore-Boot.sh
+ls
+vim .
+./OpenCore-Boot.sh
+sudo usermod -aG kvm $(whoami)<\n>sudo usermod -aG libvirt $(whoami)<\n>sudo usermod -aG input $(whoami)<\n>
+sudo usermod -aG kvm karim<\n>sudo usermod -aG libvirt karim<\n>sudo usermod -aG input karim<\n>
+./fetch-macOS-v2.py
+dmg2img -i BaseSystem.dmg BaseSystem.img
+ls
+cd ~
+mkdir Macos
+qemu-img create -f qcow2 mac_hdd_ng.img 256G
+qemu-img create -f qcow2 mac_hdd_ng.img 64G
+ls
+rm mac_hdd_ng.img -r
+cd Macos
+qemu-img create -f qcow2 mac_hdd_ng.img 64G
+ls
+cd Dev
+ls
+cd OSX-KVM/
+vim.
+vim .
+./OpenCore-Boot.sh
+cd /home/karim/Macos
+ls
+vim .
+./OpenCore-Boot.sh
+sudo pacman -S libslirp
+./OpenCore-Boot.sh
+sudo pacman -S libslirp-dev
+sudo pacman -S libslirp-devel
+./OpenCore-Boot.sh
+cd ..
+cd qemu-9.0.0-rc0
+cd bin
+mkdir bin/debug/native
+../../.././configure --enable-slirp --enable-debug
+cd bin/debug/native/
+../../.././configure --enable-slirp --enable-debug
+ls
+sg
+sh
+make install
+sudo make install
+cd ../../..
+sudo make install
+./OpenCore-Boot.sh
+cd ..
+cd OSX-KVM/
+./OpenCore-Boot.sh
+sudo pacman -S libvirt
+cd ..
+exit
+vim .
+exit
+tmux
+cd ..
+rm OSX-KVM/
+rm OSX-KVM/ -r
+cd ..
+rm Macos -r
+yay -Sy quickemu
+yay -Sy quickgui
+guickemu
+yay -Sy quickemu
+quickget macos monterey
+quickemu --vm macos-monterey.conf
+ls
+ls macos-monterey/
+rm macos-monterey/ -r
+rm macos-monterey.conf
+cd ..
+quickget macos monterey
+quickemu --vm macos-monterey.conf
+quickget arcolinux
+quickemu --ignore-msrs-always
+quickemu --vm macos-monterey.conf
+sh
+quickget arcolinux v22.01.10
+quickemu --vm arcolinux-v22.01.10-large.conf
+ls
+rm arcolinux-v22.01.10-large/ -r
+rm arcolinux-v22.01.10-large.conf
+rm macos-monterey.conf
+rm macos-monterey/ -r
+mkdir VM
+cd VM
+quickget nixos
+quickget macos
+quickget macos big-sur
+vim .
+cd VM
+vim .
+quickemu --vm macos-big-sur.conf
+sudo echo 1 | sudo tee /sys/module/kvm/parameters/ignore_msrs
+sh
+quickemu --vm macos-big-sur.conf
+cd VM
+quickemu --vm macos-big-sur.conf
+sudo pacman -Syuu
+quickemu --vm macos-big-sur.conf
+reboot
+systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+vim hypr
+swwws --init
+dust
+cd Dev
+rm qemu-9.0.0-rc0/ -r
+sudo rm qemu-9.0.0-rc0/ -r
+dust
+sudo pacman -S kde-connect
+sudo pacman -S kdeconnect
+cd Music
+ffmpeg -i  `Raskasta Joulua - Tulkoon joulu.mp4` 
+ffmpeg -i  `Raskasta Joulua - Tulkoon joulu.mp4` `Raskasta Joulua - Tulkoon joulu.mp3`
+ls
+ffmpeg -i `James Bond - Goldeneye Opening Theme.mp4` `James Bond - Goldeneye Opening Theme.mp3`
+ls
+ffmpeg -i `ДДТ - Дождь (Official video).mp4` `ДДТ - Дождь (Official video).mp3`
+ls
+ffmpeg -i `🎼 Raskasta Joulua-Varpunen Jouluaamuna.mp4` `Raskasta Joulua-Varpunen Jouluaamuna.mp3`
+alsamixer
+amixer
+amixer -h
+amixer -c 1
+alsamixer
+exit
+amixer -h
+exit
+sudp pacman -Sy pipewire
+sudo pacman -Sy pipewire
+ps | rg pipewire
+ps | rg pulseaudio
+sudo pacman -Sy pipewire pipewire-alsa
+sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse
+sudo pacman -R pulseaudio-equalizer
+sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse
+sudo pacman -S qpwgraphh
+sudo pacman -S qpwgraph
+sudo pacman -S pipewire-audio
+patcl info
+pactl info
+reboot
+pactl info
+sudo systemctl stop pulseaudio
+pavucontrol
+exit
+swwws --init
+auto-cpufreq --live
+sudo auto-cpufreq --live
+sudo systemctl stop tlp
+sudo auto-cpufreq --live
+killall tlp
+sudo pacman -R tlp
+sudo auto-cpufreq --live
+sudo pacman -S qemu
+sudo pacman -R qemu
+sudo pacman -S qemu-full
+sudo pacman -R qemu-full
+sudo pacman -R qemu-base
+sudo pacman -R qemu-desktop
+sudo pacman -R qemu-base
+yay -R quickemu
+sudo pacman -R qemu-desktop
+sudo pacman -R qemu-base
+yay -S quickemu
+yay -S quickgui
+cd VM
+quickemu --vm macos-big-sur.conf
+sudo dsmeg
+sudo dmesg
+sudo pacman -S qemu-full
+yay -S quickemu
+cd VM 
+rm . -r
+rm * -r
+ls
+yay -S quickgui
+auto-cpufreq --stats
+git config --global --add safe.directory /opt/flutter
+sudo pacman -S flutter
+yay -Sy flutter
+yay -R quickemu
+yay -S quickemu
+cd VM
+quickget macos 
+quickget macos monterey
+quickemu --vm macos-monterey.conf
+qemu-system-x86_64 -h
+quickemu --vm macos-monterey.conf
+yay -S quickgui
+qemu -v
+qemu -h
+qemu --version
+sudo pacman -S quick
+sudo pacman -S quickgui-bin
+sudo pacman -Sy qemu
+yay -R quickemu
+sudo pacman -S qemu-full
+sudo pacman -R qemu-full
+sudo pacman -R qemu-desktop
+sudo pacman -R qemu-base
+yay -R flutter
+yay -R quickgui
+yay -Sy quickgui
+sudo rm /opt/flutter -r
+yay -Sy quickgui
+flutter pub add intl:^0.18.1
+sudo rm /opt/flutter -r
+yay -Sy flutter
+flutter pub add intl:^0.18.1
+sudo pacman -R qemu-base
+sudo pacman -R qemu-full
+sudo pacman -R qemu-base
+sudo pacman -R qemu-desktop
+sudo pacman -R qemu-base
+sudo pacman -R qemu
+yay -R quickemu
+sudo pacman -R qemu-base
+yay -S quickemu
+cd VM
+quickget macos catalina
+yay -S librewolf
+yay -S librewolf-bin
+cd Downloads
+git clone https://github.com/sagars007/starry-fox.git
+librefox
+librewolf
+vim hypr
+cd ~/Dev
+cd HT/top-down/
+sudo pacman -Sy sycnthing
+sudo pacman -Sy syncthing
+synchting
+cd /etc/sddm.conf.d/
+ls
+touch 10-wayland.conf
+sudo touch 10-wayland.conf
+sudo nvim .
+sudo systemctl stop kdewallet
+sudo systemctl stop kdewalletmanager
+sudo pacman -R kdewalletmanager
+sudo pacman -R kwalletmanager
+vim ~/.kde/share/config/kwalletrc
+cd .config
+ls
+vim kwalletrc
+reboot
+cd .config
+vim kwalletrc
+sudo pacman -S sddm
+reboot
+systemctl -h
+sudo systemctl enable sddm
+sudo systemctl stop gdm
+sudo systemctl enable sddm --force
+sudo nvim /etc/pacman.conf
+sudo pacman -S pacman-contrib
+sudo systemctl enable paccache.timer
+sudo pacman _syu
+sudo pacman -Syu
+cd ~/.steam/steamapps/common/Barotrauma\ Dedicated\ Server<\n>
+cd ~/.steam/steamapps/common/Barotrauma\ 
+cd ~/.steam/steamapps/common/Barotrauma
+cd /home/karim/.local/share/Steam/steamapps/common/Barotrauma<\n>
+ls
+./DedicatedServer
+cd /home/karim/.local/share/Steam/steamapps/common/Barotrauma<\n>
+vim .
+:q
+cd .local/share
+cd `Daedalic Entertainment GmbH/`
+;s
+ls
+cd Barotrauma
+ls
+cd WorkshopMods
+ls
+cd Installed
+ls
+ip addr
+cd /home/karim/.local/share/Steam/steamapps/common/Barotrauma<\n>
+./
+cd /home/karim/.local/share/Steam/steamapps/common/Barotrauma<\n>
+ls
+vim .
+./DedicatedServer
+cp config_player.xml config_player_back.xml
+cd /home/karim/.local/share/Steam/steamapps/common/Barotrauma<\n>
+./
+./DedicatedServer
+vim .
+firewalld
+cd hypr
+vim .
+vim hypr
+sudo pacman -Sy audacity
+exit
+auto-cpufreq --stats
+cpupower-gui
+exit
+cpupower-gui
+dust
+yay -Sc
+yay -R librewolf
+dust
+cd VM
+ls
+quickemu --vm macos-monterey.conf
+yay --help
+yay -Sy
+cd V<
+cd VM
+quickget ubuntu 22.04
+git clone https://github.com/TuxVinyards/qqX.git
+cd qqX
+ls
+chmod +x qqX_setup_and_install
+ls
+sudo pacman -Sy aria2
+sudo pacman -Sy zsync
+./qqX_setup_and_install
+qqX
+qqX --help
+qqX
+exit
+./qqX_setup_and_install
+exit
+yay -Rcns quickemu
+yay -Rcns qemu
+yay -Rcns qemu-full
+yay -Rcns qemu-base
+yay -Rcns qemu-desktop
+yay -Sc
+N
+sudo pacman -Sy qemu coreutils grep jg lsb procps
+sudo pacman -Sy edk2
+yay -S edk2
+sudo pacman -Sy spicy
+sudo pacman -Sy spice
+sudo pacman -Sy sed
+yay -Syu
+yay -Rncs flutter
+yay -S uml_utilities
+sudo pacman -Sy virt-manager
+sudo pacman -Sy libguestfs
+sudo pacman -Sy p7zip
+sudo pacman -Sy dmg2img
+dmg2img
+sudo pacman -Sy tesseract
+sudo pacman -Sy genisoimage
+yay -S genisoimage
+sudo pacman -Sy pkgfile
+pkgfile --update
+sudp pkgfile --update
+sudo pkgfile --update
+sudo pkgfile genisoimage
+cd ..
+rm VM -r
+rm VMQs -r
+ls
+cd VM
+cd ~<\n><\n>git clone --depth 1 --recursive https://github.com/kholia/OSX-KVM.git<\n><\n>cd OSX-KVM
+sudo modprobe kvm; echo 1 | sudo tee /sys/module/kvm/parameters/ignore_msrs
+sudo cp kvm.conf /etc/modprobe.d/kvm.conf  # for intel boxes only<\n><\n>sudo cp kvm_amd.conf /etc/modprobe.d/kvm.conf  # for amd boxes only
+sudo cp kvm_amd.conf /etc/modprobe.d/kvm.conf  # for amd boxes only
+sh
+./fetch-macOS-v2.py
+ls
+dmg2img -i BaseSystem.dmg BaseSystem.img
+qemu-img create -f qcow2 mac_hdd_ng.img 256G
+rm mac_hdd_ng.img
+qemu-img create -f qcow2 mac_hdd_ng.img 64G
+./OpenCore-Boot.sh
+flatpak install sosumi
+exit
+cd OSX-KVM/
+ls
+./OpenCore-Boot.sh
+qemu-system-x86_64 -h
+./OpenCore-Boot.sh
+vim .
+./OpenCore-Boot.sh
+qemu-system-x86_64 -h | rg host
+sudo pacman -R qemu-full
+sudo pacman -R qemu-base
+sudo pacman -Rcns qemu-base
+sudo pacman -Rcns qemu-desktop
+sudo pacman -Sy nginx
+ip addr
+sudo nvim /etc/nginx/sites-enabled/default
+ls /etc/ 
+cd /etc/nginx 
+ls
+pacman -Sy iptables-persistent
+sudo pacman -Sy iptables-persistent
+cd ~
+sudo pacman -Sy iptables-persistent
+sudo pacman -Sy iptablles
+sudo pacman -Sy iptables
+sudo nvim /etc/iptables/rules.v4
+sudo pacman -Sy iptables
+sudo nvim /etc/iptables/rules.v4
+sudo pacman -Sy fwbuilder
+sudo nvim /etc/iptables/iptables.rules
+cd /etc/iptables
+ls
+cd ~
+useradd -m steam
+sudo useradd -m steam
+cd /home/steam
+sudo cd /home/steam
+mkdir /home/steam
+sudo mkdir /home/steam
+cd /home/steam
+netstat -lntu
+sudo pacman -Sy netstat
+ss -help
+ss -lntu
+ss -na | grep 27015
+ufw
+sudo pacman -Sy ufw
+sudo ufw allow 27105
+ss -lntu
+firewall-cmd --add-port=27015/tcp
+sudo pacman -Sy firewalld
+iptables -A INPUT -p tcp --dport 27015 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 27015 -j ACCEPT
+sudo iptables -A INPUT -p udp --dport 27015 -j ACCEPT
+ss -lntu
+ls | nc -l -p 27015
+sudo pacman -Sy netcat
+telnet
+ls | nc -l -p 27015
+nmap localhost -p 4000
+sudo pacman -Sy nmap
+nmap localhost -p 27015
+cd .local/share/Steam/steamapps
+cd common/Barotrauma
+cd .local/share/Steam/steamapps/common/Barotrauma
+./DedicatedServer
+ls | nc -l -p 27015
+ip addt
+ip addr
+sudo pacman -Rcns gnome
+sudo pacman -Sy plasma
+ls
+cd Hyprland-v2
+ls
+cd ..
+sudo pacman -Sy hyprland waybar
+cd hypr
+vim .
+./scripts/Polkit.sh
+swww-daemon
+cd Dev/HT/top-down
+ls
+cargo add bevy
+cd test_level
+cargo add bevy
+cargo add bevy-rapier2d
+exit
+sudo systemctl stop bluetooth
+vim .
+cd Dev/HT/top-down
+git clone https://github.com/JaKooLit/Arch-Hyprland
+cd Arch-Hyprland
+blueman-manager
+cd Arch-Hyprland
+sudo pacman -Sy obex
+sudo systemctl enable obex
+sudo pacman -Sy bluez-obex
+./install.sh
+sudo systemctl enable obex
+sudo systemctl enable bluez-obex
+bluetooth-sendto
+sudo pacman -Sy bluez bluez-libs bluez-plugins bluez-utils
+sudo pacman -Sy bluez gnome-bluetooth
+sudo systemctl enable obex
+sudo systemctl --user enable obex
+sudo pacman -Sy dbus
+sudo pacman -Sy gnome
+sudo pacman -Sy bluez gnome-bluetooth-sendto
+bluetooth-sendto
+exit
+cpupower-gui
+sudo pacman -Rcns gnome
+sudo pacman -Sy plasma
+cd Arch-Hyprland
+sudo pacman -S plymouth
+sudo nvim /etc/plymouth/plymouthd.conf
+sudo nvim /etc/mkinitcpio.conf
+exit
+vim /usr/share/plymouth/plymouthd.defaults
+exot
+exit
+tmux
+./install.sh
+exit
+bat /proc/cmdline
+cd /boot/grub/
+sudo nvim .
+cd /etc/default
+sudo nvim grub
+grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo nvim /etc/dracu.conf.d/myflags.conf
+sudo nvim /etc/dracut.conf.d/myflags.conf
+sudo pacman -Sy dracut
+sudo nvim /etc/dracut.conf.d/myflags.conf
+sudo nvim /etc/plymouth/plymouthd.conf
+exit
+sudo pacman -Sy plymouth
+sudo systemctl enable bluetooth
+blueman-manager
+exit
+sudo pacman -Sy pipewire pipewire-alsa pipewire-utils pipewire-jack pipewire-pulse
+sudo pacman -Sy pipewire pipewire-alsa pipewire-jack pipewire-pulse
+pactl info
+alsamixer
+exit
+sudo pacman -Sy bluez bluez-utils 
+sudo systemctl start bluetooth
+bluetoothctl
+sudo pacman -Sy gnome-bluetooth
+blueman-manager
+bluetoothctl
+blueman-manager
+bluetoothctl list
+sudo pacman -Rcns blueman-manager
+sudo pacman -Rcns blueman
+exit
+sudo pacman -Sy blueman
+systemctl status bluetooth
+sudo pacman -Rcns hyprland
+reboot
+cd Arch-Hyprland
+./install.sh
+sudo pacman -Sc
+./install.sh
+blueman-manager
+dolphin
+cd .config
+vim hypr
+sudo pacman -Sy plasma
+cd .config/hypr
+ls
+cd scripts/
+ls
+./Polkit.sh
+exit
+sudo pacman -Sy amberol
+yay -S amberol
+swwws --init
+cd .config | grep swww
+ls .config | grep swww
+ls  | grep swww
+mkdir swwws
+cls
+cd swwws
+cd swwws
+touch wallpapers.toml
+swwws --init
+swwws --update
+swwws --init
+vim .
+cargo build --release
+sudo cp /target/release/swwws /usr/bin/
+sudo cp target/release/swwws /usr/bin/
+sudo pacman -Rcns plasma
+cd Arch-Hyprland
+sudo pacman -Sy breeze
+cd /usr/share/sddm/themes/
+ls
+cd /etc/sddm.conf.d/
+sudo nvim .
+reboo
+sudo pacman -Sy plasma
+sudo pacman -Sy dolphin dolphin-pluins ark
+sudo pacman -Sy dolphin dolphin-plugins ark
+exit
+nwtui
+sudo pacman -Sy nwtui
+exit
+bluetoothctl list
+bluetoothctl -h
+bluetoothctl connect 2C:FD:B3:1B:62:E8
+sudo pacman -Sy gnome
+sudo systemctl disable gdm
+sudo systemctl enable sddm
+bluetoothctl connect 2C:FD:B3:1B:62:E8
+sudo pacman -Sy chntpw
+sudo lsblk
+sudo mkdir /mnt/c
+sudo mount --read-only /dev/nvme0n1p3 /mnt/c
+modprobe ntfs
+sudo pacman -Sy ntfs-3g
+sudo mount --read-only /dev/nvme0n1p3 /mnt/c
+cd /mnt/c/Windows/System32/config
+chntpw -e SYSTEM
+cd ~
+sudo umount /mnt/c
+sudo mount /dev/nvme0n1p3 /mnt/c
+cd /mnt/c/Windows/System32/config
+bluetoothctl connect 2C:FD:B3:1B:62:E8
+touch b.txt
+vim b.txt.
+vim b.txt
+chntpw -e SYSTEM
+cd Dev
+ls
+cd swww
+sudo cp target/release/swww /usr/bin/
+sudo cp target/release/swww-daemon /usr/bin/
+cd ..
+cd swwws
+sudo cp target/release/swwws /usr/bin/
+swwws --init
+flatpak install steam
+flatpak install discord
+exit
+sudo dnf install pipewire pipewire-pulse pipewire-jack
+flatpak install telegram
+sudo dnf install neovim
+nvim .
+cd .config/nvim
+nvim .
+sudo dnf install kdenlive krita 
+sudo dnf install qemu bash coreutils edk2-tools grep jq lsb procps python3 genisoimage usbutils util-linux sed spice-gtk-tools swtpm wget xdg-user-dirs xrandr unzip
+sudo dnf install qemu bash coreutils edk2-tools grep jq procps python3 genisoimage usbutils util-linux sed spice-gtk-tools swtpm wget xdg-user-dirs xrandr unzip
+yum whatprovides */lsb_release
+sudo dnf install redhat_lsb
+sudo dnf install redhat-lsb
+cd Dev
+cd ~
+cd Dev
+git clone --filter=blob:none https://github.com/wimpysworld/quickemu<\n>cd quickemu
+ls
+make
+make install
+quickget ubuntu 22.04
+./quickget ubuntu 22.04
+ls
+rm ubuntu-22.04/ -r
+./quickget macos
+./quickget macos cataline
+alsamixer
+exit
+sudo dnf reinstall pipewire
+./quickget macos catalina
+./quickemu --vm macos-catalina.conf
+ды
+ls
+rm macos-catalina/
+rm macos-catalina -r
+rm macos-catalina.conf
+./quickget macos catalina
+vim .
+./quickemu --vm macos-catalina.conf
+dust
+cd ~
+dust
+cd Downloads
+ls
+rm Arcane.S01.1080p.NF.WEB-DL.DDP5.1.H.264-EniaHD/ -r
+ls
+cd Dev/quickemu/
+./quickemu --vm macos-catalina.conf
+sudo echo 1 | sudo tee /sys/module/kvm/parameters/ignore_msrs
+sudo echo 1 > sudo tee /sys/module/kvm/parameters/ignore_msrs | sh
+sh
+sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
+sudo dnf install gstreamer1-plugins-good gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
+sudo dnf install gstreamer1-plugins-bad gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
+sudo dnf install gstreamer1-plugins-base gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
+sudo dnf install lame* --exclude=lame-devel
+cd Dev
+cd quickemu/
+ls
+cd macos-catalina
+ls
+cd ..
+./quickget windows
+dust --hlep
+dust --help
+./quickget windows 10
+./quickemu --vm windows-10.conf<\n>
+hyprctl setcursor Bibata-Modern-Ice 24
+cd .config/hypr
+vim .
+cd .config/hypr
+vim .
+exit
+sudo dnf install auto-cpufreq
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git<\n>cd auto-cpufreq && sudo ./auto-cpufreq-installer
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git<\n>cd auto-cpufreq and sudo ./auto-cpufreq-installer
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git<\n>cd auto-cpufreq 
+cd auto-cpufreq/
+./auto-cpufreq-installer
+sudo ./auto-cpufreq-installer
+auto-cpufreq --help
+auto-cpufreq --install
+sudo auto-cpufreq --install
+auto-cpufreq --stats
+gsettings set org.gnome.desktop.interface cursor-theme Baibata-Modern-Ice
+lxappearance
+sudo dnf install lxappearance
+lxappearance -h
+vim hypr
+hyprcursor
+hyprctl --help
+./home/karim/Dev/quickemu/quickemu --vm macos-catalina.conf
+./home/karim/Dev/quickemu/./quickemu --vm macos-catalina.conf
+/home/karim/Dev/quickemu/./quickemu --vm macos-catalina.conf
+/home/karim/Dev/quickemu/./quickemu --vm /home/karim/Dev/quickemu/macos-catalina.conf
+vim hypr
+cd Dev/quickemu/
+./quickemu --vm macos-catalina.conf
+cd Dev/quickemu/
+ls
+vim .
+exit
+cd Dev/quickemu/
+./quickemu --help
+./quickemu --vm macos-catalina.conf --display spice
+cd quickemu/
+ls
+./quickemu --vm macos-catalina.conf --display 
+./quickemu --vm macos-catalina.conf --help
+./quickemu --vm macos-catalina.conf --display spice-app
+./quickemu --vm macos-catalina.conf --display spice
+cd quickemu/
+./quickemu --vm macos-catalina.conf --display spice
+cd quickemu/
+./quickemu --vm macos-catalina.conf --display spice --help
+./quickemu --vm macos-catalina.conf --display spice --screenpct 80
+ps | rg macos
+ps | rg qemu
+killall 325
+killall 116169
+killall qemu-system-x86_64
+ps | rg qemu
+cd Dev/quickemu/
+./quickemu --vm macos-catalina.conf --display spice --screenpct 80
+killall kityt
+cd Dev/quickemu/
+./quickemu --vm macos-catalina.conf --display spice --screenpct 80
+chmod 777 /home/karim/Public
+./quickemu --vm macos-catalina.conf --display spice --screenpct 80
+./quickemu --vm macos-catalina.conf --display spice --screenpct 40
+cd quickemu
+cd Dev/quickemu/
+quickget macos big-sur
+./quickget macos big-sur
+./quickemu --vm macos-big-sur.conf --display spice
+cd Dev/quickemu/
+vim .
+./quickemu --vm macos-big-sur.conf --display spice
+cd quickemu
+vim .
+./quickemu --vm macos-big-sur.conf --display spice
+./quickemu --vm macos-catalina.conf --display spice
+vim .
+./quickemu --vm macos-catalina.conf --display spice
+cd quickemu
+vim .
+./quickemu --vm macos-big-sur.conf --display spice
+sudo dnf install neofetch
+sudo dnf install grub-customizer
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+cd quickemu
+./quickemu --vm macos-big-sur.conf --display spice
+bash /tmp/install.sh
+neofetch
+sudo dnf install virtualbox
+sudo dnf install oracle-virtualbox
+sudo dnf search virtualbox
+sudo dnf search VirtualBox
+sudo dnf install VirtualBox
+cd Dev/quickemu/
+./quickemu --vm macos-big-sur.conf --help
+./quickemu --vm macos-big-sur.conf --delete-vm
+dust
+rm windows-10 -r
+ls
+rm windows-10.conf
+rm windowskey
+ls
+dnf install akmod-VirtualBox kernel-devel-$(uname -r)
+sudo dnf install akmod-VirtualBox kernel-devel-$(uname -r)
+uname -r
+sudo dnf install akmod-VirtualBox kernel-devel-6.7.10-200.fc39.x86_64
+6.7.10-200.fc39.x86_64
+sudo dnf -y install @development-tools
+sudo dnf -y install kernel-headers kernel-devel dkms elfutils-libelf-devel qt5-qtx11extras
+sudo usermod -aG vboxusers karim
+sudo dnf remove VirtualBox
+sudo dnf config-manager --add-repo=https://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo rpm --import -
+sh
+cd Dev/quickemu/
+./quickemu --vm macos-catalina.conf --delete-vm
+sudo dnf install VirtualBox-7.0
+wget https://download.virtualbox.org/virtualbox/7.0.12/Oracle_VM_VirtualBox_Extension_Pack-7.0.12.vbox-extpack
+<\n><\n>sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.12.vbox-extpack<\n><\n>
+sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.12.vbox-extpack<\n>
+sudo systemctl enable vboxdrv<\n>sudo systemctl start vboxdrv
+sudo dnf install VirtualBox-7.0
+sudo dnf clean all
+./quickget macos catalina
+./quickemu --vm macos-catalina.conf --display spice
+sudo dnf install VirtualBox-7.0
+VBox
+sudo rm /usr/bin/VBox
+sudo rm /usr/bin/vbox-img
+sudo rm /usr/bin/vboximg-mount
+sudo dnf install VirtualBox-7.0
+which VBox
+sudo dnf install VirtualBox
+sudo dnf install VirtualBox-7.0
+cd 
+cd Dev/quickemu/
+./quickget windows 10
+./quickemu --vm windows-10.conf --display spice
+sudo dnf autoremove
+cd quickemu
+ls
+sudo cp quickemu /usr/bin/
+sudo cp quickget /usr/bin/
+quickemu --vm windows-10.conf --display spice
+ls windows-10
+sh
+quickemu --vm windows-10.conf --display spice
+quickemu --vm macos-catalina.conf --display spice
+quickemu --vm ~/Dev/quickemu/macos-catalina.conf --display spice
+cd quickemu
+quickemu --vm macos-catalina.conf --display spice
+cd quickemu
+quickemu --vm macos-catalina.conf --remove-vm
+quickemu --vm macos-catalina.conf --delete-vm
+qqX
+mkdir VMs
+cd Vms
+cd VMs
+quickget macos catalina
+quickemu --vm macos-catalina.conf --display spice
+cd swaylock
+vim .
+cd ../wlogout
+vim .
+exit
+Hyprland
+ping google.com
+nwtui
+iwctl
+sudo nvim /etc/network/interfaces
+ls /etc/network
+sudo iwconfig wlan0 mode Managed essid 'Karim' key '8163264128'
+dhclient
+sudo dhclient -v wlan0
+cd ..
+cd VMs
+ls
+quickemu --vm macos-catalina.conf --display spice
+ls
+:q
+cd ~
+git clone --depth=1 https://github.com/JaKooLit/Fedora-Hyprland.git
+cd Fedora-Hyprland/
+./install.sh
+exit
+sudo dnf install nwg-look
+cd Dev
+git clone https://github.com/nwg-piotr/nwg-look.git
+make build
+cd nwg-look/
+make build
+sudo make install
+sudo dnf install go
+make build
+go --version
+go -version
+go version
+cd ..
+cd ~
+ls
+cd Fedora-Hyprland/
+./install.sh
+nwg-look
+sudo dnf install libpng-devel
+libXcursor-devel
+sudo dnf install libXcursor-devel
+cd Dev
+git clone https://github.com/eworm-de/xcur2png.git
+cd xcur2png/
+./configure
+make
+sudo make install
+sudo dnf install aclocal automake 
+cd ..
+ls
+cd nwg-look/
+ls
+make 
+make build
+vim .
+make build
+quickemu --vm macos-catalina.conf --display spice
+cd Vms
+cd VMs
+quickemu --vm macos-catalina.conf --display spice
+sudo dnf install qbittorrent
+sudo dnf install gparted
+dust
+exit
+cd .config/nushell
+sudo pacman -Sy starship
+vim .
+cd .. 
+cd hypr
+vim .
+yay -Sy librewolf-bin
+sudo yay -S auto-cpufreq
+yay -S auto-cpufreq
+broot
+br
+auto-cpufreq --install
+sudo auto-cpufreq --install
+cd nushell
+cd nu
+cd nushell
+zoxide init nushell | save -f ~/.zoxide.nu
+vim .
+cd ..
+cd .config/nushell
+vim .
+cd nushell
+cd .config/nushell
+ls
+cd ..
+cd swww
+cargo build --release
+rustup component add rust-analyzer<\n>
+rustup default stable<\n>
+rustup component add rust-analyzer<\n>
+cargo build --release
+sudo cp target/release/swww /usr/bin/
+sudo cp target/release/swww-daemon /usr/bin/
+cd ..
+cd swwws
+cargo build --release
+sudo cp target/release/swwws /usr/bin/
+swwws --init
+alsamixer
+sudo pacman -Sy alsa-utils
+sudo nvim /etc/default/grub
+sh
+alsamixer -c0
+alsamixer
+pavucontrol
+sudo pacman -Sy pipewire pipewire-alsa pipewire-jack pipewire-pulse
+cd /etc/udev
+ls
+cd rules.d
+ls
+mkdir micmute-led.rules
+sudo mkdir micmute-led.rules
+sudo rm micmute-led.rules/ -r
+sudo touch micmute-led.rules
+sudo nvim micmute-led.rules
+sh
+udevadm test /etc/udev/rules.d/micmute-led.rules
+udevadm control --reload
+sudo udevadm control --reload
+sudo udevadm trigger
+sudo pacman -Sy bluez bluez-utils 
+sudo pacman -Sy blueman
+blueman-manager
+blueman-manager-daemon
+blueman-daemon
+sudo pacman -Sy steam
+sudo nvim /etc/pacman.conf
+sudo pacman -Sy steam
+systemctl status bluetooth
+rfkill list
+sudo pacman -Sy pulseaudio-bluetooth
+sudo pacman bluez bluez-utils
+sudo pacman -Sy bluez bluez-utils
+lsmod | grep btusb
+blueman-manager
+bluetoothctl
+sudo pacman -Syu
+yay -Syu
+sudo nvim /etc/bluetooth/main.conf
+sudo pacman -Sy pulseaudio-bluetooth pulseaudio
+reboot
+sudo pacman -Sy pipewire pipewire-alsa pipewire-jack pipewire-pulse
+reboot
+sudo modprobe btusb
+sudo systemct restart bluetooth
+sudo systemctl restart bluetooth
+rfkill list
+dmesg | grep -i bluetooth | grep -i firmware # Shows Bluetooth firmware issues
+sudo dmesg | grep -i bluetooth | grep -i firmware 
+lsmod | grep btusb
+sudo pacman -Sy https://archlinux.org/packages/?name=bluez-hid2hci
+sudo pacman -Sy bluez-hid2hci
+pactl info
+lsusb -tv
+yay -Sy balena-etcher
+git clone https://github.com/sagars007/starry-fox.git
+cd Downloads
+ls 
+chmod +x balenaEtcher-1.18.11-x64.AppImage
+./balenaEtcher-1.18.11-x64.AppImage
+yay -Sy balena-etcher
+./balenaEtcher-1.18.11-x64.AppImage
+sudo pacman -Sy fuse
+./balenaEtcher-1.18.11-x64.AppImage
+cd Downloads
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -Sy qbittorrent
+sudo pacman -Sy gparted
+cd /sys/devices/virtual/sound/ctl-led/
+ls
+cd mic
+ls
+car mode
+cat mode
+cat uevent
+cat brightness
+ls
+sudo echo 1 > brightness
+sudo echo 1 > brightness | sh
+cd .config/hypr
+cd ~/.config/hypr
+ls
+vim .
+echo -n 7 > /sys/class/sound/card1/controlC1/led-mic/detach
+sudo echo -n 7 > /sys/class/sound/card1/controlC1/led-mic/detach
+sh
+sudo nvim /etc/systemd/system/mute-mic-led-status.service
+sudo systemctl enable mute-mic-led-status
+sudo systemctl start mute-mic-led-status
+flatpak install telegram
+sudo pacman -Sy flatpak
+flatpak install telegram
+sudo pacman -Sy flatpak
+poweroff
+sudo pacman -Sy flatpak
+sudo rm /var/lib/pacman/db.lck 
+sudo pacman -Sy flatpak
+flatpak install telegram
+flatpak install discord
+sh
+yay -Sy webcord
+sudo pacman -Sy easyeffetcs
+sudo pacman -Sy easyeffects
+sudo pacman -Sy easyeffects-daemon
+sudo pacman -Sy lsp-plugins
+flatpak install discord
+sudo pacman -Sy os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -Sy grub-customizer
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+grub-customizer
+sudo pacman -Sy xorg-xhost
+grub-customizer
+alsamixerm -c1
+alsamixer -c1
+alsa restore
+sudo su
+sudo pacman -Sy qemu uml-utilities
+yay -Sy uml_utilities
+sudo pacman -Sy qemu virt-manager libguestfs
+sudo pacman -Sy p7zip
+yay -Sy dmg2img
+sudo pacman -Sy tesseract
+sudo pacman -Sy genisoimage
+sudo pacman -Sy pkgfile
+pkgfile --update
+sudo pkgfile --update
+sudo pkgfile genisoimage
+genisoimage
+sudo su
+./OpenCore-Boot.sh
+cd OSX-KVM/
+./OpenCore-Boot.sh
+qemu-img create -f qcow2 mac_hdd_ng.img 256G
+./OpenCore-Boot.sh
+cd ..
+rm OSX-KVM/ -r
+sh
+cd .config/hypr
+ls
+cd sc
+cd scripts/
+ls
+cd ..
+ls
+cd UserScripts/
+ls
+rm RainbowBorders.sh
+amixer -c1 controls
+sudo nvim /etc/systemd/system/mute-mic-led-status.service
+sudo systemctl status mute-mic-led-status
+sudo systemctl daemon-reload
+sudo systemctl status mute-mic-led-status
+ssh-keygen
+cd .ssh
+vim .
+sudo pacman -Sy amberol
+ysy -Sy amberol
+yay -Sy amberol
+swwws --init
+swww-daemon
+killall swww-daemon
+ps | rg swww
+ps 
+timedatectl set-local-rtc 1 --adjust-system-clock
+sudo systemctl status mute-mic-led-status
+sudo su
+sudo systemctl enable mute-mic-led-status
+sudo systemctl start mute-mic-led-status
+sudo systemctl status mute-mic-led-status
+cd Dev
+cd swwws
+vim .
+sudo pacman -Sy ruby npm go
+sudo pacman -Sy luarocks
+sudo pacman -Sy php
+sudo pacman -Sy php go luarocks npm nodejs
+sudo pacman -Sy julia
+sudo nvim /etc/systemd/system/mute-mic-led-status.service
+sudo pacman -Sy composer
+sudo pacman -Sy OpenJDK
+vim .
+cd /sys/class/leds
+ls
+cd tpacpi::lid_logo_dot
+ls
+sudo pacman -Sy jdk-openjdk
+sudo pacman -Sy pip
+pacman -Sy python-pip
+cat brightness
+ls
+cat power
+cat max_brightness
+sudo pacman -Sy python-pip
+sudo pacman -Sy luarocks
+sudo su
+cd ..
+echo 0 > /sys/class/leds/tpacpi::lid_logo_dot/max_brightness
+vim .
+sudo su
+cd Dev
+mkdir java
+cd java
+touch Main.java
+vim .
+sudo pacman -Sy tmux
+javac Main.java
+ls
+java Main
+:q
+sudo pacman -Sy libreoffice
+vim hype
+cd hypr
+rg
+rg LockSreen.sh
+rg LockScreen.sh
+rg $lock
+rg '$lock'
+vim hypr
+cd swayidle
+cd hypr
+vim .
+sudo npm install nativefier -g
+	<\n>nativefier -p linux -a x64 -n Duolingo https://www.duolingo.com/register
+cd /home/karim/Duolingo-linux-x64
+ls
+chmod +x Duolingo
+./Duolingo
+cd ..
+rm Duolingo-linux-x64/ -r
+sudo pacman -S libx11 pkgconf alsa-lib
+sudo pacman -Sy vulkan-radeon
+sudo pacman -Sy neofetch
+neofetch
+flatpak install kotatogram-desktop
+flatpak install flathub io.github.kotatogram
+vim hypr
+neofetch
+yay -Sc
+sudo pacman -Sc
+cd .config/nvim
+vim .
+cd ~/Dev/HT/top-down
+ls
+cd world_manager
+bat
+bat Cargo.toml
+add bevy --features dynamic_linking
+cargo add bevy --features dynamic_linking
+cargo build
+exit
+vim .
+cd ..
+cd test_level
+sudo pacman -S lld clang
+sudo pacman -S mold clang
+cargo build
+cargo run
+cargo build
+mkdir .cargo
+exit
+vim .
+cargo build
+systemctl --failed
+flatpak remove telegram
+pacman -Sy blender
+sudo pacman -Sy blender
+sudo pacman -Sy libinput
+sudo pacman -Sy libwacom
+sudo pacman -Sy input-wacom
+sudo pacman -Sy ark
+cd Downloads
+ls
+tar xf input-wacom-1.2.0.tar.bz2
+ls
+cd input-wacom-1.2.0/
+ls
+./configure
+lsusb
+sudo pacman -Sy xf86-input-wacom
+lsusb
+dmesg 
+sudo dmesg 
+sudo dmesg | rg device_type
+yay -Sy input-wacom-dkms-git
+sudo pacman -S base-devel linux-headers
+./configure
+sudo pacman -Syu
+./configure
+yay -Sy wacom_serial5-dkms-git
+reboot
+lsusb
+cd Downloads/input-wacom-1.2.0/
+ls
+./configure
+make
+sudo make install
+yay -Sy opentabletdriver
+lsusb
+sudo su
+lsusb
+yay -Rcns opentabletdriver
+yay -Rcns wacom_serial5-dkms-git
+yay -Rcns input-wacom-dkms-git
+sudo pacman -Sc
+ysy -Sc
+yay -Sc
+sudo pacman -Sy ttf-ms-win10-auto
+yay -Sy ttf-ms-win10-auto
+yay -Sy ttf-ms-win10
+yay -Sy ttf-ms-fonts
+sudo pacman -Sy paprefs
+paprefs
+pavucontrol
+pactl load-module module-combine-sink
+cd Deev
+cd Dev
+touch codes.txt
+vim .
+rm codes.txt
+sudo pacman -Su clamsv
+sudo pacman -Su clamav
+freshclam
+cd Dev/HT/top-down
+cd test_level
+cargo build
+cargo run
+vim .
+cargo build
+cargo run
+dotnet
+cd Dev
+git clone https://github.com/kholia/OSX-KVM.git
+rm OSX-KVM/ -r
+git clone --depth 1 --recursive https://github.com/kholia/OSX-KVM.git
+cd Dev
+git clone https://aur.archlinux.org/dmg2img.git
+cd dmg2img
+makepkg -sri
+make dmg2img
+cd ..
+rm dmg2img/ -r
+git clone --depth 1 --recursive https://github.com/Lekensteyn/dmg2img.git
+sudo pacman -Sy zlib
+cd dmg2img
+make dmg2img
+ls
+sudo cp dmg2img /usr/bin
+dmg2img 
+cd OSX-KVM/
+sudo modprobe kvm; echo 1 > sudo tee /sys/module/kvm/parameters/ignore_msrs
+sudo su
+sudo cp kvm_amd.conf /etc/modprobe.d/kvm.conf  
+sh
+./fetch-macOS-v2.py
+dmg2img -i BaseSystem.dmg BaseSystem.img
+qemu-img create -f qcow2 mac_hdd_ng.img 256G
+./OpenCore-Boot.sh
+sudo su
+sudo pacman -Sy parabolic
+yay -Sy parabolic
+cd Downloads
+ls
+ffmpeg -i `Varpunen Jouluaamuna.mp4` `Varpunen Jouluaamuna.mp3`
+sudo pacman -Sy kdeconnect
+cd /etc/systemd/services
+systemctl show --property=UnitPath
+cd /etc/systemd/system/
+ls
+sudp nvim .
+sudo nvim .
+sudo su
+sudo systemctl reload-daemon
+sudo systemctl daemon-reload
+sudo systemct restart mute-mic-led-status
+sudo systemctl restart mute-mic-led-status
+sudo systemctl status mute-mic-led-status
+sudo systemctl restart mute-mic-led-status
+sudo systemctl daemon-reload
+sudo systemctl restart mute-mic-led-status
+sudo systemctl status mute-mic-led-status
+sudo systemctl daemon-reload
+sudo systemctl restart mute-mic-led-status
+sudo systemctl status mute-mic-led-status
+sudo systemctl daemon-reload
+sudo systemctl restart mute-mic-led-status
+sudo systemctl status mute-mic-led-status
+sudo systemctl daemon-reload
+sudo systemctl restart mute-mic-led-status
+sudo systemctl status mute-mic-led-status
+sudo systemctl daemon-reload
+sudo systemctl restart mute-mic-led-status
+sudo systemctl status mute-mic-led-status
+sudo systemctl daemon-reload
+sudo systemctl restart mute-mic-led-status
+sudo systemctl status mute-mic-led-status
+sudo su
+sudo systemctl status mute-mic-led-status
+cd /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl restart mute-mic-led-status
+sudo systemctl status mute-mic-led-status
+systemctl stop mic-mute-led-status
+systemctl disable mic-mute-led-status
+systemctl disable mute-mic-led-status
+reboot
+sudo systemctl status mute-mic-led-status
+pamixer -c1 controls
+pamixer -c 11 controls
+pamixer -c 1 controls
+pamixer -m
+pamixer -u
+sudo su
+alsamixer
+amixer -c1 controls
+watch -n1 -d 'amixer -c1 cget numid=18; amixer -c1 cget numid=7' | sh
+sh
+sudo pacman -Syu
+cd /sys/class/leds
+vim .
+reboot
+sudo pacman -Sy virtualbox
+sudo su
+modprobe vboxdrv
+gpasswd -a karim vboxusers
+sudo gpasswd -a karim vboxusers
+sudo pacman -Sy VirtualBox
+sudo pacman -Sy virtualbox-guest-iso
+alsamixer
+cd Downloads
+ls
+./balenaEtcher-1.18.11-x64.AppImage
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+cd /boot/EFI
+ls
+sudo rm Pop_OS-351af747-855c-4079-a4f3-a6c465084f1e/ -r
+cd /sys/class/leds
+ls
+cd tpacpi::power
+ls
+bar trigger
+bat trigger
+bash /tmp/install.sh
+cd /sys/class/leds
+ls
+ping armsrk5
+cd Downloads
+ls
+./bale
+./balenaEtcher-1.18.11-x64.AppImage
+cd Downloads
+yay -Sy snapd
+cd Downloads
+cd snapd-2.62/
+ls
+cd ..
+cd Downloads/snapd-2.62/
+ls
+go build
+vim .
+make
+make install
+go snap
+go help
+go get
+git checkout 2.62
+./balenaEtcher-1.18.11-x64.AppImage
+git clone https://aur.archlinux.org/snapd.git<\n>cd snapd<\n>makepkg -si
+sudo systemctl enable --now snapd.socket
+sudo systemctl enable --now snapd.apparmor.service
+sudo snap install sosumi
+snap
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install hello-world
+sudo snap install sosumi
+sosumi
+yay -Sy apt-get
+sudo pacman -Sy apt-get
+qemu-system-x86_64 -h
+qemu-system-x86_64 -h | rg display
+sosumi
+sudo pacman -Sy spice
+sudo pacman -Sy spice-app
+yay -Sy spice-app
+vim .
+sosumi
+efibootmgr
+sudo efibootmgr --delete-bootnum --bootnum 0
+sudo efibootmgr --delete-bootnum --bootnum 6
+sudo efibootmgr --delete-bootnum --bootnum 3
+sudo efibootmgr --delete-bootnum --bootnum 5
+sudo efibootmgr --delete-bootnum --bootnum 7
+sudo efibootmgr --delete-bootnum --bootnum 9
+sudo efibootmgr --delete-bootnum --bootnum 8
+sudo pacman -Syu
+cd /sys/class/leds
+ls
+cd tpacpi::power
+ls
+cat trigger
+sudo su
+susomi
+cd Dev
+cd HT/top-down/
+cd test_level
+cargo run
+sosumi
+cd snap
+ls
+cd snap/sosumi/common
+du
+dust
+rm macos.qcow2 
+sosumi
+ls
+cd ..
+snap --help
+sudo snap remove sosumi
+ps | rg snap
+sudo snap remove sosumi
+sudo snap install sosumi
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -Sy fastfetch
+neofetch
+fastfetch
+sudo pacman -Scc
+sosumi
+yay -Scc
+sudo pacman -Sy audacity
+sudo pacman -Sy kdenlive
+sudo pacman -Sy krita
+sudo pacman -Sy obs
+sudo pacman -Sy obs-studio
+sudo snap remove sosumi
+sudo su
+sosumi 
+sudo snap remove sosumi
+killall snapd
+sudo killall snapd
+sudo snap remove sosumi
+sudo killall snap
+cd snap
+rm sosumi -r
+sudo snap remove sosumi
+sudo snap install sosumi
+sosumi --help
+sosumi
+cd snap/sosumi/common
+ls
+qemu-img create -f qcow2 macos.qcow2 100G
+ls
+sosumi
+cd snap/sosumi/common
+vim .
+sosumi
+sudo snap remove sosumi
+rm snap/sosumi -r
+sudo snap remove sosumi
+sudo snap install sosumi
+sosumi
+cd snap
+cd sosumi/common
+qemu-img create -f qcow2 macos.qcow2 128G
+sosumi
+ps | rg easyeffects
+killall easyeffectds
+killall easyeffects
+ps | rg easyeffects
+easyeffects
+ps | rg easyeffects
+vim .config/hypr
+sosumi
+sudo pacman -Sy chromium
+sudo pacman -Sсс
+sudo pacman -Scc
+dust /
+dust /usr/
+sudo pacman -Rcns blender dotnet
+sudo pacman -Rcns blender
+sudo pacman --helo
+sudo pacman --help
+sudo pacman -Q
+sudo pacman -Q | rg kernel
+sudo pacman -Q | rg headers
+sudo pacman -Rcns linux-headers
+sudo pacman -Q | rg wacom
+sudo pacman -Rcns xf86-input-wacom
+sudo pacman -Q | rg krita
+sudo pacman -Rcns krita
+sudo pacman -Rcns kdenlive
+dust /usr/lib
+sudo pacman -Rcns java-22-openjdk
+sudo pacman --help
+sudo pacman -Q java
+sudo pacman -Rcns virtualbox
+dust /usr/
+dust /
+cd Downloads
+ls Downloads/
+sudo pacman -Rcns qemu-full
+rm snap/sosumi -r
+sudo snap remove sosumi
+sudo pacman -Rcns snapd
+yay -D
+yay -Q
+sudo pacman -Rcns neofetch
+./balenaEtcher-1.18.11-x64.AppImage
+sudo pacman -Q
+sudo pacman -Rcns steam
+yay -Rcns kotatogram
+sudo pacman -Q
+sudo pacman -Q | qemu
+sudo pacman -Q | rg qemu
+sudo pacman -Rcns qemu-{*}
+sudo pacman -Rcns qemu-{audio-alsa}
+sudo pacman -Rcns qemu-audio-alsa
+sudo pacman -Q | rg qemu
+sudo pacman -Rcns qemu-audio-alsa qemu-audio-dbus qemu-audio-dbus qemu-audio-jack qemu-audio-oss qemu-audio-pa
+sudo pacman -Rcns qemu-audio-pipewire qemu-audio-sdl qemu-audio-spice qemu-base qemu-block-curl
+sudo pacman -Rcns qemu-base
+sudo pacman -Q | rg qemu
+sudo pacman -Q 
+sudo pacman -Rcns ruby julia dotnet-sdk 
+sudo pacman -Q 
+sudo pacman -Q | rg java
+sudo pacman -Rcns obs-studio reaper
+dust /
+sudo pacman -Sy steam
+sudo pacman -Sy distrobox
+distrobox create --name apt --image ubuntu
+sudo pacman -Sy docker
+distrobox create --name apt --image ubuntu
+sudo systemctl enable docker
+sudo systemctl start docker
+distrobox create --name apt --image ubuntu
+docker run -it --rm archlinux bash -c "echo hello world"
+gpasswd -a karim docker
+sudo gpasswd -a karim docker
+reboot
+docker run -it --rm archlinux bash -c "echo hello world"
+distrobox create --image ubuntu:22.04
+ls /sys/module/kvm/parameters/ignore_msrs
+bat /sys/module/kvm/parameters/ignore_msrs
+grep -e vmx -e svm /proc/cpuinfo
+grep -e svm /proc/cpuinfo
+rg -e svm /proc/cpuinfo
+rg -e avx /proc/cpuinfo
+rg -e sse4 /proc/cpuinfo
+sudo systemctl disable mute-mic-led-status
+reboot
+distrobox list
+distrobox --help
+distrobox rm 
+distrobox rm ubuntu-22-04
+sudo pacman -Rcns distrobox
+sudo pacman -Scc
+sudo pacman -Q 
+sudo pacman -Rcns uml_utilities tesseract
+sudo pacman -Q 
+sudo pacman -Rcns btop htop
+sudo pacman -Rcns btop
+sudo pacman -Rcns nvtop
+sudo pacman -Sy btop
+btop
+sudo pacman -Q | rg java
+cd /efi/
+sudp efibootmgr -v
+sudo efibootmgr -v
+sudo pacman -Sy chntpw
+sudo mkdir /mnt/c
+sudo mount /dev/nvme0n1p3 /mnt/c
+modprobe ntfs
+sudo pacman -Sy ntfs-3g
+modprobe ntfs
+sudo mount /dev/nvme0n1p3 /mnt/c
+cd /mnt/c/Windows/System32/config
+sudo nvim /var/lib/bluetooth
+sudo systemctl restart bluetooth
+pip
+$ sudo pip install bt-dualboot
+sudo pip install bt-dualboot
+ls
+cd Arch-Hyprland
+./install.sh
+sudo pacman -Sy chromium
+cd .config/nushell
+vim .
+cd ..
+cd kitty
+du
+dust
+cd Dev
+cd HT/top-down/
+ls
+rm target -r
+cd test_level
+ls
+cd ~
+dust
+cd .cargo
+ls
+rm registry -r
+gparted
+kilall gparted
+killall gparted
+sudo killall gparted
+gparted
+sudo killall gpartedbin
+gparted
+cd Arch-Hyprland
+./install.sh
+yay -Sy librewolf-bin
+sudo pacman -Sy pipewire pipewire-alsa pipewire-jack pipewire-pulse
+sudo pacman -Sy alsa-utils
+sudo su
+sudo nvim /etc/pacman.conf
+sudo pacman -Sy steam flatpak
+yay -Sy kotatogram
+sudo pacman -Syu
+cd Dev
+ls
+cd swwws
+cargo build --release
+sudo cp target/release/swwws /usr/bin/
+swwws --update
+kilall swww-daemon
+killall swww-daemon
+swwws --init
+cd ~/.config
+cd ~/.config/nushell
+vim .
+cd ~/.config/nushell
+vim .
+cd ~/.config/nvim
+vim .
+flatpak install discord
+yay -Sy kotatogram
+yay -Sy kotatogram-desktop
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+reboot
+cd ~/.config/hypr
+ls
+cd UserConfigs
+ls
+rm Monitor.conf
+rm Monitors.conf
+vim 
+vim .
+swww init
+killall swww-daemon
+sudo pacman -Sy qbittorrent
+sudo pacman -Sy auto-cpufreq
+yay -Sy auto-cpufreq
+auto-cpufreq --install
+sudo auto-cpufreq --install
+cd Dev
+ls
+rm swww -r
+git clone https://github.com/LGFae/swww.git
+cd swww
+cargo build --release
+sudo cp target/release/swww /usr/bin/
+sudo cp target/release/swww-daemon /usr/bin/
+swwws --init
+yay -Sy kotatogram-desktop
+flatpak install kotatogram-desktop
+flatpak install kotatogram
+sudo nvim /etc/default/grub
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+cd boot
+cd /boot
+ls
+cd EFI
+ls
+cd BOOT
+ls
+steam
+killall steam
+steam
+vim .config/hypr
+dust --help
+dust / -X /home
+dust -X /home
+sudo pacman -Sy libreoffice
+sudo pacman -Sy easyeffects-daemon
+sudo pacman -Sy easyeffects
+sudo pacman -Sy lsp-plugins
+sudo pacman -Sy amberol
+yay -Sy amberol
+sudo pacman -Sy gparted
+killall gparted
+gparted
+lsblk
+sudo pacman -Sy npm julia ruby dotnet-sdk
+sudo pacman -Sy pip 
+sudo pacman -Sy python-pip
+vim
+sudo pacman -Sy go php
+sudo pacman -Sy jdk-openjdk 	
+sudo pacman -Sy zig
+vim
+sudo pacman -Sy nvim-treesitter
+cd Dev/HT/top-down/test_level
+cargo build --release
+sudo pacman -Sy clang
+cargo build
+sudo pacman -Sy lld
+sudo pacman -Sy mold
+cargo build
+cargo run
+sudo pacman -Sy mesa
+sudo pacman -Sy xf86-video-amd
+sudo pacman -Sy xf86-video-amdgpu
+sudo pacman -Sy vulkan-radeon
+sudo pacman -Sy mesa
+cargo run
+sudo su
+dust -X /home
+dust
+dust /
+sudo pacman -Scc
+sudo pacman -Sc
+yay -Scc
+cd .cache
+ls
+dust yay
+dust flatpak
+rust-
+rust-analyzer
+sudo pacman -Syu
+cd .config/nvim
+sudo pacman -Sy emacs
+vim .
+cd ~Dev/HT/top-down/test-server
+cd ~/Dev/HT/top-down/test-server
+cd ~/Dev/HT/top_down/test_server
+cd ~
+cd Dev/HT/top-down/test_level
+vim .
+cd Dev/HT/top-down/test_level
+auto-cpufreq --sttats
+auto-cpufreq --stats
+sudo pacman -Sy fastfetch
+fastfetch
+sudo pacman -Rcns easyeffetcs
+sudo pacman -Rcns easyeffects
+flatpak install easyeffects
+yay -Sy tlp tlpui
+sudo pacman -Sy tmux
+auto-cpufreq --stats
+sudo systemctl status tlp
+sudo systemctl disable tlp
+sudo systemctl status tlp
+ps | rg tlp
+lsblk
+sudo mount /dev/mmcblk0p1 /home/karim/media
+mkdir media
+sudo mount /dev/mmcblk0p1 /home/karim/media
+cd media
+ls
+cd Music
+ls
+ls 
+stats Raskasta Joulua-Varpunen Jouluaamuna.mp3  
+stat Raskasta Joulua-Varpunen Jouluaamuna.mp3  
+stat 'Raskasta Joulua-Varpunen Jouluaamuna.mp3'  
+sudo pacman -Sy exiftool
+sudo pacman -Sy Raskasta Joulua-Varpunen Jouluaamuna.mp3  
+sudo pacman -Sy ExifTool
+sudo pacman -Sy perl-image-exiftool
+exiftool 'Raskasta Joulua-Varpunen Jouluaamuna.mp3'  
+sudo pacman -Sy id3v2
+sudo pacman -Rcns perl-image-exiftool
+id3v2 'Raskasta Joulua-Varpunen Jouluaamuna.mp3'  
+id3v2 -a 'Raskasta Joulua' -t 'Varpunen Jouluaamuna' 'Raskasta Joulua-Varpunen Jouluaamuna.mp3'  
+sudo pacman -Sy tmux
+ls
+ls | rg Scar
+id3v2 -a 'Red Hot Chili Peppers' -t 'Scar Tissue' '03_Scar_Tissue.flac'  
+id3v2 -l '03_Scar_Tissue.flac'  
+cd ~/Dev
+cargo new metadata_editor
+cd metadata_editor
+vim 
+cd ~/Dev/metadata_editor/
+cargo run
+id3v2 -l '04_Otherside.flac'  
+ls 
+ls | rg Otherside
+id3v2 -l '04_Otherside.flac'  
+id3v2 -l 'Otherside.flac'  
+id3v2 -l '04_Otherside.flac'  
+id3v2 -a 'Red Hot Chili Peppers' -t 'Otherside' '04_Otherside.flac'  
+id3v2 -l '04_Otherside.flac'  
+id3v2 -l '03_Scar_Tissue.flac'  
+ls | rg Eriksson  
+id3v2 -l 'Adventure Time feat. Ashley Eriksson - Island Song (Come Along with Me) [feat. A.mp3'  
+cargo run
+id3v2 -l 'disturbed-deify.mp3'  
+id3v2 -a 'Disturbed' 'disturbed-deify.mp3'  
+ls | rg Ever
+ls | rg Opera
+id3v2 -t 'The Phantom Of The Opera' 'Nightwish - The Phantom Of The Opera.mp3'  
+exit
+exit
+vim .
+exit
+exit
+ls Nightwish
+ls | rg Nightwish  
+id3v2 -l 'High Hopes - Nightwish.mp3'
+id3v2 -h
+exit
+tmux
+lsblk
+sudo umount /home/karim/media
+lsblk
+sudo mkfs -t vfat /dev/mmcblk0p1
+sudo mount /dev/mmcblk0p1 /home/karim/media
+cp ~/Music/Music ~/media -r
+ls media/Music
+flatpak install telegram
+yay -Sy ttf-ms-win10-auto
+yay -Sy ttf-ms-fontsA
+yay -Sy ttf-ms-fonts
+ls media/Music
+sudo cp ~/Music/Music ~/media -r
+flatpak run org.telegram.desktop
+ls media/Music
+flatpak run org.telegram.desktop
+vim .config/hypr
+sudo pacman -Sy ntfs-3g
+sudo pacman -Sy os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -Sy grub-customizer
+grub-customizer
+sudo pacman -Sy xorg-xhost
+grub-customizer
+fastfetch
+yay -Sy distrobox
+distrobox create --image ubuntu:22.04
+sudo pacman -Sy docker
+gpasswd -a karim docker
+sudo gpasswd -a karim docker
+distrobox create --image ubuntu:22.04
+sudo systemctl enable docker
+sudo systemctl start docker
+distrobox create --image ubuntu:22.04
+sudo distrobox create --image ubuntu:22.04
+distrobox create --image ubuntu:22.04
+docker run -it --rm archlinux bash -c "echo hello world"
+distrobox create --image ubuntu:22.04
+distrobox enter ubuntu-22-04
+exit
+sudo pacman -Sc
+fastfetch
+ls
+vim .
+vim .config/hypr
+easyeffects --gapplication-service
+flatpak remove easyeffetcs
+flatpak remove easyeffects
+sudo pacman -Sy easyeffects
+easyeffects --gapplication-service
+nohup easyeffects --gapplication-service
+ps | rg easyeffects
+nohup easyeffects --gapplication-service &
+sh
+ps | rg easyeffects
+cd Downloads
+ls
+cd Music/Music
+ls
+ffmpeg -i Душа.mp3 Душа.mp4
+rm Душа.mp4
+sudo pacman -Sy krita
+./balenaEtcher-1.18.11-x64.AppImage
+dust .cache
+yay -Sy balena-etcher
+yay -Sc
+yay -Sc appimagelauncher
+yay -Sy appimagelauncher
+appimagelauncher
+ail-cli
+cd Downloads
+ls
+ail-cli balenaEtcher-1.18.11-x64.AppImage
+ail-cli ./balenaEtcher-1.18.11-x64.AppImage
+ail-cli
+ail-cli -h
+ail-cli --help-all
+ail-cli /home/karim/Downloads/balenaEtcher-1.18.11-x64.AppImage
+ail-cli ./home/karim/Downloads/balenaEtcher-1.18.11-x64.AppImage
+./Downloads/balenaEtcher-1.18.11-x64.AppImage
+sudo systemctl disable auto-cpufreq
+sudo systemctl status tlp
+sudo systemctl enable tlp
+tlp
+tlp start
+sudo tlp start
+sudo pacman -Sy chromium
+sudo pacman -Rcns chromium
+cd HT/top-down/
+cd test_level
+vim .
+cargo run
+sudo systemctl disable tlp
+suso auto-cpufreq --install
+sudo auto-cpufreq --install
+sudo pacman -Rcns tcp
+sudo pacman -Rcns tlp
+sudo pacman -Sy kdeconnect
+sudo pacman -Sy chromium
+lsblk
+cd Music/Music
+ls
+id3v2 -l 'High Hopes - Nightwish.mp3'
+id3v2 -l 'three-days-grace-pain.mp3'
+id3v2 -l 'Дом Ветров - Снег.mp3'
+id3v2 -h
+id3v2 -a 'Дом Ветров' -t 'Снег' 'Дом Ветров - Снег.mp3'
+id3v2 -l 'Дом Ветров - Снег.mp3'
+id3v2 -a 'Дом Ветров' -t 'Снег' -A 'Китобой' 'Дом Ветров - Снег.mp3'
+id3v2 -l 'Дом Ветров - Снег.mp3'
+dust /dev/nvme0n1p4
+dust /dev/nvme0n1p4/*
+sudo dust /dev/nvme0n1p4/*
+dust /dev/nvme0n1p5/*
+fastfetch
+pacman -Scc
+sudo pacman -Scc
+yay -Scc
+fastfetch
+sudo mkfs.ext4 -L SD /dev/mmcblk0p1
+lsblk
+mkdir SD
+sudo mount /dev/mmcblk0p1 /home/karim/SD
+fdisk -l
+sudo fdisk -l
+ps | rg gparted
+killall gpartedbin
+sudo killall gpartedbin
+sudo killall gparted
+sudo parted /dev/mmcblk0 mklabel gpt
+lsblk
+sudo parted /dev/mmcblk0 mkpart primary ext4 0G 250GB
+lsblk
+sudo mkfs.ext4 -L SD /dev/mmcblk0p1
+sudo pacman -Sy calf
+sudo fsck /dev/mmcblk0p1
+sudo mount /dev/mmcblk0p1 /home/karim/SD
+chkdsk
+sudo mkfs.fat -t 32 /dev/mmcblk0p1
+sudo mkfs.FAT -t 32 /dev/mmcblk0p1
+sudo mkfs.fat -F 32 /dev/mmcblk0p1
+sudo pacman -Sy dosfstools
+sudo mkfs.fat -F 32 /dev/mmcblk0p1
+sudo mount /dev/mmcblk0p1 /home/karim/SD
+cd Dev/metadata_editor/
+cargo build --release
+cargo run --release
+ls ~/Music/Music | rg rammstein
+ls ~/Music/Music | rg Rammstein
+cargo run --release
+id3v2 -l '~/Music/Music/Rammstein - Amour (Slowed & Reverb).mp3'
+id3v2 -l '/home/karimMusic/Music/Rammstein - Amour (Slowed & Reverb).mp3'
+cd ~/Music/Music
+rg | Rammstein
+ls  | rg Rammstein
+ls  | rg 'Rammstein - Amour (Slowed & Reverb).mp3'
+id3v2 `Rammstein - Amour (Slowed & Reverb).mp3`
+id3v2 -l `Rammstein - Amour (Slowed & Reverb).mp3`
+cd Dev/metadata_editor/
+cd target/relesae
+cd target/relese
+cd target/release
+ls
+cd ../..
+vim .
+cd target/release
+cd ../..
+cargo build --release
+cd target/release
+sudo cp metadata_editor /usr/bin
+cd Music/Music
+metadata_editor
+ls | rg '7 Days'
+id3v2 -l 'Nightwish - 7 Days To The Wolves (Live at Wembley Arena).mp3'
+id3v2 -t 'Nightwish - 7 Days To The Wolves (Live at Wembley Arena).mp3'
+id3v2 -t '7 Days To The Wolves (live)''Nightwish - 7 Days To The Wolves (Live at Wembley Arena).mp3'
+id3v2 -t '7 Days To The Wolves (live)' 'Nightwish - 7 Days To The Wolves (Live at Wembley Arena).mp3'
+id3v2 -l 'Nightwish - 7 Days To The Wolves (Live at Wembley Arena).mp3'
+cd ~/Music/Music
+ls | rg Sin
+id3v2 -t 'She Is My Sin (live Tampere)' -A 'Wishmaster' `🎼 Nightwish Live in Tampere 2015 🎶 She Is My Sin 🎶 High Quality.mp3`
+metadata_editor
+sudo pacman -Sy modemmanager
+modemmanager
+sudo modem-manager.mmcli -L
+mmcli
+mmcli -L
+sudo mmcli -L
+mbimcli -p -d /dev/wwan0mbim0 -v --quectel-query-radio-state
+ls /dev/
+cd Dev/cpp
+mkdir Dev/cpp
+cd Dev/cpp
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+cd ~
+ls
+ls -a
+vim ,tmux
+vim .tmux
+touch .tmux.conf
+vim .tmux.conf
+# type this in terminal if tmux is already running<\n>tmux source ~/.tmux.conf
+cd .config/tmux
+ls
+vim tmux.conf
+dotnet
+sudo pacman -Sy zig
+sudo pacman -Syu
+cd ~Dev
+cd ~/Dev
+mkdir dotnet
+cd dotnet
+dotnet new hello_world
+dotnet new hello_world_1
+dotnet 
+dotnet -h
+dotnet new first
+dotnet new --bin first
+dotnet new -h
+dotnet new -n hello_world
+dotnet new create -n hello_world
+ls
+dotnet new console
+vim .
+cd Music/Music
+metadata_editor
+ls | rg Disturbed
+cd ~/Dev/metadata_editor/
+cargo build --release
+sudo cp target/release/metadata_editor /usr/bin
+ls | rg 'A reason'
+ls | rg 'A Reason'
+id3v2 -l 'Disturbed - A Reason to Fight.mp3  '
+id3v2 -l 'Disturbed - A Reason to Fight.mp3'
+metadata_editor -A
+cargo build --release
+sudo cp target/release/metadata_editor /usr/bin
+ls | rg 'A_Reason'
+id3v2 -l 'Disturbed_-_A_Reason_to_Fight.mp3'
+id3v2 -a 'Disturbed' -t 'A Reason To Fight' 'Disturbed - A Reason to Fight.mp3'
+cargo build --release
+sudo cp target/release/metadata_editor /usr/bin
+sudo pacman -Sy id3v1
+metadata_editor -A
+sudo umount /home/karim/SD
+lsblk
+sudo mount /dev/mmcblk0p1 /home/karim/SD
+mkdir ~/USB
+sudo mount /dev/sda1 /home/karim/USB
+ls ~/USB
+rm ~/USB/Music/*
+ls ~/USB/Music/
+sudo rm ~/USB/Music/*
+ls ~/USB/Music/
+cp * ~/USB/Music/
+cp * ~/USB/Music/ -R
+cp * ~/USB/Music/ -r
+lsblk
+sudo umount /home/karim/SD
+ls ~/USB/Music/
+cd ~/Downloads
+ls
+id3v2 -l 'Nightwish-The_Siren.mp3'
+id3v2 -A 'Once' 'Nightwish-The_Siren.mp3'
+id3v2 -l 'Nightwish-The_Siren.mp3'
+sudo cp Nightwish-The_Siren.mp3 ~/USB/Music
+ls ~/USB/Music/
+ls
+mv Marko_Hietala-I_Am_the_Way-world74.spcs.bio.mp3 Marko_Hietala-I_Am_the_Way.mp3<\n>
+ls
+mv Marko_Hietala-Runner_of_the_Railways-world74.spcs.bio.mp3  Marko_Hietala-Runner_of_the_Railways.mp3
+mv Marko_Hietala-Stones-world74.spcs.bio.mp3 Marko_Hietala-Stones.mo3
+mv Marko_Hietala-Stones.mo3  Marko_Hietala-Stones.mp3
+mv Marko_Hietala-Truth_Shall_Set_You_Free-world74.spcs.bio.mp3 Marko_Hietala-Truth_Shall_Set_You_Free.mp3
+mv Marko_Hietala-I_Dream-world74.spcs.bio.mp3 Marko_Hietala-I_Dream.mp3
+mv Marko_Hietala-Star_Sand_and_Shadow-world74.spcs.bio.mp3  Marko_Hietala-Star_Sand_and_Shadow.mp3
+mv Marko_Hietala-The_Voice_Of_My_Father-world74.spcs.bio.mp3 Marko_Hietala-The_Voice_Of_My_Father.mp3
+metadata_editor -A
+ls ~/USB/Music/
+blueman-manager
+ls ~/USB/Music/
+exit
+vim .
+exit
+exit
+sudo cp * ~/USB/Music/ -r
+ls ~/USB/Music/
+cd ~/Downloads/m
+ls
+sudo cp * ~/USB/Music/ -r
+lsblk
+mount /dev/mmcblk0p1 /home/karim/SD
+sudo nvim /etc/fstab
+mount /dev/mmcblk0p1 /home/karim/SD
+sudo mount /dev/mmcblk0p1 /home/karim/SD
+cd ~/Downloads
+ls
+cd Arcane.S01.1080p.NF.WEB-DL.DDP5.1.H.264-EniaHD/
+ls
+sudo cp * ~/SD/Serials/Arcane/ -r
+mkdir ~/SD/Serials/Arcane
+sudo mkdir ~/SD/Serials/Arcane
+sudo mkdir ~/SD/Serials/
+sudo mkdir ~/SD/Serials/Arcane
+lsblk
+sudo mkdir /data
+sudo chown karim:karim /data
+sudo nvim /etc/fstab
+mount -a
+sudo mount -a
+ls SD/Music
+ls SD/
+ls SD/Serials/Arcane
+sudo cp * ~/SD/Serials/Arcane/ -r
+sudo cp ~/Music/Music ~/SD/Music -r
+sudo rm SD/Music/ -r
+sudo rm SD/Serials/ -r
+sudo systemctl daemon-reload
+sudo mount -a
+lsblk
+sudo umount /home/karim/SD
+cd ~
+rm USB
+rm SD
+sudo umoun USB
+sudo umount USB
+rm USB
+lsblk
+cd .config/swwws
+vim .
+sudo chown karim:karim /data
+lsattr /data
+sudo chattr -i immutable
+sudo chattr -i /data
+sudo nvim /etc/fstab
+sudo systemctl daemon-reload
+sudo chattr -i /data
+sudo chown karim:karim /data
+mkdir /data/Music
+mkdir /data/Movies
+mkdir /data/Movies/Arcane
+cp Downloads/Arcane.S01.1080p.NF.WEB-DL.DDP5.1.H.264-EniaHD/* /data/Movies/Arcane\
+cp Downloads/Arcane.S01.1080p.NF.WEB-DL.DDP5.1.H.264-EniaHD/* /data/Movies/Arcane/
+ls /data/Movies/Arcane
+rm Downloads/Arcane.S01.1080p.NF.WEB-DL.DDP5.1.H.264-EniaHD/ -r
+fastfetch
+reboot
+rg | sleep
+ps | rg sleep
+cd Downloads
+ls
+cp openSUSE-Tumbleweed-DVD-x86_64-Snapshot20240423-Media.iso /data/OS/
+ls /data
+cp openSUSE-Tumbleweed-DVD-x86_64-Snapshot20240423-Media.iso /data/OS/
+sudo chown karim:karim /data
+sudo systemctl daemon-reload
+sudo nvim /etc/fstab
+reboot
+cd Downloads
+cp openSUSE-Tumbleweed-DVD-x86_64-Snapshot20240423-Media.iso /data/OS/
+ls /data
+mount -a
+sudo mount -a
+lsblk
+sudo chown karim:karim /data
+mkdir /data/Movies
+mkdir /data/Movies/
+mkdir /data/Movies/Arcane
+ls /data
+ls /data/Movies/Arcane
+rm /data/Movies/Arcane/Arcane.S01.1080p.NF.WEB-DL.DDP5.1.H.264-EniaHD/
+ls /data/Movies/Arcane
+rm /data/Movies/Arcane/Arcane.S01.1080p.NF.WEB-DL.DDP5.1.H.264-EniaHD/ -r
+cd Downloads/Arcane.S01.1080p.NF.WEB-DL.DDP5.1.H.264-EniaHD/
+ls
+dust Downloads/Arcane.S01.1080p.NF.WEB-DL.DDP5.1.H.264-EniaHD/
+dust /data/Movies/Arcane
+cp * /data/Movies/Arcane
+fastfetch
+lsblk
+cd Dev/cpp
+clang++
+clang++ --help
+clang++ -Wall -std=c++11 main.cpp -o test
+bat test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+lsblk
+mkdir HDD
+sudo mount /dev/sda2 HDD
+lsblk
+sudo chown karim:karim /home/karim/HDD
+mkdir HDD/Movies/Arcane
+mkdir HDD/ISO
+ls Documents/
+dust HDD/Movies
+dust HDD/ISO
+cp Videos/Arcane/* HDD/Movies/Arcane
+dust Documents/ISO
+dust HDD/ISO
+cp Documents/ISO/* HDD/ISO/
+fastfetch
+vim .config/hypr
+sudo pacman -Sy 	jdk-openjdk
+javac
+cd Dev
+ls
+cd java
+vim .
+rm dmg2img/ -r
+cd ..
+rm dmg2img/ -r
+ls
+rm zero2prod/ -r
+rm slint_test -r
+id3v2 -h
+cd Music/Music
+ls | rg [Mm]arko
+ls | rg '[Mm]arko'
+id3v2 -l Marko_Hietala-Stones.mp3
+id3v2 -l `Marko_Hietala-Dead_God's_Son.mp3`
+id3v2 -s `Marko_Hietala-Dead_God's_Son.mp3`
+id3v2 -l `Marko_Hietala-Dead_God's_Son.mp3`
+cd ~/Dev/metadata_editor/
+vim .
+cargo build --release
+vim .
+cargo build --release
+sudo cp target/release/metadata_editor /usr/bin
+cd ..
+cd HT/top-down/
+cd ../..
+cargo new vimc
+vim .
+cargo build --release
+cd vimc
+cargo build --release
+cargo run --release
+84;0;0c:q
+exit
+exit
+tmux
+vim .
+yay -Sy webcord
+cd Dev/java
+vim .
+java Main
+ls
+rm Main.class
+java Main
+javac Main.java
+cd ..
+ls
+cd cpp
+cd ..
+cd cpp
+clang++ -Wall -std=c++11 main.cpp -o test
+ls
+test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+clang++ -Wall -std=c++11 main.cpp -o test
+./test
+vim .
+cd ..
+ls
+mkdir rust
+cd rust
+cargo new hello_world
+vim .
+cd ../java
+cd ../java
+cd ../rust/hello_world
+vim .
+cargo build
+cd target/debug
+;s
+ls
+./hello_world
+./hello_world 1 2 3 4 5
+javac Main.java
+java Main
+javac Main.java
+java Main
+vim .
+eixit
+exit
+exit
+exit
+tmux
+fastfetch
+vim .
+cd Dev
+mkdir python
+cd python
+vim main.py
+python main.py
+:q
+sudo pacman -Syu
+cd wlogout
+sudo pacman -Sy loupe
+vim .
+cd ../hypr
+cd .config/hypr
+cd ../wlogout
+vim .
+systemctl hibernate
+mount -a
+sudo mount -a
+lsblk
+sudo nvim /etc/fstab
+sudo umount /data
+lsblk
+cd Documents
+mkdir Dev
+ln Dev ~/Dev
+ln -s Dev ~/Dev
+ls
+cd Dev
+ls
+rm Dev
+rm Dev -r
+cd ..
+rm Dev -r
+ls
+ln -s ~/Dev Dev
+ls
+cd Dev
+ls
+cd cpp
+ls
+lsblk
+sudo blkid /dev/nvme0n1p7
+sudo nvim /etc/fstab
+sudo mount -a
+sudo systemctl daemon-reload
+reboot
+swaylock -f and systemctl hibernate
+lsblk
+sudo nvim /etc/fstab
+vim .config/hypr
+sudp pacman -Syu
+sudo pacman -Syu
+systemctl hibernate
+sudo nvim /etc/mkinitcpio.conf
+mkinitcpio -p linux
+sudo mkinitcpio -p linux
+systemctl hibernate
+lsblk
+ls /dev/ | rg zram
+sudo systemctl status zram
+lsmod | grep zram
+ls /sys/power
+fastfetch
+bat /sys/power/image_size
+bat /sys/power/resume
+lsblk 
+sh
+ls
+cd Arch-Hyprland/
+;s
+ls
+./install.sh
+vim hypr
+vim swwws
+fastfetch
+fastfetch -h
+fastfetch
+sudo pacman -Sy snapd
+sudo pacman -Sy snap
+yay -Sy snapd
+sudo systemctl enable snapd
+sudo systemctl start snapd
+snap install sosumi
+sosumi
+ls
+cd snap
+ls
+snap install sosumi
+ls -a
+cd ..
+ls -a
+snap remove sosumi
+snap warnings
+systemctl enable --now snapd.apparmor
+sudo snap install sosumi
+sosumi
+ls /var/lib/snapd/snap/bin
+/var/lib/snapd/snap/bin/sosumi
+ls snap
+ls snap/sosumi
+cd snap/sosumi/common
+ls
+rm macos.qcow2
+qemu-img create -f qcow2 macos.qcow2 100G
+snap remove sosumi
+sudo snap install sosumi
+/var/lib/snapd/snap/bin/sosumi
+cd ~/.config/hypr
+vim .
+cd ~/snap/sosumi/common
+ls
+vim .
+lsblk
+sudo mount /dev/sdb1 ~/Documents/SD
+mkdir Documents/SD
+sudo mount /dev/sdb1 ~/Documents/SD
+lsblk
+sudo umount Documents/SD
+sudo su
+sudo pacman -Sy gparted amberol krita steam flatpak
+sudo pacman -Sy gparted krita steam flatpak
+sudo pacman -Sy easyeffects libreoffice 
+sudo pacman -Sy lsp-plugins
+yay -Sy librewolf-bin
+yay -Sy ttf-ms-fonts
+os-prober
+sudo os-prober
+grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -Sy grub-customizer
+reboot
+sudo su
+cd Dev
+sudo cp target/release/swwws /usr/bin
+sudo cp swwws/target/release/swwws /usr/bin
+swwws --init
+yay -Sy webcord
+flatpak install discord
+yay -Sy librewolf-bin
+lsblk
+sudo pacman -Sy auto-cpufreq
+yay -Sy auto-cpufreq
+sudo auto-cpufreq --install
+yay -Sy kotatogram-desktop
+sudo nvim /etc/mkinitcpio.conf
+sudo swapon -s
+sudo dd if=/dev/zero of=/swapfile bs=1M count=17408
+sudo mkswap /swapfile
+sudo chmod 600 /swapfile
+sudo swapon /swapfile
+sudo swapon -s
+sudo su
+<\n>sudo mount -a
+sudo nvim /etc/fstab
+<\n>sudo mount -a
+yay -Sy hibernator
+sudo hibernator
+yay -Sy hibernator
+git clone https://github.com/Chrysostomus/hibernator.git
+cd hibernator/
+ls
+chmod +x hibernator
+./hibernator
+sudo ./hibernator
+update-grub
+vim .
+bat /etc/mkinitcpio
+bat /etc/mkinitcpio.conf
+vim .
+./hibernator
+sudo ./hibernator
+sudo nvim /etc/mkinitcpio.conf
+<\n>sudo cp /etc/default/grub /etc/default/grub.backup
+sudo blkid
+lsblk
+sudo filefrag -v /swapfile
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+systemctl hibernate
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+systemctl hibernate
+lsblk
+ls /
+sudo nvim /etc/fstab
+sudo mount -a
+sudo swapon -s
+sudo systemctl hibernate
+sudo systemctl hibernate -h
+systemctl suspend
+sudo su
+sudo nvim /etc/fstab
+vim .config/swaylock
+vim .config/wlogout
+bat /sys/power/resume
+bat /sys/power/resume_offset
+sudo mkinitcpio -p linux
+systemctl status systemd-hibernate
+rebooy
+reboot
+systemctl status systemd-hibernate
+systemctl suspend
+vim .config/wlogout
+swaylock -f
+swaylock -f and systemctl suspend
+swaylock -f & systemctl suspend
+sh
+sudo su
+flatpak install kotatogram
+cd Dev
+ls
+rm rust_test
+rm rust_test -r
+rm vimc -r
+ls
+cd java
+ls
+vim .
+cd ..
+cd dotnet
+vim .
+sudo pacman -Sy ruby npm go dotnet-sdk
+sudo pacman -Sy ruby go dotnet-sdk
+vim
+cd Dev/dotnet
+vim .
+tmux
+sudo pacman -Sy tmux
+dotnet run
+exit
+dotnet run
+vim .
+cd Dev/dotnet
+vim .
+sudo pacman -Sy rust amberol
+yay -Sy amberol
+sudo pacman -Sy fastfetch
+fastfetch
+yay -Sy snapd
+yay -Scc
+sudo pacman -Scc
+y
+fastfetch
+dust /
+sudo su
+sudo pacman -Sy jdk-openjdk
+amixer -c0 events
+sudo pacman -Syu
+sudo pacman -Sy alsa-utils
+amixer -c1 controls
+alsamixer
+exit
+cd /usr/share/sddm/themes/
+ls
+cd /usr/share/sddm/themes/
+cd Pictures
+ls
+cd ~
+ls
+ls -a
+setfacl -m u:sddm:r ~/.face.icon
+setfacl
+cd ~
+ls -a
+mv face.icon .face.icon
+setfacl -m u:sddm:r ~/.face.icon
+vim hypr
+easyeffects
+sudo pacman -Sy ark
+cd .config/hypr
+vim .
+cd ~/.config/nushell
+broot
+broot --install
+vim .
+sudo pacman -Sy go php ruby dotnet-sdk
+sudo pacman -Sy jdk-openjdk
+sudo nvim /etc/pacman.conf
+sudo pacman -Sy steam flatpak
+sudo pacman -Sy alsa-utils
+amixer -c1 controls
+alsamixer
+cd Dev
+sudo pacman -Sy easyeffects libreoffice lsp-plugins
+ls
+mkdir Dev
+yay -Sy librewolf-bin
+cd Dev
+git clone git@github.com:GrandAdmiralBee/swww-switcher.git
+ls
+mv swww-switcher/ swwws
+cd swwws
+vim .
+swwws --init
+cargo build --release
+sudo pacman -Sy tmux
+rustup default stable
+sudo pacman -Sy tmux
+cargo build --release
+sudo cp target/release/swwws /usr/bin
+swwws --init
+swww 
+cd ..
+git clone https://github.com/LGFae/swww.git
+cd swww
+cargo build --release
+sudo cp target/release/swww /usr/bin
+sudo cp target/release/swww-daemon /usr/bin
+swwws --init
+cd .config/
+mkdir swwws
+cd swwws
+touch wallpapers.toml
+swwws --init
+ls
+cd ~/Dev/swwws
+vim .
+cd ~/Pictures
+ls
+git clone https://github.com/JaKooLit/Wallpaper-Bank.git
+ls
+mv Wallpaper-Bank/wallpapers/ wallpapers -r
+mv Wallpaper-Bank/wallpapers/ wallpapers
+cd wallpapets
+cd wallpapers
+;s
+ls
+cd wallpapers
+ls
+cd ..
+mv wallpapers/ 
+mv wallpapers/* *
+cd wallpapers/
+mv * ../
+swwws --init
+flatpak install kotatogram discord
+yay -Sy webcord
+sudo pacman -Sy chromium
+sudo pacman -Sy auto-cpufreq
+yay -Sy auto-cpufreq
+sudo auto-cpufreq --install
+sudo swapon -s
+sudo dd if=/dev/zero of=/swapfile bs=1M count=17408<\n>sudo mkswap /swapfile<\n>sudo chmod 600 /swapfile<\n>sudo swapon /swapfile
+echo '/swapfile none    swap    defaults 0 0' | sudo tee -a /etc/fstab
+echo '/swapfile none    swap    defaults 0 0' out> sudo tee -a /etc/fstab
+sudo nvim /etc/fstab
+sudo mount -a
+ls /
+sudo nvim /etc/fstab
+sudo mount -a
+sudo blkid
+lsblk
+sudo filefrag -v /swapfile
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh
+bash /tmp/install.sh
+sudo pacman -Sy gparted grub-customizer
+systemctl suspend
+sudo pacman -Sy krita
+vim .config/swwws
+swwws --update
+vim .config/hypr
+swww img ~/Pictures/wallpapers/she.jpg
+sudo pacman -Sy xorg-xhost
+yay -Sy amberol
+yay -Sy snapd
+snap install sosumi
+sudo systemctl enable snapd
+sudo systemctl start snapd
+snap install sosumi
+sudo pacman -Sy rar
+sosumi
+yay -Sy rar
+sudo pacman -Sy fastfetch
+fastfetch
+cd DEv
+cd Dev
+mkdir python
+cd python
+vim kurs.py
+ls Downloads
+mv ~/Downloads/kursach_new.py kurs.py
+vim .
+python kurs.py
+cd Downloads
+npm install numpy
+git clone https://github.com/ryanoasis/nerd-fonts.git
+python kurs.py
+npm remove numpy
+sudo pacman -Sy python-pip
+pip install npm
+python -m pip install npm
+pipx install numpy
+pip install numpy
+sudo pacman -Sy pipx
+sudo pacman -Su python-numpy
+sudo pacman -Sy python-numpy
+python kurs.py
+sudo pacman -Sy python-matplotlib
+python kurs.py
+sudo pacman -Sy python-dcipy
+sudo pacman -Sy python-scipy
+python kurs.py
+cd Dev/python
+vim .
+python kurs.py
+:q
+exit
+tmux
+pacman -Q font
+pacman -Qs font
+pacman -Qs font | vicor
+pacman -Qs font | rg victor
+pacman -Qs ttf | rg victor
+pacman -Qs ttf | rg [nN]erd
+pacman -Qs ttf | rg '[nN]erd'
+pacman -Qs font | rg '[nN]erd'
+yay -Qs font | rg '[nN]erd'
+yay -Qs ttf | rg '[nN]erd'
+yay -Sy ttf-jetbrains-mono-nerd
+vim .config/kitty
+cd Dev/python
+vim .
+/var/lib/snapd/snap/bin/sosumi
+timedatectl set-local-rtc 1 --adjust-system-clock
+cls
+ls
+cd nerd-fonts/
+;s
+ls
+./install.sh
+vim .
+cd Downloads
+ls
+rm nerd-fonts/ -r
+systemctl hibernate
+sudo nvim /etc/mkinitcpio.conf
+mkinitcpio -p linux
+sudo mkinitcpio -p linux
+swaylock -f & systemctl suspend
+sudo pacman -Sy swaylock
+sudo pacman -Sy wlogout
+yay -Sy wlogout
+swaylock -f
+vim .config/hypt
+sh
+swappy
+hyprlock
+cd .config/
+ls
+vim .config/hypr
+cd ~
+git clone
+git clone https://github.com/JaKooLit/Hyprland-Dots.git
+ls
+cd Hyprland-Dots/
+ls
+cd config
+ls
+cp wlogout ~/.config/ -r
+vim wlogout
+cd hypr
+vim .
+cd ..
+cd ~/.config/hypr
+vim .
+ls
+cd ~/Hyprland-Dots/
+ls
+cd con
+cd config
+cd hypt
+cd hypr
+ls
+cp hyprlock.conf ~/.config/hypr
+vim .config/hypr
+cp hypridle.conf ~/.config/hypr
+cp hyprland.conf ~/.config/hypr
+vim .config/wlogout
+sudo pacman -Sy ScreenKey
+yay -Sy ScreenKey
+yay -Sy screenkey
+screenkey
+yay -R screenkey
+sudo pacman -Sy inkspace
+sudo pacman -Sy Inkspace
+sudo pacman -Sy inkscape
+sudo pacman -Q chrome
+sudo pacman -Qs chrome
+sudo pacman -Qs google
+yay -Sy google-chrome
+sudo pacman -Sy krunner
+krunner
+sudo pacman -R krunner
+sudo pacman -R kitemodels
+sudo pacman -R kitemmodels
+yay -R google-chrome
+yay -Sy google-chrome
+yay -Sy hyprpicker-git
+hyprpicker
+sudo pacman -Sy wl-clipboard
+hyprpicker -a
+yay -Sy anyrun
+yay -Sy Anyrun
+cd Dev
+git clone https://github.com/Kirottu/anyrun.git # Clone the repository<\n>cd anyrun # Change the active directory to it<\n>cargo build --release # Build all the packages<\n>cargo install --path anyrun/ # Install the anyrun binary<\n>mkdir -p ~/.config/anyrun/plugins # Create the config directory and the plugins subdirectory<\n>cp target/release/*.so ~/.config/anyrun/plugins # Copy all of the built plugins to the correct directory<\n>cp examples/config.ron ~/.config/anyrun/config.ron # Copy the default config file
+vim .config/hypr
+yay -Sy hyprshade
+hyprshade ls
+hyprshade on vibrance
+hyprshade on blue-light-filter
+hyprshade install
+hyprshade on 
+hyprshade off
+hyprshade on vibrance
+hyprshade off
+anyrun
+vim .config/anyrun
+vim .config/hypr
+vim .
+vim .config/hypr
+chmod +x .config/hypr/UserScripts/Anyrun.sh
+./.config/hypr/UserScripts/Anyrun.sh
+vim .config/hypr
+cd Dev
+ls
+mkdir HT
+cd HT
+git clone git@github.com:Kazan-GameDev-Team/top-down.git
+vim .
+hyprshade on blue-light-filter
+hyprshade off
+vim ~/.config/nvim
+vim ~/.config/kitty
+ls
+ls ~/.config/kitty
+vim ~/.config/nvim
+lsblk
+sudo mount /dev/sda ~/Documents/SD
+mkdir Documents/SD
+sudo mount /dev/sda ~/Documents/SD
+ls Documents/SD
+sudo umount ~/Documents/SD
+fastfetch -h
+fastfetch --file ~/Pictures/icon.jpg
+fastfetch --file-raw ~/Pictures/icon.jpg
+fastfetch --data ~/Pictures/icon.jpg
+fastfetch --data-raw ~/Pictures/icon.jpg
+fastfetch --kitty ~/Pictures/icon.jpg
+fastfetch --kitty ~/Pictures/icon1.jpg
+fastfetch
+fastfetch --kitty ~/Pictures/icon.jpg
+vim
+yay -Sy ttf-ms-fonts
+fastfetch --kitty ~/Pictures/arch_logo.jpg
+fastfetch --kitty ~/Pictures/arch_logo.png
+fastfetch --help
+fastfetch --kitty ~/Pictures/arch_logo.png
+hyprpicker -a
+fastfetch --kitty ~/Pictures/arch_logo.png --color #A371BF
+fastfetch --kitty ~/Pictures/arch_logo.png --color purple
+fastfetch --kitty ~/Pictures/arch_logo.png --color blue
+fastfetch --kitty ~/Pictures/arch_logo.png --color red
+fastfetch --kitty ~/Pictures/arch_logo.png --color green
+fastfetch --kitty ~/Pictures/arch_logo.png --color purple
+fastfetch --kitty ~/Pictures/arch_logo.png --color --рудз
+fastfetch --kitty ~/Pictures/arch_logo.png.png --color --рудз
+fastfetch --kitty ~/Pictures/arch_logo.png.png
+hyprpicker -a
+fastfetch --kitty ~/Pictures/arch_logo.png.png --color A370BE
+fastfetch --kitty ~/Pictures/arch_logo.png.png 
+fastfetch
+mv .config/nvim .config/nvim-old
+rm -rf ~/.local/share/nvim
+git clone https://github.com/NvChad/starter ~/.config/nvim
+nvim .config/nvim
+ls .config/nvim
+vim .config/nvim
+cd .config/nvim
+vim .
+vim
+ls
+exit
+nvim .config/nvim-old
+vim .
+vim .config/nvim
+cd .config/nvim
+cd .config/nvim-old
+vim .
+vim .
+cd .config/nvim-old
+vim .
+cd Dev/rust/swwws
+cd Dev
+ls
+cd swwws
+vim .
+vim .
+vim src/main.rs
+vim .
+vim src/main.rs
+cd .config/nvim
+vim .
+vim .config/nvim/*
+cd Dev/python
+ls
+fastfetch
+mv .config/nvim .config/nvchad
+mv .config/nvim-old .config/nvim
+vim .
+cd Dev/swwws
+vim .
+vim ~/.config/nvim
+mv .config/nvim .config/nvim-old
+mv .config/nvchad .config/nvim
+vim .
+vim .
+cd .config/nvim
+vim .
+cd Dev/swwws
+vim .
+:q
+cd Dev/swwws
+vim .
+vim .
+rustup component add rust-analyzer
+fastfetch
+vim .
+cd Documents
+cd .config/nvim
+vim .
+cd ../hypr
+vim 
+vim .
+fastfetch
+hyprpicker -a
+#A563B8
+hyprshade on blue-light-filter
+hyprshade off
+hyprshade on blue-light-filter
+hyprshade off
+sudo mkfs.fat -F 32 /dev/sdb
+lsblk
+sudo mkfs.fat -F 32 /dev/sda
+sudo pacman -Sy util-linux
+sudo mkfs.fat -F 32 /dev/sda
+sudo pacman -Sy dosfstools
+sudo mkfs.fat -F 32 /dev/sda
+cd Dev
+ls
+mkdir Rust
+ls
+rm Rust
+mkdir rust
+cd rust
+cargo new parser
+cd parser
+ls
+touch file.cpp
+touch mdb.mdb
+cargo run
+cargo add regex
+cargo run
+vim .
+fastfetch
+hyprshade on vibrance
+hyprshade off
+sudo pacman -Sy qbittorrent
+sudo pacman -S lld clang mold
+yay -Sy snapd
+sudo systemctl enable --now snapd
+snap install sosumi
+/var/lib/snapd/snap/bin/sosumi
+cd Downloads
+ls
+chmod +x balenaEtcher-1.18.11-x64.AppImage
+./bal
+cd Downloads
+./balenaEtcher-1.18.11-x64.AppImage
+sudo pacman -Sy obs-studio
+sudo pacman -R obs-studio
+sudo pacman -Sy obs-studio
+sudo pacman -Rcns obs-studio
+cd Dev/swwws
+vim .
+lsblk
+sudo pacman -Sy plasma
+cd Downloads
+sudo pacman -Sy ffmpeg
+sudo pacman -Sy parabolic
+yay -Sy parabolic
+cd Downloads
+ls
+ffmpeg -i `I Dream.mp4` `I Dream.mp3`
+ls
+cd /home/karim/
+ls
+cd Dev
+ls
+cd ..
+ls -a
+cd .local
+ls
+cd share
+cd fonts
+ls
+cd NerdFonts
+ls
+ls | rg 'Victor'
+lsblk
+mkdir SD
+ls
+sudo mount /dev/sdb ~/SD
+cd SD
+ls
+cd ..
+sudo umount ~/SD
+./balenaEtcher-1.18.11-x64.AppImage
+cd Downloads
+ls
+cd Downloads/Hydra-linux-x64/
+ls
+sudo pacman -Sy wireguard-tools
+ip link add dev wg0 type wireguard
+sudo ip link add dev wg0 type wireguard
+cd Downloads/Hydra-linux-x64/
+cd Downloads
+./JumpWay
+ld
+ls
+chmod +x JumpWay
+./JumpWay
+source ~/.bashrc
+sh
+sudo nvim .bashrc
+sudo pacman -S openvpn dialog python-pip python-setuptools
+sudo protonvpn init
+sudo pip3 install protonvpn-cli
+sudo pacman -Sy python-protonvpn-cli
+sudo pip install protonvpn-cli
+sudo pip3 install protonvpn-cli
+sh
+sudo protonvpn init
+sh
+yay -Sy protonvpn-cli
+protonvpn-cli
+protonvpn-cli login ex7Dm2cp8pcPHA7o
+protonvpn-cli login karim.abdulkin@gmail.com
+yay -Qs haproxy
+yay -Qs proxy
+cd Downloads/nginx-1.25.5/
+ls
+./configure
+make
+sudo make install
+nginx
+ls
+hyprctl --help
+hyprctl monitors
+sudo pacman -Sy kdeconnect
+sudo pacman -Sy virtualbox
+sudo systemctl enable --now virtualbox-host-dkms
+modprobe vboxdrv
+sudo modprobe vboxdrv
+sudo pacman -Sy virtualbox-guest-iso
+cd Dev
+exit
+fastfetch
+sudo pacman -Sy ariana
+sudo pacman -Sy calibre
+sudo pacman -Sy calibre arianna
+systemctl hybrid-sleep
+groups karim
+sudo gpasswd -a karim vboxusers
+yay -Sy virtualbox-ext-oracle
+nvim .config/kitty
+nvim ~/.config/kitty
+cd ..
+nvim .config/kitty
+ls .config | rg nvim
+mv .config/nvim .config/nvchad
+mv .config/nvim-old .config/nvim
+nvim .config/kitty
+sudo pacman -Sy hypridle
+sudo pacman -Sy gleam
+yay -Sy gleam
+bat /etc/systemd/sleep.conf
+sudo gedit /etc/pm/config.d/00-use-suspend-hybrid
+sudo nvim /etc/pm/config.d/00-use-suspend-hybrid
+ls /etc | rg pm
+sudo pacman -Sy pm
+sudo pacman -Sy powerman
+yay -Sy powerman
+sudo pm-is-supported
+systemctl suspend-then-hibernate
+acpi | cut -f2 -d
+bat /sys/devices/platform/smapi/BAT0/remaining_percent
+ls /sys/devices/platform
+ls /sys/devices/platform/power
+ls /sys/devices/platform/thinkpad_acpi
+ls /sys/devices/platform/thinkpad_acpi/power
+upower -e
+bat /org/freedesktop/UPower/devices/battery_BAT0
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage | rg '[0-9]+'
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage | grep '[0-9]+'
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage | grep -o '[0-9]*'
+cd Dev
+ls
+cd scripta
+cd scripts
+mkdir scripts
+cd scripts/
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state | grep "(?:dis)?charging"
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state | grep "(dis)?charging"
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state | grep '(dis)?charging'
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state | grep 'charging'
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state | grep -o 'charging'
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state | grep -o '(dis)?charging'
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state | grep -o 'd?i?s?charging'
+upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state | grep -o 'd*i*s*charging'
+nvim pm-hibernate
+chmod +x pm-hibernate
+./pm-hibernate
+cron
+crontab
+sudo pacman -Sy cronie
+sudo systemctl enable --now cronie
+crontab -e
+sudo pacman -Sy vi
+crontab -e
+vim .config/nvim/*
+vim .config/hypr
+vim ~/.config/hypr
+ls Dev/scripts
+crontab -e
+cd Dev
+cd rust
+cargo new pm-hibernate
+vim .
+cargo build --release
+cd pm-hibernate/
+cargo build --release
+sudo cp target/release/pm-hibernate /usr/sbin
+pm-hibernate
+cd ..
+ls
+cd ..
+cd swwws
+vim .
+cd ..
+vim .
+cd pm-hibernate/
+cd rust/pm-hibernate/
+cargo build --release
+sudo cp target/release/pm-hibernate /usr/sbin
+pm-hibernate
+which pm-hibernate
+vim Dev/scripts/pm-hibernate
+./Dev/scripts/pm-hibernate
+mkdir .dbus
+./Dev/scripts/pm-hibernate
+vim Dev/scripts/pm-hibernate
+notify-send "Hehe"
+./Dev/scripts/pm-hibernate
+vim Dev/scripts/pm-hibernate
+./Dev/scripts/pm-hibernate
+vim Dev/scripts/pm-hibernate
+./Dev/scripts/pm-hibernate
+cd Dev/rust
+ls
+cargo new battery-low-hibernate
+cd battery-low-hibernate/
+vim .
+cd Dev/rust/battery-low-hibernate/
+vim Dev/scripts/pm-hibernate
+./Dev/scripts/pm-hibernate
+vim Dev/scripts/pm-hibernate
+./Dev/scripts/pm-hibernate
+vim .
+vim Dev/scripts/pm-hibernate
+vim .config/hypr
+mv .config/nvim .config/nvim-old
+mv .config/nvchad .config/nvim
+vim .
+cd Dev
+mkdir gleam
+cd gleam
+gleam new vars
+cd vars
+vim .config/nvim
+vim ~/.config/nvim
+nvim ~/.config/nvim
+cd ~
+nvim ~/.config/nvim
+cd Dev/gleam/vars
+vim .
+gleam run
+gleam add envoy argv
+bat gleam.toml
+gleam run
+ls
+ls build
+ls build/prod
+ls build/prod/erland
+gleam run arg
+gleam run get Karim
+gleam run get karim
+gleam run get SHELL
+nvim ~/.config/nvim
+ls
+ls -a | rg steam
+cd .steam
+ls
+cd steam
+ls
+cd steamapps
+ls
+cd commmon
+cd common
+ls
+cd `Don't Starve Together/`
+ls
+ls -a
+pacman --help
+pacman -D dotnet
+sudo pacman -D dotnet
+sudo pacman -F dotnet
+sudo pacman -Qs dotnet
+sudo pacman -Sy dotnet
+sudo pacman -Sy dotnet-sdk
+cd Dev/gleam/vars
+vim .
+gleam run get Karim
+gleam run get SHELL
+gleam run get TERM
+$env
+gleam build
+ls
+cd build
+ls
+cd prod
+ls
+cd erlang
+ls
+c d..
+cd ..
+cd javascript/
+ls
+cd ..
+ls
+cd dev
+ls
+cd erland
+cd erlang
+ls
+cd vars
+ls
+cd ebin
+ls
+./vars.spp
+./vars.app
+chmod +x vars.app
+./vars.app
+sudo pacman -Syu
+cd Dev
+cd HT
+cd top-down
+cd test_level
+cargo add bevy
+cargo build --release
+cargo build 
+cpupower-gui
+sudo pacman -Sy cpupower-gui
+auto-cpufreq --stats
+auto-cpufreq --help
+cd ~/.config
+ls | rg cpu
+ls /etc | rg cpu
+mkdir auto-cpufreq
+cd auto-cpufreq/
+cat /sys/devices/system/cpu/cpu0/cpufreq/energy_performance_available_preferences
+ls /sys/devices
+ls /sys/devices/cpu
+sudo auto-cpufreq
+sudo auto-cpufreq --remove
+sudo auto-cpufreq --install
+sudo auto-cpufreq --stats
+sudo auto-cpufreq --help
+sudo auto-cpufreq --config /home/karim/.config/auto-cpufreq/auto-cpufreq.conf
+vim auto-cpufreq.conf
+sudo auto-cpufreq --stats
+sudo auto-cpufreq --remove
+sudo auto-cpufreq --install
+sudo auto-cpufreq --stats
+exit
+exit
+cargo build
+sudo pacman -Sy vulkan-radeon
+cargo build
+cargo run
+cargo build
+vim .
+ls ~/.local | rg vim
+ls ~/.cache | rg vim
+cd ~
+rm .local/share/nvim
+rm .local/share/nvim --recursive
+mv .config/nvim .config/nchad
+mv .config/nvim-old .config/nvim
+cd .config/nvim
+vim .
+ls
+vim init.lua
+vim .
+fastfetch
+exit
+vim .
+exit
+exit
+tmux
+sudo pacman -Sy smartmontools
+sudo smartctl -a /dev/nvme0n1
+sudo pacman -Rcns smartmontools
+cd .config/nvim
+vim .
+systemctl suspend-then-hibernate
+cd Dev/HT/top-down
+cd ~/.config/nvim
+vim .
+exit
+vim .
+cd ~/.config/nvim
+vim .
+cargo build
+sudo pacman -S gcc clang libc++ cmake ninja libx11 libxcursor mesa-libgl fontconfig
+cd Dev
+ls
+cd ~/Dev
+git clone --recursive https://github.com/aseprite/aseprite.git
+cd aseprite<\n>git pull<\n>git submodule update --init --recursive
+<\n> mkdir build
+sh
+cd build/bin
+ls
+./aseprite
+cd ~/.config/hypr
+./home/karim/Dev/aseprite/build/bin/aseprite
+/home/karim/Dev/aseprite/build/bin/aseprite
+vim .
+exit
+exit
+cd ~/.config/hypr
+hyprlock && systemctl suspend-then-hibernate
+sh
+ps | rg lock
+hyprlock
+ps | rg lock
+killall hyprlock
+ps | rg lock
+lllkk;;''lloop.,,,,mm,,,l;;;';;;;;;;'k,,.......mm''][]]]]]'']][][]\]\\
+\\\
+ps | rg lock
+sh
+ps | rg lock
+cd ~/.config/hypr
+ps | rg lock
+killall hyprlock
+hyprlock
+ps | rg lock
+killall hyprlock
+sudo pacman -Syu
+ps | rg lock
+killall hyprlock
+systemctl suspend
+cd ~/.config/hypr
+vim .
+cd ../wlogout
+vim .
+reboot
+cd .config/hypr
+vim .
+ps | rg lock
+killall hyprlock && systemctl suspend
+sh | killall hyprlock && systemctl suspend
+sh
+ps | rg lock
+vim .
+ps | rg lock
+cd ~/Dev/HT/top_down/test_server
+cd ~/Dev/HT/top_down
+cd ~
+cd Dev
+cd Dev/HT/top-down
+cd HT/top-down/
+vim .
+cd ..
+cd ~
+cd .config/nushell
+vim .
+cd ../nvim
+vim .
+:
+vim .
+cd ~/Dev
+cd HT/top-down/
+vim .
+git add .
+git commit -m "Fixed some errors"
+git config --global user.email "karim.abdulkin@gmail.com"
+git config --global user.email "GrandAdmiralBee"
+git commit -m "Fixed some errors"
+git config --global user.email "Karim"
+git commit -m "Fixed some errors"
+git config
+git config --get-all
+git config --global --get-all
+git config user.name
+git config --global user.email "karim.abdulkin@gmail.com"
+git config --global user.name "GrandAdmiralBee"
+git commit -m "Fixed some errors"
+git push
+git status
+git checkout player_manager
+git pull
+git checkout -b player_manager
+cd ~/.config/vim 
+cd ~/.config/nvim 
+vim .
+git --help
+rm .git
+rm .git -r
+git init
+ls
+rm test.norg
+ls doc
+rm doc -r
+cat ;
+rm ; -r
+rm ';'
+ls
+rm README.md
+rm LICENSE.md
+vim .
+rm init.sync-conflict-20240310-012312-HEYBOZN.lua
+ls
+git add .
+git commit -m "Nvim config"
+git branch -M main
+git remote add origin git@github.com:GrandAdmiralBee/nvim-config.git
+git push -u origin main
+cd Dev/HT/top-down
+vim .
+exit
+exit
+tmux 
+cd ../../
+ls
+cd rust
+ls
+cd parser
+vim ~/.config/nvim
+cd ~
+vim .
+ls
+rm Arch-Hyprland/ -r
+rm Hyprland-Dots -r
+vim ~/.config/nvim
+vim .
+cd .config/nvim
+add .
+vim .
+git add .
+git commit -m "autopairs term comment"
+git apush
+git push
+systemctl suspend
+cd ../hypr
+vim .
+ps | rg idle
+systemctl suspend
+killall hypridle
+hypridle
+systemctl suspend
+ps | rg lock
+killall hyprlock
+systemctl suspend
+vim .
+:q
+cd ../nvim
+vim .
+:q
+vim .
+ps | rg lock
+cd Dev/parser
+cd Dev/rust/parser
+vim .
+cargo run
+cd Dev/swwws
+bat src/main.rs
+cd ..
+ls
+cd rust
+ls
+cargo rub
+cargo run
+ls
+bat file.cpp_new
+rm file.cpp_new
+ls
+ls -a
+git add .
+git commit -m "All done"
+git branch -M main<\n>git remote add origin git@github.com:GrandAdmiralBee/MDB-Error.git<\n>git push -u origin main
+ps | rg lock
+killall hyprlock
+exit
+tmux
+cd .config/hypr
+mkdir dotfiles
+cd dotfiles
+sudo pacman -Sy stow
+cp ~/.config/nvim
+cp ~/.config/nvim .
+cp ~/.config/nvim . -r
+ls
+cp ~/.config/hypr . -r
+vim .
+ls -a
+cd ..
+ls -a
+bat .bashrc
+cd dotfiles
+git init
+git add .
+cd .config/kitty/kitty-themes
+ls
+ls -a
+rm .git -r .github -r
+ls
+ls -a
+cd ..
+git add 
+rm dotfiles -r
+git clone git@github.com:GrandAdmiralBee/dotfiles.git
+cd dotfiles
+ls
+cd .config/nvim
+ls
+cd ..
+git submodule init
+git submodule update
+ls -a
+cd .git
+ls
+cd .config
+cd ../.config
+ls
+cd .config
+ls
+rm nvim -r
+ls
+cd ..
+git submodule add https://github.com/dexpota/kitty-themes.git .config/kitty/kitty-themes
+rm .config/kitty/kitty-themes -r
+cd .config/kitty
+ls
+cd ../../
+git submodule add https://github.com/dexpota/kitty-themes.git .config/kitty/kitty-themes
+ls
+ls -a
+rm .git -r
+git init
+git submodule add https://github.com/dexpota/kitty-themes.git .config/kitty/kitty-themes
+git submodule add https://github.com/GrandAdmiralBee/nvim-config.git .config/nvim
+ls .config/nvim
+ls .config/nvim -a
+git add .
+git commit -m "nvim kitty nushell hypr tmux"
+git branch -M main<\n>git remote add origin git@github.com:GrandAdmiralBee/dotfiles.git<\n>git push -u origin main
+stow .
+cd .config/kitty
+vim .
+cd ../nvim
+vim .
+cd ../kitty
+cd dotfiles
+ln -s kitty/kitty-themes/themes/gruvbox_dark.conf .config/kitty/theme.conf
+rm .config/kitty/theme.conf
+ln -s kitty/kitty-themes/themes/gruvbox_dark.conf .config/kitty/theme.conf
+cd awdawd
+rm .config/kitty/theme.conf
+ln -s kitty/kitty-themes/themes/Dracula.conf .config/kitty/theme.conf
+vim .
+vim .
+cd ../nvim
+cd nvim
+ls
+ls -a
+ln -s .config/kitty/kitty-themes/themes/Dracula.conf .config/kitty/theme.conf
+rm .config/kitty/theme.conf
+ln -s .config/kitty/kitty-themes/themes/Dracula.conf .config/kitty/theme.conf
+cd .config/nvim
+vim .
+:q
+vim .
+cd ../tmux
+vim .
+:q
+exit
+tmux
+cd ~/.tmux
+ls
+cd plugins
+ls
+cd tpm 
+ls
+cd ~
+git clone https://github.com/egel/tmux-gruvbox.git
+cd tmux-gruvbox/
+cat tmux-gruvbox-dark.conf >> ~/.tmux.conf
+touch ~/.tmux.conf
+cat tmux-gruvbox-dark.conf >> ~/.tmux.conf
+sh
+exit
+exit
+exit
+exit
+tmux
+cd ~
+rm tmux-gruvbox/ -r
+cd dotfiles
+cp ~/.tmux.conf .
+ls
+ls -a
+rm ~/.tmux.conf
+stow .
+exit
+tmux
+git add .
+git commit -m "tmux.conf"
+git push
+kitty +kitten themes gruvbox_dark
+kitty +kitten themes
+cd .config/kitty
+l
+ls
+vim .
+rm kitty.conf.bak
+ls
+rm theme.conf
+ls
+cd ../../
+git add .
+git commit -m "kitty theme"
+git push
+vim .
+exit
+exit
+tmux
+cd ~/Dev/rust
+ls
+cd parser
+tmx
+vim 
+cd ~/dotfiles/.config/nvim
+vim 
+vim .
+vim .
+:q
+exot
+exit
+exit
+tmux
+kitty +kitten themes
+cd ~/dotfiles/.config/kitty
+vim .
+ls -a
+rm kitty.conf.bak
+rm current-theme.conf
+ls
+cd Dev/rust/parser
+vim .
+:q
+exit
+tmux
+cd ~/dotfiles
+git add .
+git commit -m "theme switched"
+git push
+exit
+yay -Sy libreoffice-impress-templates 
+cd Dev/rust
+ls
+cd ../
+ls
+mkdir go
+cd go
+sudo pacman -Sy go
+cd ..
+ls
+mv skia skia-back
+rm skia-back/ -r
+ls anyrun
+anyrun
+rofi
+anyrun
+rm anyrun -r
+ls
+mv swww rust/swww
+mv swwws rust/swwws
+ls
+mv HT rust/HT
+ls
+cd Dev/rust
+ls
+cd HT/top-down
+ls
+cd test_level
+cargo run
+cd dotfiles/.config/hypr
+vim .
+cd ../..
+git add .
+git commit -m "Aseprite window rule"
+git push
+cargo add bevy_inspector_egui
+cargo add egui_dock
+cd dotfiles/.config/nvim
+vim .
+cd ../..
+git add .
+git commit -m "Nvim Esc key delay"
+git push
+vim .
+vim ,
+cd dotfiles/.config/nvim
+cargo run
+cargo add bevy_asset bevy_egui bevy_reflect bevy_render bevy_window
+cargo add transform_gizmo_egui
+cargo add egui
+cargo run
+sudo pacman -S libx11 pkgconf alsa-lib
+sudo pacman -Sy libegl1
+cargo run
+lspci | grep VGA
+lsmod | grep "kms\|drm"
+find /dev -group video
+sh
+pacman -Qs vulkan
+lsmod | grep nvidia
+ls -al /dev/dri
+vk_pro command
+sudo pacman -Sy amdvlk
+cargo run
+sudo pacman -Sy lib32-mesa
+cd ~
+nvim
+vim .
+exit
+exit
+vim .
+exit
+tmux
+exit
+cd Dev/rust
+mkdir pyshop
+cd pyshop
+cargo new task1
+cd task1
+vim .
+cargo add rand
+cargo run
+cargo new task2 --lib
+vim .
+rm task2/ -r
+cd ..
+cargo new task2 --lib
+cd task2
+cd ../task2
+cargo add rand
+cargo test
+vim .
+cd ../task1
+cargo run
+cd dotfiles/.config/hypr
+vim .
+git add .
+git commit -m "Updated hypr"
+git push
+cd Dev/rust
+s
+;s
+ls
+cd pyshop
+vim .
+cd task1
+cd task2
+cd task2
+cargo test
+vim .
+vim .
+exit
+cd ..
+cargo new task3
+cd ../task3
+cd task3
+cargo add anyhow
+cargo add clap
+cargo add thiserror
+cargo build
+ls
+target/release/task3
+./target/release/task3
+./target/debug/task3
+vim .
+cd ..
+mv task3 hash_finder
+vim .
+cd hash_finder/
+cd ..
+cd hash_finder/
+cargo build
+./target/debug/hash_finder
+cargo build
+./target/debug/hash_finder
+./target/debug/hash_finder -h
+./target/debug/hash_finder -N
+cargo build
+./target/debug/hash_finder -N
+cargo build
+./target/debug/hash_finder -N
+./target/debug/hash_finder -N 7
+cargo build
+./target/debug/hash_finder -N 7
+cargo build
+./target/debug/hash_finder -N 
+./target/debug/hash_finder -N A
+./target/debug/hash_finder -N A -F a
+cargo build
+./target/debug/hash_finder -N A -F a
+./target/debug/hash_finder 
+./target/debug/hash_finder --F a
+cargo build
+./target/debug/hash_finder \
+./target/debug/hash_finder 
+cargo build
+./target/debug/hash_finder 
+cargo build
+./target/debug/hash_finder 
+cargo build
+./target/debug/hash_finder 
+./target/debug/hash_finder -F 
+./target/debug/hash_finder -F 1
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+./target/debug/hash_finder -F 1 
+cargo build
+./target/debug/hash_finder -F 
+./target/debug/hash_finder -F 1
+cargo remove thiserror anyhow
+cargo add sha256
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo add regex
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build release
+cargo build --release
+cargo build release
+cargo build --release
+./target/release/hash_finder -F 1 -N 2
+cargo build --release
+./target/release/hash_finder -F 1 -N 2
+cargo build --release
+./target/release/hash_finder -F 1 -N 2
+cargo build --release
+./target/release/hash_finder -F 1 -N 2
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+./target/release/hash_finder -F 4 -N 3
+cargo build --release
+./target/release/hash_finder -F 4 -N 3
+cargo build --release
+./target/release/hash_finder -F 4 -N 3
+cargo build --release
+./target/release/hash_finder -F 4 -N 3
+cargo add colored
+./target/release/hash_finder -F 4 -N 3
+cargo add colored
+./target/release/hash_finder -F 4 -N 3
+cargo add colored
+./target/release/hash_finder -F 4 -N 3
+./target/release/hash_finder -F 4 -N 5
+cd Dev/rust/pyshop/hash_finder
+./target/release/hash_finder -F 4 -N 5
+rm .git -r
+cd ..
+cd task1
+rm .git -r
+cd ../task2
+rm .git -r
+cd ..
+git init
+git add .
+git commit -m "Initial commit"
+bat .gitignore
+ls -a
+git branch -M main<\n>git remote add origin git@github.com:GrandAdmiralBee/pyshop.git<\n>git push -u origin main
+cd Dev/rust/pyshop/hash_finder
+yay -Sy brave-bin
+sudo pacman -Sy thunderbird
+cd Dev/rust/pyshop/hash_finder
+cargo run
+./target/release/hash_finder -F 4
+./target/release/hash_finder -F 
+./target/release/hash_finder -help
+sudo auto-cpufreq --force balanced
+cd dotfiles/.config/hypr
+vim .
+cd Dev
+mkdir docker
+cd docker
+cd dotfiles/.config/hypr
+vim .
+sudo pacman -Sy docker
+sudo systemctl enable --now docker
+vim .
+cd ../nvim
+vim 
+vim .
+docker version
+sudo pacman -Sy code
+docker version
+cd dotfiles/.config/hypr
+vim .
+git add .
+git commit -m "Switch browser for brave"
+git push
+docker ps -a
+docker
+sudo systemctl disable docker.service
+sudo systemctl enable --now docker.socker
+sudo systemctl enable --now docker.socket
+docker run -it --rm archlinux bash -c "echo hello world"
+gpasswd -a karim docker
+sudo gpasswd -a karim docker
+reboot
+docker ps -a
+docker images
+docker run hello-world
+cd Dev/docker
+docker images
+auto-cpufreq --stats
+docker run hello-world
+cd dotfiles/.config/hypr
+vim .
+git add .
+git commit -m "Killactive fix"
+git push
+cd ~/Dev/docker
+docker ps -a
+docker rm 82ca3e6364e2   hello-world   "/hello"   3 minutes ago    Exited (0) 3 minutes ago              flamboyant_mendeleev<\n>a29b0c472456
+docker rm 82ca3e6364e2 
+docker rm hello-world
+docker ps -a
+docker rm a29b0c472456
+docker images
+docker rm  d2c94e258dcb
+docker rm d2c94e258dcb
+docker run busybox
+docker ps -a
+docker ps
+docker run -it busybox 
+docker container prune
+docker ps -a
+docker ima
+docker images
+docker ps
+docker run nginx
+docker run -d nginx
+sudo pacman -Sy zelliz
+sudo pacman -Sy zellij
+fastfetch
+zellij
+docker inspect f23fb13221f9 
+docker inspect f23fb13221f9 | rg IPAdress
+docker inspect f23fb13221f9 | rg IPAddress
+docker stop nginx
+docker ps
+docker stop quizzical_colden<\n>
+docker run -d nginx
+docker ps
+docket -it practical_kapitsa nu
+docker -it practical_kapitsa nu
+docker exec -it practical_kapitsa nu
+hostname -i
+docker exec -it practical_kapitsa bash
+docker ps
+docker stop practical_kapitsa<\n>
+docker run -d --name my_ngnix nginx
+docker ps
+docker stop my_nginx
+docker container prune
+docker run -d --name my_ngnix -p 8080:80 nginx
+docker ps
+docker container prune
+docker ps
+docker stop my_nginx
+docker stop my_ngnix
+docker container prune
+docker run -d --name my_nginx -p 8080:80 nginx
+docker ps
+fas
+fastfetch
+docker stop my_nginx
+docker container prune
+cd dotfiles/.config/nvim
+vim .
+pacman -Sy lldb codelldb
+sudo pacman -Sy lldb codelldb
+sudo pacman -Sy lldb
+yay -Sy codelldb
+cd ~/Dev/rust
+cd pyshop
+cd dotfiles/.config/nvim
+vim .
+cd ~/Dev/rust
+cd swwws
+which lldb
+vim .
+cd ..
+cargo new hello_world
+vim .
+cd hello_world/
+ps | rg lldb
+killall lldb
+mkdir Sources
+mkdir Sources/lldb
+vim .
+cargo build
+vim .
+exit
+git add .
+git commit -m "Rust debugger"
+git push 
+git push
+cd ../../
+git add 
+git add .
+git commit -m "Rust debugger"
+git push
+exit
+exit
+tmux
+exit
+cd dotfiles/.config/nvim
+vim .
+cd ..
+cd..
+cd ..
+git add ,
+git add .
+git push
+git commit -m "oil.nvim"
+git push
+sudo pacman -Sy tokei
+cd ../Dev
+tokei
+cd ~/dotfiles/.config
+mv nvim nvim-back
+cd nvim-back
+ls
+ls -a
+rm .git -r
+rm .github -r
+bat .gitignore
+cd ../../
+la -a
+ls -a
+vim ,
+vim .
+cd .config/kitty
+ls
+rm kitty-themes/ -r
+cd ../
+mv nvim-back nvim
+ls
+cd ..
+git add .
+git commit -m "submodules deleted"
+git push
+cd .config/
+mv nvim ~/nvim-back
+git add .
+git commit -m "nvim deleted"
+git push
+mv ~/nvim nvim
+mv ~/nvim-back nvim
+ls
+ls nvim
+git add .
+git commit -m "nvim added"
+git push
+cd nushell
+ls
+nvim .gitignore
+git add .
+git commit -m "history"
+git push
+rm history.s* -r
+ls
+mv ~/history.txt history.txt
+ls
+cd ../..
+vim .
+vim .gitignore
+cd .config/nvim
+ls
+vim .
+vim .
+ls
+cd dotfiles/.config/nvim
+vim .
+ls
+mv init.lua init-old.lua
+mv init-new.lua init.lua
+cd dotfiles/.config/nvim
+vim .
+cd ~/Dev/rust/HT/top-down/player_manager
+vim 
+vim .
+cd ../..
+cd ../swwws
+vim .
+cargo build
+vim .
+exit
+tmux
+exit
+cd Dev/rust/pyshop
+vim .
+cd ~/dotfiles/.config/nvim
+vim .
+cd ../..
+ls .config/nvim
+vim .
+ls .config/nvim
