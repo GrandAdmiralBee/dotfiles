@@ -7342,3 +7342,360 @@ cargo add egui_dock
 cd dotfiles/.config/nvim
 vim .
 cd ../..
+git add .
+git commit -m "Nvim Esc key delay"
+git push
+vim .
+vim ,
+cd dotfiles/.config/nvim
+cargo run
+cargo add bevy_asset bevy_egui bevy_reflect bevy_render bevy_window
+cargo add transform_gizmo_egui
+cargo add egui
+cargo run
+sudo pacman -S libx11 pkgconf alsa-lib
+sudo pacman -Sy libegl1
+cargo run
+lspci | grep VGA
+lsmod | grep "kms\|drm"
+find /dev -group video
+sh
+pacman -Qs vulkan
+lsmod | grep nvidia
+ls -al /dev/dri
+vk_pro command
+sudo pacman -Sy amdvlk
+cargo run
+sudo pacman -Sy lib32-mesa
+cd ~
+nvim
+vim .
+exit
+exit
+vim .
+exit
+tmux
+exit
+cd Dev/rust
+mkdir pyshop
+cd pyshop
+cargo new task1
+cd task1
+vim .
+cargo add rand
+cargo run
+cargo new task2 --lib
+vim .
+rm task2/ -r
+cd ..
+cargo new task2 --lib
+cd task2
+cd ../task2
+cargo add rand
+cargo test
+vim .
+cd ../task1
+cargo run
+cd dotfiles/.config/hypr
+vim .
+git add .
+git commit -m "Updated hypr"
+git push
+cd Dev/rust
+s
+;s
+ls
+cd pyshop
+vim .
+cd task1
+cd task2
+cd task2
+cargo test
+vim .
+vim .
+exit
+cd ..
+cargo new task3
+cd ../task3
+cd task3
+cargo add anyhow
+cargo add clap
+cargo add thiserror
+cargo build
+ls
+target/release/task3
+./target/release/task3
+./target/debug/task3
+vim .
+cd ..
+mv task3 hash_finder
+vim .
+cd hash_finder/
+cd ..
+cd hash_finder/
+cargo build
+./target/debug/hash_finder
+cargo build
+./target/debug/hash_finder
+./target/debug/hash_finder -h
+./target/debug/hash_finder -N
+cargo build
+./target/debug/hash_finder -N
+cargo build
+./target/debug/hash_finder -N
+./target/debug/hash_finder -N 7
+cargo build
+./target/debug/hash_finder -N 7
+cargo build
+./target/debug/hash_finder -N 
+./target/debug/hash_finder -N A
+./target/debug/hash_finder -N A -F a
+cargo build
+./target/debug/hash_finder -N A -F a
+./target/debug/hash_finder 
+./target/debug/hash_finder --F a
+cargo build
+./target/debug/hash_finder \
+./target/debug/hash_finder 
+cargo build
+./target/debug/hash_finder 
+cargo build
+./target/debug/hash_finder 
+cargo build
+./target/debug/hash_finder 
+./target/debug/hash_finder -F 
+./target/debug/hash_finder -F 1
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+./target/debug/hash_finder -F 1 
+cargo build
+./target/debug/hash_finder -F 
+./target/debug/hash_finder -F 1
+cargo remove thiserror anyhow
+cargo add sha256
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo add regex
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build
+./target/debug/hash_finder -F 1 -N 2
+cargo build release
+cargo build --release
+cargo build release
+cargo build --release
+./target/release/hash_finder -F 1 -N 2
+cargo build --release
+./target/release/hash_finder -F 1 -N 2
+cargo build --release
+./target/release/hash_finder -F 1 -N 2
+cargo build --release
+./target/release/hash_finder -F 1 -N 2
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+cargo build --release
+./target/release/hash_finder -F 4 -N 1
+./target/release/hash_finder -F 4 -N 3
+cargo build --release
+./target/release/hash_finder -F 4 -N 3
+cargo build --release
+./target/release/hash_finder -F 4 -N 3
+cargo build --release
+./target/release/hash_finder -F 4 -N 3
+cargo add colored
+./target/release/hash_finder -F 4 -N 3
+cargo add colored
+./target/release/hash_finder -F 4 -N 3
+cargo add colored
+./target/release/hash_finder -F 4 -N 3
+./target/release/hash_finder -F 4 -N 5
+cd Dev/rust/pyshop/hash_finder
+./target/release/hash_finder -F 4 -N 5
+rm .git -r
+cd ..
+cd task1
+rm .git -r
+cd ../task2
+rm .git -r
+cd ..
+git init
+git add .
+git commit -m "Initial commit"
+bat .gitignore
+ls -a
+git branch -M main<\n>git remote add origin git@github.com:GrandAdmiralBee/pyshop.git<\n>git push -u origin main
+cd Dev/rust/pyshop/hash_finder
+yay -Sy brave-bin
+sudo pacman -Sy thunderbird
+cd Dev/rust/pyshop/hash_finder
+cargo run
+./target/release/hash_finder -F 4
+./target/release/hash_finder -F 
+./target/release/hash_finder -help
+sudo auto-cpufreq --force balanced
+cd dotfiles/.config/hypr
+vim .
+cd Dev
+mkdir docker
+cd docker
+cd dotfiles/.config/hypr
+vim .
+sudo pacman -Sy docker
+sudo systemctl enable --now docker
+vim .
+cd ../nvim
+vim 
+vim .
+docker version
+sudo pacman -Sy code
+docker version
+cd dotfiles/.config/hypr
+vim .
+git add .
+git commit -m "Switch browser for brave"
+git push
+docker ps -a
+docker
+sudo systemctl disable docker.service
+sudo systemctl enable --now docker.socker
+sudo systemctl enable --now docker.socket
+docker run -it --rm archlinux bash -c "echo hello world"
+gpasswd -a karim docker
+sudo gpasswd -a karim docker
+reboot
+docker ps -a
+docker images
+docker run hello-world
+cd Dev/docker
+docker images
+auto-cpufreq --stats
+docker run hello-world
+cd dotfiles/.config/hypr
+vim .
+git add .
+git commit -m "Killactive fix"
+git push
+cd ~/Dev/docker
+docker ps -a
+docker rm 82ca3e6364e2   hello-world   "/hello"   3 minutes ago    Exited (0) 3 minutes ago              flamboyant_mendeleev<\n>a29b0c472456
+docker rm 82ca3e6364e2 
+docker rm hello-world
+docker ps -a
+docker rm a29b0c472456
+docker images
+docker rm  d2c94e258dcb
+docker rm d2c94e258dcb
+docker run busybox
+docker ps -a
+docker ps
+docker run -it busybox 
+docker container prune
+docker ps -a
+docker ima
+docker images
+docker ps
+docker run nginx
+docker run -d nginx
+sudo pacman -Sy zelliz
+sudo pacman -Sy zellij
+fastfetch
+zellij
+docker inspect f23fb13221f9 
+docker inspect f23fb13221f9 | rg IPAdress
+docker inspect f23fb13221f9 | rg IPAddress
+docker stop nginx
+docker ps
+docker stop quizzical_colden<\n>
+docker run -d nginx
+docker ps
+docket -it practical_kapitsa nu
+docker -it practical_kapitsa nu
+docker exec -it practical_kapitsa nu
+hostname -i
+docker exec -it practical_kapitsa bash
+docker ps
+docker stop practical_kapitsa<\n>
+docker run -d --name my_ngnix nginx
+docker ps
+docker stop my_nginx
+docker container prune
+docker run -d --name my_ngnix -p 8080:80 nginx
+docker ps
+docker container prune
+docker ps
+docker stop my_nginx
+docker stop my_ngnix
+docker container prune
+docker run -d --name my_nginx -p 8080:80 nginx
+docker ps
+fas
+fastfetch
+docker stop my_nginx
+docker container prune
+cd dotfiles/.config/nvim
+vim .
+pacman -Sy lldb codelldb
+sudo pacman -Sy lldb codelldb
+sudo pacman -Sy lldb
+yay -Sy codelldb
+cd ~/Dev/rust
+cd pyshop
+cd dotfiles/.config/nvim
+vim .
+cd ~/Dev/rust
+cd swwws
+which lldb
+vim .
+cd ..
+cargo new hello_world
+vim .
+cd hello_world/
+ps | rg lldb
+killall lldb
+mkdir Sources
+mkdir Sources/lldb
+vim .
+cargo build
+vim .
+exit
+git add .
+git commit -m "Rust debugger"
+git push 
+git push
+cd ../../
+git add 
