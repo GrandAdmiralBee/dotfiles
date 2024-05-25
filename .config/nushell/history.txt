@@ -7712,3 +7712,30 @@ cd ..
 cd..
 cd ..
 git add ,
+git add .
+git push
+git commit -m "oil.nvim"
+git push
+sudo pacman -Sy tokei
+cd ../Dev
+tokei
+cd ~/dotfiles/.config
+mv nvim nvim-back
+cd nvim-back
+ls
+ls -a
+rm .git -r
+rm .github -r
+bat .gitignore
+cd ../../
+la -a
+ls -a
+vim ,
+vim .
+cd .config/kitty
+ls
+rm kitty-themes/ -r
+cd ../
+mv nvim-back nvim
+ls
+cd ..
