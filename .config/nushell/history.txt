@@ -7739,3 +7739,8 @@ cd ../
 mv nvim-back nvim
 ls
 cd ..
+git add .
+git commit -m "submodules deleted"
+git push
+cd .config/
+mv nvim ~/nvim-back
