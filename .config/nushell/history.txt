@@ -7798,3 +7798,131 @@ cd ../..
 ls .config/nvim
 vim .
 ls .config/nvim
+git add .
+git commit -m "new nvim config"
+git push
+cd ../Dev
+tokei --help
+tokei .
+tokei ~/Dev
+tokei ~/Dev/rust
+sudo pacman -Rcns chromium
+yay -Rcns google-chrome
+yay -Syu
+sudo pacman -Syu
+fastfetch
+exit
+tmux
+fastfetch
+cd Dev/docker
+mkdir nginx
+cd nginx/
+docker run -v $env.PWD:/usr/share/nginx/html nginx
+$env.PWD
+docker run -v {$env.PWD}:/usr/share/nginx/html nginx
+sh
+cd ../..
+cd rust/swwws
+vim .
+sudo snap install jetbrains rustrover --classic
+sudo snap install jetbrains rustrover 
+cd ~/Downloads
+lx 
+ls
+sudo pacman -Sy ffmpeg
+tar -xvf RustRover-2024.1.tar.gz
+cd RustRover-2024.1/
+ls
+./Install-Linux-tar.txt
+chmod +x Install-Linux-tar.txt
+./Install-Linux-tar.txt
+cd bin
+ls
+chmod +x rustrover.sh
+./rustrover.sh
+cd ../..
+mkdir ~/Apps
+mv RustRover-2024.1/ ~/Apps/RustRover -r
+mv RustRover-2024.1/ ~/Apps/RustRover 
+cd ~/DEv
+cd ~/Dev
+ls
+mv aseprite/ ~/Apps/Aseprite
+cd ~/dotfiles/.config/hypr
+vim .
+cd Dev/rust/pyshop
+vim .
+exit
+yay -Rcns brave-bin
+yay -Syu brave-bin
+yay -Sy brave-bin
+yay -Scc
+sudo pacman -Scc
+brave --password-store=gnome
+cd dotfiles/.config/hyprland
+cd dotfiles/.config/hypr
+vim .
+git add .
+git commit -m "brave password store"
+git push
+fastfetch
+cd ~/Downloads
+ls
+cd ~/dotfiles/.config/hypr
+killall hypridle
+vim .
+ps | rg idle
+exit
+exit
+tmux
+exit
+cd ~/dotfiles/.config/hypr
+vim .
+sudo pacman -Syu
+reboot
+cd ~/dotfiles/.config/hypr
+hyprlock -q && systemctl suspend<\n>
+hyprlock -q && systemctl suspend
+sh
+ps | rg lock
+vim .
+sh
+cd Dev/docker
+cd nginx
+docker ps
+docker container inspect
+docker exec -it nginx sh
+bash
+sh
+sh
+docker p
+docker ps
+docker ps -a
+docker run -it --rm busybox
+docker ps -a
+docker container prune
+cd ..
+vim .
+exit
+cd ..
+exit
+mkdir python-app
+cd python-app
+touch main.py
+cd ../python-app/
+python main.py
+l
+ls
+docker build . -t my-calendar
+docker run my-calendar
+docker build . -t my-calendar
+docker run my-calendar
+docker run -it my-calendar
+docker container prune
+sudo pacman -Sy zsh
+exit
+vim .
+exit
+tmux
+cd ~/dotfiles/.config/kitty
+vim .
