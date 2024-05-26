@@ -7926,3 +7926,10 @@ exit
 tmux
 cd ~/dotfiles/.config/kitty
 vim .
+ls -l
+docker container prune
+cd Dev/docker/barotrauma/
+exit
+exit
+zsh
+exit

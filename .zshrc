@@ -59,3 +59,8 @@ alias vim='nvim'
 
 # Shell integrations
 eval "$(fzf --zsh)"
+
+# Turn off all beeps
+unsetopt BEEP
+# Turn off autocomplete beeps
+unsetopt LIST_BEEP
