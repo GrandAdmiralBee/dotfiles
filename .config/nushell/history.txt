@@ -7933,3 +7933,4 @@ exit
 exit
 zsh
 exit
+ps
