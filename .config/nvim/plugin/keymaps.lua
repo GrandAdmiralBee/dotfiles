@@ -8,9 +8,18 @@ vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Show diagn
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
 -- Tabs
-vim.keymap.set('n', '<tab>', '<cmd>BufferNext<CR>')
-vim.keymap.set('n', '<S-tab>', '<cmd>BufferPrevious<CR>')
-vim.keymap.set('i', '<S-tab>', '<cmd>BufferPrevious<CR>')
+vim.keymap.set('n', '<A-.>', '<cmd>BufferNext<CR>')
+vim.keymap.set('n', '<A-,>', '<cmd>BufferPrevious<CR>')
+vim.keymap.set('n', '<A-C-.>', '<cmd>BufferMoveNext<CR>')
+vim.keymap.set('n', '<A-C-,>', '<cmd>BufferMovePrevious<CR>')
+vim.keymap.set('n', '<A-c>', '<cmd>BufferClose<CR>')
+vim.keymap.set('n', '<A-C-c>', '<cmd>BufferRestore<CR>')
+vim.keymap.set('i', '<A-.>', '<cmd>BufferNext<CR>')
+vim.keymap.set('i', '<A-,>', '<cmd>BufferPrevious<CR>')
+vim.keymap.set('i', '<A-C-.>', '<cmd>BufferMoveNext<CR>')
+vim.keymap.set('i', '<A-C-,>', '<cmd>BufferMovePrevious<CR>')
+vim.keymap.set('i', '<A-c>', '<cmd>BufferClose<CR>')
+vim.keymap.set('i', '<A-C-c>', '<cmd>BufferRestore<CR>')
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which

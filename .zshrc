@@ -14,6 +14,8 @@ fi
 
 source "${ZINIT_HOME}/zinit.zsh"
 
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Prompt
 zinit ice depth=1; zinit light romkatv/powerlevel10k
@@ -64,3 +66,6 @@ eval "$(fzf --zsh)"
 unsetopt BEEP
 # Turn off autocomplete beeps
 unsetopt LIST_BEEP
+
+# Created by `pipx` on 2024-06-09 10:11:28
+export PATH="$PATH:/home/karim/.local/bin"
