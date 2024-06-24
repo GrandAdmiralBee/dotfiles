@@ -1,5 +1,15 @@
 return {
 
+  {
+    'nativerv/cyrillic.nvim',
+    event = { 'VeryLazy' },
+    config = function()
+      require('cyrillic').setup {
+        no_cyrillic_abbrev = false, -- default
+      }
+    end,
+  },
+
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
 
